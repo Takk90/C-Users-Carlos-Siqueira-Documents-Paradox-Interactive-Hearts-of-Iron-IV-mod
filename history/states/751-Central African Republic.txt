@@ -1,13 +1,13 @@
 
 state={
-	id=660
-	name="STATE_660"
+	id=751
+	name="STATE_751"
 	manpower = 2572456
 	
 	state_category = wasteland
 
 	history={
-		owner = CHA
+		owner = CAR
 		buildings = {
 			infrastructure = 2
 		}
@@ -15,6 +15,6 @@ state={
 	}
 
 	provinces={
-		1883 1974 1993 2081 3181 5084 7919 8078 9152
+		3165 11012 11108 12719 12830
 	}
 }
