@@ -1,6 +1,6 @@
-﻿capital = 725
+﻿capital = 183
 
-oob = "MIC_1936"
+oob = "CYP_1936"
 
 # Starting tech
 set_technology = {
