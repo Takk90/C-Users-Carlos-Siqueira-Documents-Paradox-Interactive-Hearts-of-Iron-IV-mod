@@ -1,6 +1,6 @@
 equipments = {
 
-	destroyer = {
+	frigate = {
 		is_archetype = yes
 		is_buildable = no
 		type = screen_ship
@@ -46,8 +46,8 @@ equipments = {
 		manpower = 250
 	}
 
-	destroyer_1 = {
-		archetype = destroyer
+	frigate_1 = {
+		archetype = frigate
 		priority = 20
 		type = { 
 			screen_ship
@@ -56,9 +56,9 @@ equipments = {
 
 	}
 	
-	destroyer_2 = {
-		archetype = destroyer
-		parent = destroyer_1
+	frigate_2 = {
+		archetype = frigate
+		parent = frigate_1
 		priority = 20
 		
 		ap_attack = 2
@@ -97,9 +97,9 @@ equipments = {
 		manpower = 325
 	}
 	
-	missile_destroyer_1 = {
-		archetype = destroyer
-		parent = destroyer_2
+	missile_frigate_1 = {
+		archetype = frigate
+		parent = frigate_2
 		priority = 20
 		
 		ap_attack = 2.5
@@ -137,9 +137,9 @@ equipments = {
 		manpower = 400
 	}
 	
-	missile_destroyer_2 = {
-		archetype = destroyer
-		parent = missile_destroyer_1
+	missile_frigate_2 = {
+		archetype = frigate
+		parent = missile_frigate_1
 		priority = 20
 		
 		ap_attack = 2.5
@@ -179,9 +179,9 @@ equipments = {
 		manpower = 500
 	}
 	
-	missile_destroyer_3 = {
-		archetype = destroyer
-		parent = missile_destroyer_2
+	missile_frigate_3 = {
+		archetype = frigate
+		parent = missile_frigate_2
 		priority = 20
 		
 		ap_attack = 2.5
