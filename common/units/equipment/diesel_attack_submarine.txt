@@ -1,6 +1,6 @@
 equipments = {
 
-	attack_submarine = {
+	diesel_attack_submarine = {
 		is_archetype = yes
 		is_buildable = no
 		type = submarine
@@ -47,8 +47,8 @@ equipments = {
 		manpower = 200
 	}
 
-	attack_submarine_1 = {
-		archetype = attack_submarine
+	diesel_attack_submarine_1 = {
+		archetype = diesel_attack_submarine
 		priority = 80
 
 		resources = {
@@ -61,9 +61,9 @@ equipments = {
 
 	}
 	
-	attack_submarine_2 = {
-		archetype = attack_submarine
-		parent = attack_submarine_1
+	diesel_attack_submarine_2 = {
+		archetype = diesel_attack_submarine
+		parent = diesel_attack_submarine_1
 		priority = 80
 		
 		ap_attack = 0
@@ -99,9 +99,9 @@ equipments = {
 		}		
 	}
 	
-	attack_submarine_3 = {
-		archetype = attack_submarine
-		parent = attack_submarine_2
+	diesel_attack_submarine_3 = {
+		archetype = diesel_attack_submarine
+		parent = diesel_attack_submarine_2
 		priority = 80
 		
 		ap_attack = 0
@@ -137,9 +137,9 @@ equipments = {
 		}		
 	}
 	
-	attack_submarine_4 = {
-		archetype = attack_submarine
-		parent = attack_submarine_3
+	diesel_attack_submarine_4 = {
+		archetype = diesel_attack_submarine
+		parent = diesel_attack_submarine_3
 		priority = 80
 		
 		ap_attack = 0
@@ -176,9 +176,9 @@ equipments = {
 		}		
 	}
 
-	attack_submarine_5 = {
-		archetype = attack_submarine
-		parent = attack_submarine_4
+	diesel_attack_submarine_5 = {
+		archetype = diesel_attack_submarine
+		parent = diesel_attack_submarine_4
 		priority = 80
 		
 		ap_attack = 0
@@ -215,9 +215,9 @@ equipments = {
 		}		
 	}
 
-	attack_submarine_6 = {
-		archetype = attack_submarine
-		parent = attack_submarine_5
+	diesel_attack_submarine_6 = {
+		archetype = diesel_attack_submarine
+		parent = diesel_attack_submarine_5
 		priority = 80
 		
 		ap_attack = 0
@@ -254,9 +254,9 @@ equipments = {
 		}		
 	}
 
-	attack_submarine_7 = {
-		archetype = attack_submarine
-		parent = attack_submarine_6
+	diesel_attack_submarine_7 = {
+		archetype = diesel_attack_submarine
+		parent = diesel_attack_submarine_6
 		priority = 80
 		
 		ap_attack = 0
