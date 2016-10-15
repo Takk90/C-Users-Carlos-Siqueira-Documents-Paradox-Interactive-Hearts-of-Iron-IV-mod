@@ -2,7 +2,7 @@
 
 equipments = {
 
-	Inf_equipment = {
+	land_Drone_equipment = {
 		is_archetype = yes
 		is_buildable = no
 		type = infantry
@@ -38,17 +38,17 @@ equipments = {
 		
 	}
 
-	Inf_equipment_0 = {
-		archetype = Inf_equipment
+	land_Drone_equipment_0 = {
+		archetype = land_Drone_equipment
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
 
 	# Regular infantry  1936
-	Inf_equipment_1 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_0
+	land_Drone_equipment_1 = {
+		archetype = land_Drone_equipment
+		parent = land_Drone_equipment_0
 		priority = 10
 		visual_level = 1
 
@@ -66,9 +66,9 @@ equipments = {
 	}
 
 	# Improved weapons  ~1939
-	Inf_equipment_2 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_1
+	land_Drone_equipment_2 = {
+		archetype = land_Drone_equipment
+		parent = land_Drone_equipment_1
 		priority = 10
 		visual_level = 2
 		
@@ -89,9 +89,9 @@ equipments = {
 	}
 	
 	# Advanced weapons  ~1942
-	Inf_equipment_3 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_2
+	land_Drone_equipment_3 = {
+		archetype = land_Drone_equipment
+		parent = land_Drone_equipment_2
 		priority = 10
 		visual_level = 3
 		
@@ -112,9 +112,9 @@ equipments = {
 		}
 	}
 	
-	Inf_equipment_4 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_3
+	land_Drone_equipment_4 = {
+		archetype = land_Drone_equipment
+		parent = land_Drone_equipment_3
 		priority = 10
 		visual_level = 3
 		
@@ -135,76 +135,7 @@ equipments = {
 		}
 	}
 	
-	Inf_equipment_5 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_4
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-		}
-	}
-	
-	Inf_equipment_6 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_5
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-		}
-	}
-	
-	Inf_equipment_7 = {
-		archetype = Inf_equipment
-		parent = Inf_equipment_6
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-		}
-	}
-	
-	H_Inf_equipment = {
+	command_control_reuipment = {
 		is_archetype = yes
 		is_buildable = no
 		type = infantry
@@ -240,17 +171,17 @@ equipments = {
 		
 	}
 
-	H_Inf_equipment_0 = {
-		archetype = H_Inf_equipment
+	command_control_reuipment_0 = {
+		archetype = command_control_reuipment
 		active = yes
 		priority = 05
 		visual_level = 0
 	}
 	
 	# Regular infantry  1936
-	H_Inf_equipment_1 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_0
+	command_control_reuipment_1 = {
+		archetype = command_control_reuipment
+		parent = command_control_reuipment_0
 		priority = 10
 		visual_level = 1
 
@@ -268,9 +199,9 @@ equipments = {
 	}
 
 	# Improved weapons  ~1939
-	H_Inf_equipment_2 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_1
+	command_control_reuipment_2 = {
+		archetype = command_control_reuipment
+		parent = command_control_reuipment_1
 		priority = 10
 		visual_level = 2
 		
@@ -291,9 +222,9 @@ equipments = {
 	}
 	
 	# Advanced weapons  ~1942
-	H_Inf_equipment_3 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_2
+	command_control_reuipment_3 = {
+		archetype = command_control_reuipment
+		parent = command_control_reuipment_2
 		priority = 10
 		visual_level = 3
 		
@@ -314,9 +245,9 @@ equipments = {
 		}
 	}
 	
-	H_Inf_equipment_4 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_3
+	command_control_reuipment_4 = {
+		archetype = command_control_reuipment
+		parent = command_control_reuipment_3
 		priority = 10
 		visual_level = 3
 		
@@ -336,75 +267,5 @@ equipments = {
 			steel = 4
 		}
 	}
-	
-	H_Inf_equipment_5 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_4
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
 
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-		}
-	}
-	
-	H_Inf_equipment_6 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_5
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-		}
-	}
-	
-	H_Inf_equipment_7 = {
-		archetype = H_Inf_equipment
-		parent = H_Inf_equipment_6
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 34
-		breakthrough = 5
-
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 1
-		resources = {
-			steel = 4
-		}
-	}
-	
-	
 }
