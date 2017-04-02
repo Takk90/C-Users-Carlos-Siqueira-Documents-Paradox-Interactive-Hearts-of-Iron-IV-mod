@@ -1,7 +1,7 @@
 
 state={
-	id=873
-	name="STATE_873"
+	id=914
+	name="STATE_914"
 
 	history={
 		owner = COL
@@ -25,6 +25,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = COL
@@ -32,9 +33,9 @@ state={
 	}
 
 	provinces={
-		2007 10792 12729 12770 12825 12979 13946 13947 13948 13949 13950 13953 13955 
+		1887 5026 13957 13958 13959 13960 13962 13967 13968 13973 
 	}
-	manpower=1117582
+	manpower=1694006
 	buildings_max_level_factor=1.000
-	state_category=state_02
+	state_category=state_03
 }
