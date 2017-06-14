@@ -15,25 +15,27 @@
 # contain
 # area_priority
 
-## TUR
 
-## Foraign Relations
-
-Turkey_Kurdistan_Relations = {
+AI_Block_Faction_Avoidance ={
 	enable = {
-		tag = TUR
+		always = yes
+        NOT = {
+            tag = SOV
+            tag = USA
+        }
 	}
 	abort = {
-		always = no
+        date > 2025.1.1
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = -200
 	}
 	ai_strategy = {
-		type = antagonize
-		id = "ROJ"
-		value = 100
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "KUR"
-		value = 100
+		type = alliance
+		id = "USA"
+		value = -200
 	}
 }
