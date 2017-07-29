@@ -26,33 +26,19 @@
 # template_xp_reserve 
 # unit_ratio
 
-Serbia_Kosovo_Relations ={
+#####
+## NATO
+
+NATO_Member_Russia_Strategy = {
 	enable = {
-		tag = SER
-		country_exists = KOS
+        any_country = { is_in_faction_with = USA }
 	}
 	abort = {
-		NOT = { country_exists = KOS }
+        NOT = { is_in_faction_with = USA }
 	}
-
 	ai_strategy = {
 		type = antagonize
-		id = "KOS"
-		value = 50
-	}
-}
-Kosovo_Serbia_Relations ={
-	enable = {
-		tag = KOS
-		country_exists = SER
-	}
-	abort = {
-		NOT = { country_exists = SER }
-	}
-
-	ai_strategy = {
-		type = antagonize
-		id = "SER"
-		value = 50
+		id = "SOV"
+		value = 25
 	}
 }
