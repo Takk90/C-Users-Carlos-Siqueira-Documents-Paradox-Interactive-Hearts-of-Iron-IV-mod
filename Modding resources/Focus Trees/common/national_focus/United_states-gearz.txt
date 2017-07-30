@@ -13,14 +13,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 24
-		y = 5
-		
-		prerequisite = {
-			focus = USA_AMERICA_FIRST
-			focus = USA_PAX_AMERICANA
-			focus = USA_PARTNERS_ALLIES
-			
-		}
+		y = 4
 		
 		completion_reward = {
 			add_ideas = IDEA_USA_350_ship
@@ -32,14 +25,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 22
-		y = 6
-		
-		prerequisite = {
-			focus = USA_PAX_AMERICANA
-			focus = USA_AMERICA_FIRST
-		}
-		
-		
+		y = 5
 		
 		completion_reward = {
 			add_ideas = IDEA_USA_EXPAND_ARMY
@@ -51,14 +37,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 26
-		y = 6
-		
-		prerequisite = {
-			focus = USA_PAX_AMERICANA
-			focus = USA_PARTNERS_ALLIES
-		}
-		
-		
+		y = 5
 		
 		completion_reward = {
 			add_ideas = IDEA_USA_air_dominance
@@ -89,7 +68,7 @@ focus_tree = {
 		y = 9
 		
 		available = {
-			has_completed_focus = USA_2017_budget_congress
+			has_completed_focus = USA_TRUMP_CABINET
 		}
 
 	}
@@ -101,7 +80,7 @@ focus_tree = {
 		y = 9
 		
 		available = {
-			has_completed_focus = USA_2017_budget_congress
+			has_completed_focus = USA_TRUMP_CABINET
 		}
 
 	}
@@ -113,7 +92,7 @@ focus_tree = {
 		y = 9
 		
 		available = {
-			has_completed_focus = USA_2017_budget_congress
+			has_completed_focus = USA_TRUMP_CABINET
 		}
 
 	}
@@ -128,6 +107,7 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = USA_THE_WEST
+			focus = USA_2017_budget_congress
 		}
 		mutually_exclusive = {
 			focus = USA_FOCUS_NATO
@@ -340,9 +320,6 @@ focus_tree = {
 		id = USA_AXIS_EVIL
 		icon = GFX_goal_unknown
 		cost = 0.00
-		
-		available = {USA = {has_completed_focus = USA_PAX_AMERICANA}}
-		
 		prerequisite = {
 			focus = USA_NEW_MIDDLE_EAST
 		}
@@ -789,9 +766,6 @@ focus_tree = {
 		id = USA_ABANDON_ALLIES
 		icon = GFX_goal_unknown
 		cost = 0.00
-		
-		available = {not {has_completed_focus = USA_PARTNERS_ALLIES}}
-		
 		prerequisite = {
 			focus = USA_NEW_MIDDLE_EAST
 		}
@@ -820,11 +794,6 @@ focus_tree = {
 		id = USA_AMERICA_FIRST
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 0.00
-		
-		available = {
-			has_completed_focus = USA_2017_budget_congress
-		}
-		
 		prerequisite = {
 			focus = USA_TRUMP_CABINET
 		}
@@ -932,11 +901,6 @@ focus_tree = {
 		id = USA_PAX_AMERICANA
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 0.00
-		
-		available = {
-			has_completed_focus = USA_2017_budget_congress
-		}
-		
 		prerequisite = {
 			focus = USA_TRUMP_CABINET
 		}
@@ -952,13 +916,11 @@ focus_tree = {
 		id = USA_Fund_marines
 		icon = GFX_goal_unknown
 		cost = 0.00
-		
-		available = {
-			has_completed_focus = USA_PAX_AMERICANA
-		}
-		
 		prerequisite = {
-			focus = USA_EXPAND_ARMY
+			focus = newfocus_9
+		}
+		prerequisite = {
+			focus = USA_air_dominance
 		}
 		prerequisite = {
 			focus = USA_air_dominance
@@ -967,7 +929,7 @@ focus_tree = {
 			focus = USA_350_ship
 		}
 		x = 24
-		y = 7
+		y = 6
 		
 		completion_reward = {
 			add_ideas = IDEA_USA_Fund_marines
@@ -989,7 +951,7 @@ focus_tree = {
 			focus = USA_Fund_marines
 		}
 		x = 24
-		y = 8
+		y = 7
 		
 		completion_reward = {
 			remove_ideas = USA_BAD_PROCURMENT
@@ -1000,9 +962,6 @@ focus_tree = {
 		id = USA_RECOGNIZE_TAIWAN
 		icon = GFX_goal_unknown
 		cost = 0.00
-		
-		available = {USA = {has_completed_focus = USA_PAX_AMERICANA}}
-		
 		prerequisite = {
 			focus = USA_PIVOT_ASIA_2
 		}
@@ -1034,19 +993,17 @@ focus_tree = {
 		id = USA_CONFRONT_NK
 		icon = GFX_goal_unknown
 		cost = 0.00
-		
-		available = {
-			NKO = {
-				has_country_flag = ballistic_misisles
-			}
-		}
-		
 		prerequisite = {
 			focus = USA_PACIFIC_POWER
 		}
 		x = 27
 		y = 10
 		
+		available = {
+			NKO = {
+				has_country_flag = ballistic_misisles
+			}
+		}
 
 	}
 	focus = {
@@ -1058,7 +1015,6 @@ focus_tree = {
 			NKO = {
 				has_country_flag = Nuclear_ballistic_misisles
 			}
-			USA = {not = { has_completed_focus = USA_PAX_AMERICANA}}
 		}
 		
 		prerequisite = {
@@ -1083,9 +1039,6 @@ focus_tree = {
 		available = {
 			NKO = {
 				has_country_flag = ballistic_misisles
-			}
-			USA = {
-				has_completed_focus = USA_PAX_AMERICANA
 			}
 		}
 		
@@ -1117,11 +1070,6 @@ focus_tree = {
 		id = USA_PARTNERS_ALLIES
 		icon = GFX_goal_unknown
 		cost = 0.00
-		
-		available = {
-			has_completed_focus = USA_2017_budget_congress
-		}
-		
 		prerequisite = {
 			focus = USA_TRUMP_CABINET
 		}
@@ -1196,12 +1144,6 @@ focus_tree = {
 		}
 		x = 30
 		y = 10
-		
-		available = {
-			USA = {
-				has_completed_focus = USA_PARTNERS_ALLIES
-			}
-		}
 
 	}
 	focus = {
@@ -1269,9 +1211,6 @@ focus_tree = {
 		id = USA_FOCUS_NATO
 		icon = GFX_join_nato
 		cost = 0.00
-		
-		available = {not = {has_completed_focus = USA_PARTNERS_ALLIES}}
-		
 		prerequisite = {
 			focus = USA_THE_WEST
 		}
@@ -1496,9 +1435,6 @@ focus_tree = {
 						
 					}
 				}
-			}
-			USA = {
-				has_completed_focus = USA_PARTNERS_ALLIES
 			}
 		}
 		
