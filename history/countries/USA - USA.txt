@@ -93,11 +93,11 @@ set_technology = {
 	infantry_weapons3 = 1
 	infantry_weapons4 = 1 #2005
 	
-	heavy_infantry_weapons = 1
-	heavy_infantry_weapons1 = 1
-	heavy_infantry_weapons2 = 1
-	heavy_infantry_weapons3 = 1
-	heavy_infantry_weapons4 = 1 #2005
+	
+	
+	
+	
+	 #2005
 	
 	combat_eng_equipment = 1
 	
@@ -232,6 +232,7 @@ set_technology = {
 	attack_helicopter1 = 1
 	attack_helicopter2 = 1
 	attack_helicopter3 = 1
+	attack_helicopter4 = 1
 
 	cruiser_1 = 1
 	cruiser_2 = 1
@@ -897,6 +898,15 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "HIMARS"
+	type = SP_R_arty_equipment_2
+	upgrades = {
+		SP_Arty_Fire_Control = 2
+		SP_Arty_Warhead = 2
+	}
+}
+
+create_equipment_variant = {
 	name = "AIFV"
 	type = APC_Equipment_2
 	upgrades = {
@@ -914,5 +924,12 @@ create_equipment_variant = {
 		SP_AA_Fire_Control = 1
 		SP_AA_Warhead = 0
 		SP_AA_Weight = 2
+	}
+}
+create_equipment_variant = {
+	name = "F-15S"
+	type = Strike_fighter_equipment_3
+	upgrades = {
+		
 	}
 }

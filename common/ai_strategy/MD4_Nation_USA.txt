@@ -1,173 +1,61 @@
 # Written by Andreas "Cold Evul" Brostrom
 
+# air_factory_balance
 # alliance
-# befriend
-# conquer
 # antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
-# contain
 # area_priority
+# befriend
+# build_army
+# build_building
+# build_ship
+# conquer
+# contain
+# equipment_production_factor
+# equipment_stockpile
+# garrison
+# ignore
+# influence
+# invade
+# pp_spend_priority
+# protect
+# research_tech
+# role_ratio
+# send_volunteers_desire
+# support
+# template_prio
+# template_xp_reserve 
+# unit_ratio
 
 ## USA
 
 ## Foraign Relations
 
-USA_SouthKorea_Relations = {
+USA_China_Relations = {
 	enable = {
 		original_tag = USA
-		KOR = { has_government = democratic }
-		country_exists = KOR
 	}
 	abort = {
-		NOT = { country_exists = KOR }
-		OR = {
-			NOT = { KOR = { has_government = democratic } }
-			NOT = { country_exists = NKO }
-		}
-	}
-	ai_strategy = {
-		type = befriend
-		id = "KOR"
-		value = 200
-	}
-	ai_strategy = {
-		type = protect
-		id = "KOR"
-		value = 200
-	}
-}
-USA_NorthKorea_Relations = {
-	enable = {
-		original_tag = USA
-		country_exists = NKO
-	}
-	abort = {
-		NOT = { country_exists = NKO }
-	}
-	ai_strategy = {
-		type = contain
-		id = "NKO"
-		value = 200
-	}
-}
-USA_Israel_Relations = {
-	enable = {
-		tag = ISR 
-	}
-	abort = {
-		NOT = { country_exists = ISR }
-	}
-	ai_strategy = {
-		type = protect
-		id = "ISR"
-		value = 200
-	}
-	ai_strategy = {
-		type = befriend
-		id = "ISR"
-		value = 200
-	}
-}
-USA_Iran_Relations = {
-	enable = {
-		tag = USA
-	}
-	abort = {
-		NOT = { country_exists = PER }
-	}
-	ai_strategy = {
-		type = contain
-		id = "PER"
-		value = 100
-	}
-}
-
-USA_Mexico_Relations = {
-	enable = {
-		tag = USA
-        OR = {
-            NOT = { has_government = Nationalist }
-            has_country_leader = { ruling_only = yes name = "Donald Trump" }
-        }
-        
-	}
-	abort = {
-		NOT = { country_exists = MEX }
-        has_completed_focus = USA_THE_WALL
+		always = no
 	}
 	ai_strategy = {
 		type = antagonize
-		id = "MEX"
+		id = "CHI"
 		value = 50
 	}
-}
-USA_Mexico_Relations_1 = {
-	enable = {
-		tag = USA
-        has_completed_focus = USA_THE_WALL
-	}
-	abort = {
-		NOT = { country_exists = MEX }
-        has_completed_focus = USA_greatest_fence
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = -200
 	}
 	ai_strategy = {
-		type = antagonize
-		id = "MEX"
-		value = 100
-	}
-}
-USA_Mexico_Relations_2 = {
-	enable = {
-		tag = USA
-        has_completed_focus = USA_greatest_fence
-	}
-	abort = {
-		NOT = { country_exists = MEX }
+		type = ignore
+		id = "CHI"
+		value = -200
 	}
 	ai_strategy = {
-		type = contain
-		id = "MEX"
-		value = 100
-	}
-}
-
-USA_Cuba_Relations = {
-	enable = {
-		tag = USA
-	}
-	abort = {
-		NOT = { country_exists = CUB }
-		CUB = { has_government = democratic }
-	}
-	ai_strategy = {
-		type = contain
-		id = "CUB"
-		value = 100
-	}
-}
-Cuba_USA_Relations = {
-	enable = {
-		tag = CUB
-        OR = {
-            NOT = { has_government = communism }
-            NOT = { has_government = neutrality }
-        }
-	}
-	abort = {
-		NOT = { country_exists = USA }
-        NOT = { has_government = democratic }
-	}
-	ai_strategy = {
-		type = antagonize
-		id = "USA"
-		value = 100
+		type = support
+		id = "CHI"
+		value = -200
 	}
 }
 
@@ -183,168 +71,259 @@ USA_Russia_Relations = {
 		id = "SOV"
 		value = 50
 	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = -200
+	}
 }
-EU_Member_Strategy = {
+
+USA_Israel_Relations = {
 	enable = {
-        original_tag = USA
+		original_tag = USA 
 	}
 	abort = {
-        always = no
+		NOT = { country_exists = ISR }
+	}
+	ai_strategy = {
+		type = protect
+		id = "ISR"
+		value = 25
+	}
+	ai_strategy = {
+		type = befriend
+		id = "ISR"
+		value = 50
+	}
+}
+
+USA_Iran_Relations = {
+	enable = {
+		original_tag = USA
+	}
+	abort = {
+		NOT = { country_exists = PER }
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 40
+	}
+}
+
+USA_Mexico_Relations = {
+	enable = {
+		original_tag = USA
+		OR = {
+			NOT = { has_government = Nationalist }
+			has_country_leader = { ruling_only = yes name = "Donald Trump" }
+		}
+	}
+	abort = {
+		NOT = { country_exists = MEX }
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 5
+	}
+}
+USA_Mexico_Relations_1 = {
+	enable = {
+		original_tag = USA
+		has_completed_focus = USA_THE_WALL
+	}
+	abort = {
+		NOT = { country_exists = MEX }
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 10
+	}
+}
+USA_Mexico_Relations_2 = {
+	enable = {
+		original_tag = USA
+		has_completed_focus = USA_greatest_fence
+	}
+	abort = {
+		NOT = { country_exists = MEX }
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 15
+	}
+}
+
+USA_EU_Strategy = {
+	enable = {
+		original_tag = USA
+	}
+	abort = {
+		#has_completed_focus = fuck_europe
 	}
 	ai_strategy = {
 		type = befriend
 		id = "ENG"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "IRE"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "IRE"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "FRA"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "SPR"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "POR"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "AUS"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "ITA"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "BEL"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "HOL"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "LUX"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "GER"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "DEN"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "NOR"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "SWE"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "FIN"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "POL"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "EST"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "LAT"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "LIT"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "CZH"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "SLO"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "HUN"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "ROM"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "BUL"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "CRO"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "GRE"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "TUR"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
 		type = befriend
 		id = "FIN"
-		value = 50
+		value = 30
 	}
+	
 	ai_strategy = {
-		type = befriend     # NOT EU MEMBER BUT THEY LOVE THEM ANYWAYS
+		type = befriend	 # NOT EU MEMBER BUT THEY LOVE THEM ANYWAYS
 		id = "SWI"
-		value = 50
+		value = 30
 	}
 	ai_strategy = {
-		type = befriend     # NOT EU MEMBER BUT THEY LOVE THEM ANYWAYS
+		type = befriend	 # NOT EU MEMBER BUT THEY LOVE THEM ANYWAYS
 		id = "ICE"
-		value = 50
+		value = 30
 	}
 }
 
@@ -352,7 +331,7 @@ EU_Member_Strategy = {
 
 USA_area_priority = {
 	enable = {
-		tag = USA
+		original_tag = USA
 	}
 	ai_strategy = {
 		type = area_priority

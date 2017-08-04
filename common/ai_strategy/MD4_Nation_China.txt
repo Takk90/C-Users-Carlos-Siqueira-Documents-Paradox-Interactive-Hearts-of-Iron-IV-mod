@@ -1,62 +1,93 @@
 # Written by Andreas "Cold Evul" Brostrom
 
+# air_factory_balance
 # alliance
-# befriend
-# conquer
 # antagonize
-# build_ship
-# build_army
-# unit_ratio
-# build_building
-# research_tech
-# garrison
-# protect
-# influence
-# contain
 # area_priority
+# befriend
+# build_army
+# build_building
+# build_ship
+# conquer
+# contain
+# equipment_production_factor
+# equipment_stockpile
+# garrison
+# ignore
+# influence
+# invade
+# pp_spend_priority
+# protect
+# research_tech
+# role_ratio
+# send_volunteers_desire
+# support
+# template_prio
+# template_xp_reserve 
+# unit_ratio
+
+## CHI
 
 ## Foraign Relations
+
+China_USA_Relations = {
+	enable = {
+		original_tag = CHI
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = -200
+	}
+	ai_strategy = {
+		type = ignore
+		id = "USA"
+		value = -200
+	}
+	ai_strategy = {
+		type = support
+		id = "USA"
+		value = -200
+	}
+}
+
 China_Korea_Area_Politics = {
 	enable = {
-		tag = CHI
-		has_government = Democrat
+		original_tag = CHI
 		country_exists = NKO
 	}
 	abort = {
 		NOT = { country_exists = NKO }
-		OR = {
-			NOT = { has_government = communism }
-		}
 	}
 	
 	ai_strategy = {
 		type = protect
 		id = "NKO"
-		value = 100
+		value = 20
 	}
-}
-China_Korea_Area_Politics_Democratic = {
-	enable = {
-		tag = CHI
-		has_government = democratic
-		country_exists = NKO
+	ai_strategy = {
+		type = befriend
+		id = "NKO"
+		value = 20
 	}
-	abort = {
-		NOT = { country_exists = NKO }
-		OR = {
-			NOT = { has_government = democratic }
-		}
-	}
-	
 	ai_strategy = {
 		type = antagonize
-		id = "NKO"
-		value = 100
+		id = "KOR"
+		value = 10
 	}
 }
 North_Korea_China_Relations = {
 	enable = {
-		tag = NKO
+		original_tag = NKO
+		country_exists = CHI
 	}
 	abort = {
 		NOT = { country_exists = CHI }
@@ -65,7 +96,7 @@ North_Korea_China_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "CHI"
-		value = 100
+		value = 20
 	}
 }
 
@@ -73,7 +104,7 @@ North_Korea_China_Relations = {
 
 CHI_area_priority = {
 	enable = {
-		tag = CHI
+		original_tag = CHI
 	}
 	ai_strategy = {
 		type = area_priority

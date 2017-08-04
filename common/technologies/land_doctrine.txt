@@ -38,13 +38,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 	}
 	
 	modern_blitzkrieg = { 
 
 		xor = { armoured_mass_assault grand_battleplan infiltration_assault }
+		
+		enable_tactic = tactic_blitz
 	
 		path = {
 			leads_to_tech = forward_defense 
@@ -65,7 +67,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 		ai_research_weights = {
@@ -78,6 +80,11 @@ technologies = {
 		path = {
 			leads_to_tech = encourage_nco_iniative 
 			research_cost_coeff = 1
+		}
+		
+		category_army = {
+			org_loss_when_moving = -0.25
+			dig_in_speed_factor = 0.25
 		}
 		
 		doctrine = yes	
@@ -94,7 +101,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 		ai_research_weights = {
@@ -107,6 +114,12 @@ technologies = {
 		path = {
 			leads_to_tech = air_land_battle 
 			research_cost_coeff = 1
+		}
+		
+		category_front_line = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			defense = 0.05
 		}
 		
 		doctrine = yes	
@@ -123,7 +136,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 		ai_research_weights = {
@@ -131,7 +144,9 @@ technologies = {
 		}
 	}
 	
-	air_land_battle = { 
+	air_land_battle = {
+
+		army_bonus_air_superiority_factor = 0.25
 		
 		doctrine = yes	
 		research_cost = 1.5
@@ -147,7 +162,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 		ai_research_weights = {
@@ -158,6 +173,10 @@ technologies = {
 	grand_battleplan = {
 	
 		xor = { modern_blitzkrieg armoured_mass_assault infiltration_assault }
+		
+		planning_speed = 0.25
+		max_planning = 0.25
+		enable_tactic = tactic_planned_attack
 
 		path = {
 			leads_to_tech = rigid_hierarchy
@@ -186,7 +205,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -197,6 +216,8 @@ technologies = {
 			leads_to_tech = praetorian_guard 
 			research_cost_coeff = 1
 		}
+		
+		max_organisation = 4
 		
 		doctrine = yes	
 		research_cost = 1.5
@@ -212,12 +233,15 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 	
 	}
 	
-	praetorian_guard = { 
+	praetorian_guard = {
+
+		partisan_effect = -0.25 #the idea is that your pop is less likely to revolt against a foreign army if you have 
+		enemy_partisan_effect = 0.25 #in return enemies will revolt less
 		
 		doctrine = yes	
 		research_cost = 1.5
@@ -233,7 +257,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 	
 	}
@@ -245,6 +269,11 @@ technologies = {
 		path = {
 			leads_to_tech = deep_echelon_advance
 			research_cost_coeff = 1
+		}
+		
+		land_reinforce_rate = 0.05
+		category_all_armor = {
+			breakthrough = 0.10
 		}
 		
 		doctrine = yes	
@@ -261,7 +290,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -275,6 +304,12 @@ technologies = {
 		path = {
 			leads_to_tech = army_group_operational_freedom
 			research_cost_coeff = 1
+		}
+		
+		maximum_speed = 0.1
+		category_all_armor = {
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		
 		doctrine = yes	
@@ -291,7 +326,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -304,6 +339,8 @@ technologies = {
 			leads_to_tech = massed_artillery
 			research_cost_coeff = 1
 		}
+		
+		planning_speed = 0.15
 		
 		doctrine = yes	
 		research_cost = 1.5
@@ -319,7 +356,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -330,6 +367,8 @@ technologies = {
 			leads_to_tech = defence_in_depth
 			research_cost_coeff = 1
 		}
+		
+		enable_tactic = tactic_barrage
 		
 		doctrine = yes	
 		research_cost = 1.5
@@ -345,7 +384,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -363,6 +402,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_tactic = tactic_infantry_charge
+		
 		doctrine = yes	
 		research_cost = 1.5
 
@@ -377,7 +418,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -399,6 +440,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_tactic = tactic_elastic_defense
+		
 		doctrine = yes	
 		research_cost = 1.5
 
@@ -413,7 +456,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -425,6 +468,11 @@ technologies = {
 		path = {
 			leads_to_tech = massed_artillery
 			research_cost_coeff = 1
+		}
+		
+		category_all_armor = {
+			defense = 0.1
+			max_organisation = 5
 		}
 		
 		doctrine = yes	
@@ -441,7 +489,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -453,6 +501,11 @@ technologies = {
 		path = {
 			leads_to_tech = early_tunnel_warfare
 			research_cost_coeff = 1
+		}
+		
+		category_army = {
+			max_dig_in = 5
+			dig_in_speed_factor = 0.25
 		}
 		
 		doctrine = yes	
@@ -469,7 +522,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
@@ -488,6 +541,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		category_army = {
+			max_dig_in = 10
+		}
+		
 		doctrine = yes	
 		research_cost = 1.5
 
@@ -502,12 +559,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
 	
 	guerilla_specialisation = { 
+	
+		partisan_effect = 0.25
 		
 		doctrine = yes	
 		research_cost = 1.5
@@ -523,7 +582,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 20 
+			factor = 1 
 		}
 		
 	}
