@@ -1,16 +1,6 @@
-﻿capital = 221
+﻿capital = 223
 
-oob = "SUD_2017"
-
-declare_war_on = {
-	target = DAR
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = SRF
-	type = annex_everything
-}
+oob = "SRF_2017"
 
 # Starting tech
 set_technology = {
@@ -104,26 +94,26 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 20
+			popularity = 50
 		}
 		
 		nationalist = { 
-			popularity = 50
+			popularity = 0
 		}
 	}
 	
-	ruling_party = nationalist
+	ruling_party = neutrality
 	last_election = "2015.4.16"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Omar al-Bashir"
+	name = "Malik Agar"
 	desc = "POLITICS_Mohamed Cheikh Biadillah_DESC" 
-	picture = "Omar_al-Bashir.dds"
+	picture = "Malik_Agar.dds"
 	expire = "2050.1.1"
-	ideology = Nat_Autocracy
+	ideology = Neutral_conservatism  
 	traits = {
 		#
 	}
