@@ -1,16 +1,6 @@
-﻿capital = 221
+﻿capital = 224
 
-oob = "SUD_2017"
-
-declare_war_on = {
-	target = DAR
-	type = annex_everything
-}
-
-declare_war_on = {
-	target = SRF
-	type = annex_everything
-}
+oob = "DAR_2017"
 
 # Starting tech
 set_technology = {
@@ -76,16 +66,16 @@ set_technology = {
 
 
 set_convoys = 20
-set_national_unity = 0.6
+set_national_unity = 0.8
 
 add_ideas = {
 	crippling_corruption
-	gdp_3
+	gdp_1
 	sunni
     
 	LoAS_member
 }
-set_country_flag = gdp_3
+set_country_flag = gdp_1
 
 set_politics = {
 
@@ -95,7 +85,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 5
 		}
 		
 		communism = {
@@ -104,26 +94,26 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 20
+			popularity = 60
 		}
 		
 		nationalist = { 
-			popularity = 50
+			popularity = 10
 		}
 	}
 	
-	ruling_party = nationalist
+	ruling_party = neutrality
 	last_election = "2015.4.16"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Omar al-Bashir"
+	name = "Musa Hilal"
 	desc = "POLITICS_Mohamed Cheikh Biadillah_DESC" 
-	picture = "Omar_al-Bashir.dds"
+	picture = "Musa_Hilal.dds"
 	expire = "2050.1.1"
-	ideology = Nat_Autocracy
+	ideology = Neutral_Autocracy 
 	traits = {
 		#
 	}
