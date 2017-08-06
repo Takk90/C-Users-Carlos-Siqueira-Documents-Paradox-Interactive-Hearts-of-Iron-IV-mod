@@ -1,11 +1,6 @@
-﻿capital = 224
+﻿capital = 239
 
-oob = "DAR_2017"
-
-declare_war_on = {
-	target = SUD
-	type = topple_government
-}
+oob = "SHB_2017"
 
 # Starting tech
 set_technology = {
@@ -28,16 +23,10 @@ set_technology = {
 	
 	Early_APC = 1
 	MBT_1 = 1
-	MBT_2 = 1
-	MBT_3 = 1
 	
 	IFV_1 = 1
-	IFV_2 = 1
 	
 	APC_1 = 1
-	APC_2 = 1
-	APC_3 = 1
-	APC_4 = 1
 	
 	Air_APC_1 = 1
 	Amph_APC_1 = 1
@@ -49,7 +38,6 @@ set_technology = {
 	SP_arty_equipment_0 = 1
 	
 	gw_artillery = 1
-	Arty_upgrade_1 = 1
 	artillery_1 = 1
 	
 	SP_R_arty_equipment_0 = 1
@@ -71,10 +59,10 @@ set_technology = {
 
 
 set_convoys = 20
-set_national_unity = 0.8
+set_national_unity = 0.6
 
 add_ideas = {
-	crippling_corruption
+	paralyzing_corruption
 	gdp_1
 	sunni
     
@@ -86,39 +74,34 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 5
+			popularity = 10
 		}
 
 		fascism = {
-			popularity = 5
+			popularity = 50
 		}
 		
 		communism = {
-			popularity = 5
+			popularity = 0
 			#banned = no #default is no
 		}
 		
 		neutrality = { 
-			popularity = 60
-		}
-		
-		nationalist = { 
 			popularity = 10
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "2015.4.16"
-	election_frequency = 60
-	elections_allowed = yes
+	ruling_party = fascism
+	last_election = "2016.11.10"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Musa Hilal"
+	name = "Ahmad Umar"
 	desc = "POLITICS_Mohamed Cheikh Biadillah_DESC" 
-	picture = "Musa_Hilal.dds"
-	expire = "2050.1.1"
-	ideology = Neutral_Autocracy 
+	picture = "Ahmad_Umar.dds"
+	ideology = Caliphate
 	traits = {
 		#
 	}
