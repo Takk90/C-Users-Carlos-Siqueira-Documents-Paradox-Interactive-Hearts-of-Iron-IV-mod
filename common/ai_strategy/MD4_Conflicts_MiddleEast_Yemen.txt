@@ -1,4 +1,4 @@
-# Written by Andreas "Cold Evul" Brostrom
+# Written by Killerrabbit
 
 # air_factory_balance
 # alliance
@@ -26,18 +26,154 @@
 # template_xp_reserve 
 # unit_ratio
 
-### To avoid volunteer forces from defeating ISIS alone ###
 
-Iran_IRQ = {
+### Help for Hadi's gov ###
+SAU_YEM = {
+
+	enable = {
+		original_tag = SAU
+	}
+	
+	abort = {
+		YEM = { 
+			OR = { 
+				war_with_us = yes
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend 
+		id = "YEM"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "YEM"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "YEM"
+		value = 100
+	} 
+	
+	ai_strategy = {
+		type = support
+		id = "YEM"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "YEM"
+		value = 200
+	}
+}
+
+EGY_YEM = {
+
+	enable = {
+		original_tag = EGY
+	}
+	
+	abort = {
+		YEM = { 
+			OR = { 
+				war_with_us = yes
+				is_bad_salafist = yes
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend 
+		id = "YEM"
+		value = 40
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "YEM"
+		value = 40
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "YEM"
+		value = 40
+	} 
+	
+	ai_strategy = {
+		type = support
+		id = "YEM"
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "YEM"
+		value = 50
+	}
+}
+
+UAE_YEM = {
+
+	enable = {
+		original_tag = UAE
+	}
+	
+	abort = {
+		YEM = { 
+			OR = { 
+				war_with_us = yes
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend 
+		id = "YEM"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "YEM"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "YEM"
+		value = 100
+	} 
+	
+	ai_strategy = {
+		type = support
+		id = "YEM"
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "YEM"
+		value = 200
+	}
+}
+
+PER_HOU = {
 
 	enable = {
 		original_tag = PER
 	}
 	
 	abort = {
-		IRQ = { 
+		HOU = { 
 			OR = { 
-				war_with_us = yes 
+				war_with_us = yes
 				is_bad_salafist = yes
 			}
 		}
@@ -45,123 +181,31 @@ Iran_IRQ = {
 	
 	ai_strategy = {
 		type = befriend 
-		id = "IRQ"
+		id = "HOU"
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = protect 
-		id = "IRQ"
+		id = "HOU"
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = influence
-		id = "IRQ"
+		id = "HOU"
 		value = 50
 	} 
 	
 	ai_strategy = {
 		type = support
-		id = "IRQ"
-		value = 50
+		id = "YEM"
+		value = 100
 	}
 	
 	ai_strategy = {
 		type = send_volunteers_desire
-		id = "IRQ"
-		value = -200
-	}
-}
-
-Russia_IRQ = {
-
-	enable = {
-		original_tag = SOV
-	}
-	
-	abort = {
-		IRQ = { 
-			OR = { 
-				war_with_us = yes 
-				is_bad_salafist = yes
-			}
-		}
-	}
-	
-	ai_strategy = {
-		type = befriend 
-		id = "IRQ"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = protect 
-		id = "IRQ"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = influence
-		id = "IRQ"
-		value = 50
-	} 
-	
-	ai_strategy = {
-		type = support
-		id = "IRQ"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "IRQ"
-		value = -200
-	}
-}
-
-China_IRQ = {
-
-	enable = {
-		original_tag = CHI
-	}
-	
-	abort = {
-		IRQ = { 
-			OR = { 
-				war_with_us = yes 
-				is_bad_salafist = yes
-			}
-		}
-	}
-	
-	ai_strategy = {
-		type = befriend 
-		id = "IRQ"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = protect 
-		id = "IRQ"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = influence
-		id = "IRQ"
-		value = 50
-	} 
-	
-	ai_strategy = {
-		type = support
-		id = "IRQ"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "IRQ"
-		value = -200
+		id = "HOU"
+		value = -50
 	}
 }
