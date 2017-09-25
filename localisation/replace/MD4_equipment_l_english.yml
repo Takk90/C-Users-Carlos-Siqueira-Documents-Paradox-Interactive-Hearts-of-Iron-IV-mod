@@ -837,6 +837,7 @@
  CHI_transport_plane_equipment_1:0 "Xian Y-7"
  CHI_transport_plane_equipment_1_short:0 "Y-7"
  CHI_transport_plane_equipment_2:0 "Shaanxi Y-8"
+ #CHI_transport_plane_equipment_2_variant:0 "Y-8"
  CHI_transport_plane_equipment_2_short:0 "Y-8"
  CHI_transport_plane_equipment_3:0 "Shaanxi Y-9"
  CHI_transport_plane_equipment_3_short:0 "Shaanxi Y-9"
@@ -964,7 +965,7 @@
  GER_Strike_fighter_equipment_4_short:0 "EF-2020G Hurricane-G"
  GER_Strike_fighter_equipment_5:0 "EF-2020C Hurricane-G"
  GER_Strike_fighter_equipment_5_short:0 "EF-2020C Hurricane-G"
-
+ 
  GER_L_Strike_fighter_equipment_2:0 "Dornier Alpha Jet"
  GER_L_Strike_fighter_equipment_2_short:0 "Alpha Jet"
  
@@ -1347,6 +1348,10 @@
  SPR_transport_plane_equipment_3:0 "C-295"
  SPR_transport_plane_equipment_short:0 "C-295"
  
+ ### Sweeden ###
+ 
+ SWE_transport_plane_equipment_2:0 "Saab 340"
+ 
  ### Syria ###
  SYR_AS_Fighter_equipment_1:0 "MiG-23 Flogger"
  SYR_AS_Fighter_equipment_1_short:0 "MiG-23 Flogger"
@@ -1384,8 +1389,6 @@
  TAI_MR_Fighter_equipment_3_short:0 "AIDC F-CK-1"
  
  ### Turkey ###
- TUR_MR_Fighter_equipment_2:0 "F-4E Phantom 2020"
- TUR_MR_Fighter_equipment_2_short:0 "F-4E Phantom 2020"
  TUR_MR_Fighter_equipment_4:0 "TAI TF-26"
  TUR_MR_Fighter_equipment_4_short:0 "TAI TF-26"
  
@@ -1411,11 +1414,11 @@
  USA_CV_MR_Fighter_equipment_2_short:0 "F/A-18 Hornet"
  USA_CV_MR_Fighter_equipment_3:0 "F/A-18E/F Super Hornet"
  USA_CV_MR_Fighter_equipment_3_short:0 "F/A-18E/F"
- USA_CV_MR_Fighter_equipment_4:0 "F-35C Lightning II"			
- USA_CV_MR_Fighter_equipment_4_short:0 "F-35C Lightning II"		
- USA_CV_MR_Fighter_equipment_5:0 "F-35C Lightning III"			#Fictional
- USA_CV_MR_Fighter_equipment_5_short:0 "F-35C Lightning III"	#Fictional
- USA_CV_MR_Fighter_equipment_6:0 "F/A-47B Black Widow"				#X-47B
+ USA_CV_MR_Fighter_equipment_4:0 "F-35C Lightning II"
+ USA_CV_MR_Fighter_equipment_4_short:0 "F-35C Lightning II"
+ USA_CV_MR_Fighter_equipment_5:0 "F-35C Lightning III"
+ USA_CV_MR_Fighter_equipment_5_short:0 "F-35C Lightning III"
+USA_CV_MR_Fighter_equipment_6:0 "F/A-47B Black Widow"				#X-47B
  USA_CV_MR_Fighter_equipment_6_short:0 "F/A-47B Black Widow"		#X-47B
  USA_CV_MR_Fighter_equipment_7:0 "F/A-159 Hellcry"			#Fictional
  USA_CV_MR_Fighter_equipment_7_short:0 "F/A-159 Hellcry"		#Fictional
@@ -1442,7 +1445,7 @@
  USA_Strike_fighter_equipment_3:0 "F-15E Strike Eagle"
  USA_Strike_fighter_equipment_3_short:0 "F-15E Strike Eagle"
  USA_Strike_fighter_equipment_4:0 "FB-22 Strike Raptor"
- USA_Strike_fighter_equipment_4_short:0 "FB-22 Strike Raptor"	
+ USA_Strike_fighter_equipment_4_short:0 "FB-22 Strike Raptor"
  USA_Strike_fighter_equipment_5:0 "FB-35 Lighting Bolt"			#Fictional
  USA_Strike_fighter_equipment_5_short:0 "FB-35 Lighting Bolt"	#Fictional
  USA_Strike_fighter_equipment_6:0 "F-129 Dark Hawk"				#Fictional
@@ -1450,7 +1453,7 @@
  USA_Strike_fighter_equipment_7:0 "F-132 Heavenshade"			#Fictional
  USA_Strike_fighter_equipment_7_short:0 "F-132 Heavenshade"		#Fictional
  
- USA_L_Strike_fighter_equipment_1:0 "A-37 Dragonfly"
+  USA_L_Strike_fighter_equipment_1:0 "A-37 Dragonfly"
  #USA_L_Strike_fighter_equipment_1:0 "OV-10A Bronco"
  #USA_L_Strike_fighter_equipment_1_variant:0 "Cessna T-41 Mescalero"
  USA_L_Strike_fighter_equipment_1_short:0 "A-37 Dragonfly"
@@ -1461,7 +1464,7 @@
  USA_L_Strike_fighter_equipment_4:0 "A-40 Heavenraid"				#Fictional
  USA_L_Strike_fighter_equipment_4_short:0 "A-40 Heavenraid"		#Fictional
  USA_L_Strike_fighter_equipment_5:0 "Leonardo T-100"				
- USA_L_Strike_fighter_equipment_5_short:0 "T-100"		
+ USA_L_Strike_fighter_equipment_5_short:0 "T-100"									 
  
  #These are all fictional except Harrier
  USA_CV_L_Strike_fighter_equipment_1:0 "CA-37 Water Bug"
@@ -1524,13 +1527,11 @@
  USA_transport_plane_equipment_5_short:0 "KC-46 Pegasus"
  USA_transport_plane_equipment_6:0 "C-216 Anemoi"					#Fictional
  USA_transport_plane_equipment_6_short:0 "C-216 Anemoi"			#Fictional
- 
- USA_Int_Fighter_equipment_1:0 "F-14 Tomcat"
  USA_Int_Fighter_equipment_1_short:0 "F-14 Tomcat"
+
+ USA_CV_L_Strike_fighter_equipment_2:0 "AV-8B Harrier II"
+ USA_CV_L_Strike_fighter_equipment_2_short:0 "AV-8B Harrier II"
  
- ###United Arab Emirates###
- 
- UAE_MR_Fighter_equipment_2:0 "F-16E Block 60"
  
  ### Ukraine ###
  
@@ -1613,8 +1614,7 @@
  #USA_attack_helicopter_equipment_2_variant_short:0 "AH-1W"
  USA_attack_helicopter_equipment_3:0 "AH-64D Apache Longbow"
  USA_attack_helicopter_equipment_3_short:0 "AH-64D Apache"
- #USA_attack_helicopter_equipment_3:0 "AH-1Z Viper"
- #USA_attack_helicopter_equipment_3_short:0 "AH-1Z Viper"
+ #USA_attack_helicopter_equipment_3_variant:0 "AH-1Z Viper"
  USA_attack_helicopter_equipment_4:0 "AH-64E Apache Guardian"
  USA_attack_helicopter_equipment_4_short:0 "AH-64E Apache"
  USA_attack_helicopter_equipment_5:0 "Sikorsky/Boeing SB>1 Defiant"		#<= Not a typo
@@ -1642,15 +1642,13 @@
  
  FRA_transport_helicopter_equipment_1:0 "Aérospatiale SA-330 Puma"
  FRA_transport_helicopter_equipment_1_short:0 "SA-330 Puma"
- #FRA_transport_helicopter_equipment_1:0 "Aérospatiale SA-316 Alouette III"
- #FRA_transport_helicopter_equipment_1:0 "Eurocopter AS332 Super Puma"
- #FRA_transport_helicopter_equipment_1_short:0 "SA-316 Alouette III"
- #FRA_transport_helicopter_equipment_1:0 "Aérospatiale SA-319 Alouette III"
- #FRA_transport_helicopter_equipment_1_short:0 "SA-319 Alouette III"
- #FRA_transport_helicopter_equipment_1:0 "AS350B Ecureuil"
- #FRA_transport_helicopter_equipment_1_short:0 "AS350B Ecureuil"
+ #FRA_transport_helicopter_equipment_1_variant:0 "Aérospatiale SA-316 Alouette III"
+ #FRA_transport_helicopter_equipment_1_variant:0 "Eurocopter AS332 Super Puma"
+ #FRA_transport_helicopter_equipment_1_variant:0 "Aérospatiale SA-319 Alouette III"
+ #FRA_transport_helicopter_equipment_1_variant:0 "AS350B Ecureuil"
  FRA_transport_helicopter_equipment_2:0 "Eurocopter AS532 Cougar"
  FRA_transport_helicopter_equipment_2_short:0 "AS532 Cougar"
+ #FRA_transport_helicopter_equipment_2:0 "Eurocopter Fennec"
  FRA_transport_helicopter_equipment_3:0 "Eurocopter EC725 Caracal"
  FRA_transport_helicopter_equipment_3_short:0 "EC725 Caracal"
  FRA_transport_helicopter_equipment_4:0 "NHIndustries NH-90"
@@ -1663,8 +1661,7 @@
  
  ROM_transport_helicopter_equipment_1:0 "IAR 330 Puma"
  ROM_transport_helicopter_equipment_1_short:0 "IAR 330 Puma"
- #ROM_transport_helicopter_equipment_1:0 "IAR 316 Alouette III"
- #ROM_transport_helicopter_equipment_1_short:0 "IAR 316 Alouette III"
+ #ROM_transport_helicopter_equipment_1_variant:0 "IAR 316 Alouette III"
  
  SAF_transport_helicopter_equipment_1:0 "Aérospatiale SA-330 Puma"
  SAF_transport_helicopter_equipment_1_short:0 "SA-330 Puma"
@@ -1674,9 +1671,9 @@
  SOV_transport_helicopter_equipment_1:0 "Mil Mi-8"
  SOV_transport_helicopter_equipment_1_short:0 "Mi-8"
  #SOV_transport_helicopter_equipment_1_variant:0 "Mil Mi-14"
- #SOV_transport_helicopter_equipment_1:0 "Mil Mi-6"
- #SOV_transport_helicopter_equipment_1:0 "Mil Mi-17"
- #SOV_transport_helicopter_equipment_1_short:0 "Mi-17"
+ #SOV_transport_helicopter_equipment_1_variant:0 "Mil Mi-6"
+ #SOV_transport_helicopter_equipment_1_variant:0 "Mil Mi-17"
+ #SOV_transport_helicopter_equipment_1_variant:0 "Mi-17"
  SOV_transport_helicopter_equipment_2:0 "Mil Mi-26 Halo"
  SOV_transport_helicopter_equipment_2_short:0 "Mi-26 Halo"
  SOV_transport_helicopter_equipment_3:0 "Mil Mi-38"
@@ -1707,6 +1704,7 @@
  #USA_transport_helicopter_equipment_2_short:0 "CH-47D Chinook"
  #USA_transport_helicopter_equipment_2:0 "Bell UH-1Y Venom"
  #USA_transport_helicopter_equipment_2_short:0 "UH-1Y Venom"
+ #USA_transport_helicopter_equipment_2_short:0 "Sikorsky S-92"
  USA_transport_helicopter_equipment_3:0 "Boeing CH-47F Chinook"
  USA_transport_helicopter_equipment_3_short:0 "CH-47F Chinook"
  #USA_transport_helicopter_equipment_3:0 "Eurocopter UH-72 Lakota"
@@ -1845,9 +1843,6 @@
  
  ARG_IFV_Equipment_3:0 "TAMSE VCTP"
  ARG_IFV_Equipment_3_short:0 "TAMSE VCTP"
- 
- ARG_APC_Equipment_1:0 "AMX-VCI"
- ARG_APC_Equipment_1_short:0 "AMX-VCI"
  
  ARG_util_vehicle_equipment_4:0 "Vlega Gaucho"
  
@@ -1994,7 +1989,6 @@
  BRM_Inf_equipment_5:0 "Small Arms 2015"
  
  BRM_util_vehicle_equipment_2:0 "MAV-1"
- 
  ### Bulgaria ###
  BUL_Inf_equipment_0:0 "AKMS"
  BUL_Inf_equipment_1:0 "AR-M1"
@@ -2003,7 +1997,7 @@
  BUL_Inf_equipment_4:0 "Small Arms 2005"
  BUL_Inf_equipment_5:0 "Small Arms 2015"
  
- BUL_IFV_Equipment_3:0 "BMP-23"
+ BUL_IFV_Equipment_3:0 "BMP-23" 
  
  ### Canada ###
  CAN_Inf_equipment_0:0 "C1A1"
@@ -2026,17 +2020,14 @@
  CAN_IFV_Equipment_4:0 "LAV-III Kodiak"
  CAN_IFV_Equipment_4_short:0 "LAV-III Kodiak" 
  
+ 
  CAN_Rec_tank_Equipment_1:0 "Coyote"
  CAN_Rec_tank_Equipment_1_short:0 "Coyote"
  CAN_Rec_tank_Equipment_2:0 "M1128 Stryker MGS"
  CAN_Rec_tank_Equipment_2_short:0 "M1128 Stryker MGS"
  
  CAN_util_vehicle_equipment_0:0 "M38A1 CDN" 
- CAN_util_vehicle_equipment_2:0 "LSVW" 
- CAN_util_vehicle_equipment_3:0 "M-ATV"
- CAN_util_vehicle_equipment_4:0 "Streit Group Spartan-APC"
- CAN_util_vehicle_equipment_4_short:0 "Spartan-APC"
- CAN_util_vehicle_equipment_5:0 "Textron TAPV"
+ CAN_util_vehicle_equipment_2:0 "LSVW"
  
  CAN_L_AT_Equipment_1:0 "Eryx"
  
@@ -2062,7 +2053,9 @@
  #CHI_APC_Equipment_3_variant:0 "WZ-523"
  #CHI_APC_Equipment_3_variant:0 "Type 85"
  CHI_APC_Equipment_4:0 "ZBL-09"
+ #CHI_APC_Equipment_4_variant:0 "ZFB-05" #Type-05
  CHI_APC_Equipment_5:0 "VP-10"
+ #CHI_APC_Equipment_5:0 "ZBD-05"
  
  CHI_Air_APC_Equipment_4:0 "CS/VN3C"
  CHI_Air_APC_Equipment_4_short:0 "CS/VN3C"
@@ -2094,7 +2087,7 @@
  CHI_IFV_Equipment_3:0 "Type-91"
  CHI_IFV_Equipment_4:0 "ZBD-04" 
  CHI_IFV_Equipment_5:0 "ZBD-08" 
- #CHI_IFV_Equipment_5_variant:0 "ZBD2000" 
+ #CHI_IFV_Equipment_5_variant:0 "ZBD2000"
  
  CHI_L_AT_Equipment_0:0 "HJ-73"
  CHI_L_AT_Equipment_1:0 "HJ-8"
@@ -2102,6 +2095,7 @@
  
  CHI_MBT_Equipment_1:0 "Type 59"
  CHI_MBT_Equipment_1_short:0 "Type 59"
+ #CHI_MBT_Equipment_1_variant:0 "Type-59-I"
  #CHI_MBT_Equipment_1_variant:0 "Type-59D"
  #CHI_MBT_Equipment_1_variant:0 "Type 69"
  #CHI_MBT_Equipment_1_variant:0 "Type-79"
@@ -2143,6 +2137,7 @@
  CHI_SP_arty_equipment_1:0 "PLZ-07"
  #CHI_SP_arty_equipment_1_variant:0 "Type-85"
  #CHI_SP_arty_equipment_1_variant:0 "PLC-09"
+ #CHI_SP_arty_equipment_1_variant:0 "Type-59-I"
  #CHI_SP_arty_equipment_1_variant:0 "PLZ-45"
  CHI_SP_arty_equipment_2:0 "PLZ-05"
  #CHI_SP_arty_equipment_2_variant:0 "SH1"
@@ -2239,6 +2234,7 @@
  EGY_APC_Equipment_3:0 "Fahd AFV"
  EGY_APC_Equipment_3_short:0 "Fahd AFV"
  #EGY_APC_Equipment_3_Variant:0 "Fahd 240"
+ #EGY_APC_Equipment_3_Variant:0 "Fahd BTM-208"
  #EGY_APC_Equipment_3_Variant:0 "Fahd 280-30"
  
  EGY_IFV_Equipment_4:0 "Egyptian Infantry Fighting Vehicle"
@@ -2249,6 +2245,11 @@
  
  EGY_artillery_equipment_0:0 "RL812" #rocket
  
+ ### El Salvador ###
+ ELS_util_vehicle_equipment_0:0 "M37B1 Cashuat"
+ ELS_util_vehicle_equipment_4:0 "BC7A1"
+ ELS_util_vehicle_equipment_5:0 "VCTA2"
+ 
  ### United Kingdom ###
  ENG_Inf_equipment_0:0 "L64"
  ENG_Inf_equipment_1:0 "Small Arms 1975"
@@ -2256,6 +2257,10 @@
  ENG_Inf_equipment_3:0 "L85A2"
  ENG_Inf_equipment_4:0 "SS09"
  ENG_Inf_equipment_5:0 "Small Arms 2015"
+ ENG_Inf_equipment_6:0 "L87A1"				#Fictional
+ ENG_Inf_equipment_7:0 "L87A2"				#Fictional
+
+
  
  ENG_AA_Equipment_0:0 "Blowpipe"
  ENG_AA_Equipment_1:0 "Javelin LML"
@@ -2309,6 +2314,8 @@
  ENG_MBT_Equipment_4_short:0 "Challenger 2"
  ENG_MBT_Equipment_5:0 "Challenger 3"
  ENG_MBT_Equipment_5_short:0 "Challenger 3"
+ ENG_MBT_Equipment_6:0 "Centaur Mk1"				#Fictional
+ ENG_MBT_Equipment_6_short:0 "Centaur Mk2"			#Fictional
  
  ENG_Rec_tank_Equipment_0:0 "Ferret Armoured Car"
  ENG_Rec_tank_Equipment_0_short:0 "Ferret" 
@@ -2321,8 +2328,8 @@
  ENG_Rec_tank_Equipment_3:0 "Ajax LT"
  ENG_Rec_tank_Equipment_3_short:0 "Ajax LT"
  
- ENG_SP_arty_equipment_0:0 "FV433 Abbot SPG"
- ENG_SP_arty_equipment_0_short:0 "FV433 Abbot"
+ ENG_SP_arty_equipment_1:0 "FV433 Abbot SPG"
+ ENG_SP_arty_equipment_1_short:0 "FV433 Abbot"
  ENG_SP_arty_equipment_2:0 "AS-90"
  
  ENG_SP_AA_Equipment_0:0 "Tigercat GWS-20"
@@ -2333,6 +2340,9 @@
  ENG_artillery_equipment_2:0 "M777 Howitzer"
  
  ENG_util_vehicle_equipment_2:0 "Land Rover Defender"
+ ENG_util_vehicle_equipment_3:0 "Jackal"						#In-game research date doesn't sync up with when this really entered service but the tech picture is the Jackal
+ ENG_util_vehicle_equipment_4:0 "Foxhound"						
+
  
  ### Finland ###
  FIN_Inf_equipment_0:0 "Rk 62"
@@ -2353,8 +2363,8 @@
  FIN_APC_Equipment_6:0 "Patria AMVXP"
  FIN_APC_Equipment_6_short:0 "Patria AMVXP"
  
- FIN_IFV_Equipment_4:0 "Patria IFV"
- FIN_IFV_Equipment_4_short:0 "Patria IFV"
+ FIN_IFV_Equipment_5:0 "Patria AMV P2"
+ FIN_IFV_Equipment_5_short:0 "Patria AMV P2"
  FIN_IFV_Equipment_6:0 "Patria AMVXP"
  FIN_IFV_Equipment_6_short:0 "Patria AMVXP"
  
@@ -2378,6 +2388,7 @@
  
  FRA_APC_Equipment_1:0 "Panhard M3 VTT"
  FRA_APC_Equipment_1_short:0 "Panhard M3 VTT"
+ #FRA_APC_Equipment_1_variant:0 "AMX-VCI"
  FRA_APC_Equipment_2:0 "VAB"
  FRA_APC_Equipment_2_short:0 "VAB"
  FRA_APC_Equipment_3:0 "Panhard VCR"
@@ -2728,7 +2739,7 @@
  ISR_APC_Equipment_5:0 "Wolf"
  ISR_APC_Equipment_5_short:0 "Wolf"
  
- ISR_H_AT_Equipment_1:0 "MANPATS"
+ ISR_H_AT_Equipment_1:0 "MAPATS Hutra"
  ISR_H_AT_Equipment_2:0 "Spike-LR"
  
  ISR_IFV_Equipment_3:0 "Achzarit"
@@ -2740,8 +2751,6 @@
  
  ISR_L_AT_Equipment_0:0 "B-300"
  ISR_L_AT_Equipment_2:0 "Spike-MR"
- 
- ISR_H_AT_Equipment_1:0 "MAPATS Hutra"
  
  ISR_MBT_Equipment_1:0 "Sho't"
  ISR_MBT_Equipment_1_short:0 "Sho't"
@@ -2856,6 +2865,7 @@
  ITA_util_vehicle_equipment_4:0 "Iveco LMV"
  
  ITA_transport_plane_equipment_1:0 "Aeritalia G.222"
+ ITA_transport_plane_equipment_2:0 "ATR 72"
  ITA_transport_plane_equipment_3:0 "C-27J Spartan"
 
  ### Japan ###
@@ -3743,6 +3753,7 @@
  SOV_util_vehicle_equipment_1:0 "UAZ-469"
  SOV_util_vehicle_equipment_2:0 "UAZ-3132"
  SOV_util_vehicle_equipment_3:0 "GAZ Tigr"
+ #SOV_util_vehicle_equipment_3:0 "GAZ Vodnik"
  SOV_util_vehicle_equipment_4:0 "BPM-97"
  SOV_util_vehicle_equipment_5:0 "VPK-3927 Volk"
  
@@ -3754,6 +3765,8 @@
  SPR_Inf_equipment_4:0 "Small Arms 2005"
  SPR_Inf_equipment_5:0 "Small Arms 2015"
  
+ SPR_APC_Equipment_1:0 "BLR-600"
+ SPR_APC_Equipment_1_short:0 "BLR-600"
  SPR_APC_Equipment_2:0 "Pegaso BMR"
  SPR_APC_Equipment_2_short:0 "Pegaso BMR"
  SPR_APC_Equipment_4:0 "Pegaso BMR"
@@ -3985,9 +3998,9 @@
  
  SWI_ENGI_MBT_Equipment_3:0 "Piranha II ARV"
  
- SWI_SP_AA_Equipment_1:0 "ADATS"
+								
  
- SWI_H_AT_Equipment_1:0 "ADATS"
+							   
  
  ### Taiwan ###
  TAI_Inf_equipment_0:0 "Small Arms 1965"
@@ -4036,10 +4049,6 @@
  TUR_APC_Equipment_6:0 "Otokar Arma"
  TUR_APC_Equipment_6_short:0 "Otokar Arma"
  
- TUR_Amph_APC_Equipment_2:0 "M113"
- TUR_Amph_APC_Equipment_2_short:0 "M113"
- 
- TUR_ENGI_MBT_Equipment_1:0 "M48"
  TUR_ENGI_MBT_Equipment_2:0 "M113A2T2"
  TUR_ENGI_MBT_Equipment_4:0 "ACV-AESV"
  
@@ -4050,11 +4059,6 @@
  TUR_IFV_Equipment_6:0 "Tulpar IFV"
  TUR_IFV_Equipment_6_short:0 "Tulpar IFV"
  
- TUR_MBT_Equipment_1:0 "M48 Patton"
- TUR_MBT_Equipment_1_short:0 "M48 Patton"
- #TUR_MBT_Equipment_1_variant:0 "M60A3"
- TUR_MBT_Equipment_3:0 "Leopard 2NG"
- TUR_MBT_Equipment_3_short:0 "Leopard 2NG"
  TUR_MBT_Equipment_5:0 "Altay"
  TUR_MBT_Equipment_5_short:0 "Altay"
  
@@ -4068,23 +4072,18 @@
  TUR_SP_R_arty_equipment_2:0 "TR-300"
  
  TUR_SP_arty_equipment_0:0 "M108T"
- TUR_SP_arty_equipment_2:0 "T-155 Fırtına"
+ TUR_SP_arty_equipment_2:0 "T-155 Firtina"
  
- TUR_artillery_equipment_0:0 "M114A1"
  #TUR_artillery_equipment_0:0 "T-107" #rocket
  TUR_artillery_equipment_2:0 "Panter"
- 
- TUR_Rec_tank_Equipment_2:0 "Otokar Akrep"
- TUR_Rec_tank_Equipment_2_short:0 "Akrep"
+ 								 
  TUR_util_vehicle_equipment_3:0 "Otokar Cobra"
  TUR_util_vehicle_equipment_4:0 "BMC Kirpi"
  
  ### United Arab Emirates ###
  UAE_APC_Equipment_6:0 "EDT Enigma"
  UAE_APC_Equipment_6_short:0 "EDT Enigma"
- 
- UAE_IFV_Equipment_4:0 "Patria IFV"
- UAE_IFV_Equipment_4_short:0 "Patria IFV"
+									 
  UAE_IFV_Equipment_6:0 "EDT Enigma"
  UAE_IFV_Equipment_6_short:0 "EDT Enigma"
  
@@ -4132,8 +4131,6 @@
  
  UKR_L_AT_Equipment_1:0 "Skif"
  
- UKR_transport_plane_equipment_3:0 "An-70"
- 
  ### United States ###
  USA_Inf_equipment_0:0 "M16A1"
  USA_Inf_equipment_1:0 "CAR-15"
@@ -4156,7 +4153,7 @@
  USA_APC_Equipment_2_short:0 "M113 APC"
  #USA_APC_Equipment_2_variant:0 "AIFV"
  #USA_APC_Equipment_2_variant:0 "LAV-300"
- #USA_APC_Equipment_2_variant:0 "M113A2"
+ #USA_APC_Equipment_2_variant:0 "M133A2"
  USA_APC_Equipment_3:0 "AAV-P7"
  USA_APC_Equipment_3_short:0 "AAV-P7"
  #USA_APC_Equipment_3:0 "Dragoon 300"
@@ -4170,7 +4167,6 @@
  USA_APC_Equipment_7_short:0 "CAMEL"	
  USA_APC_Equipment_8:0 "M967 Smith"				#Fictional
  USA_APC_Equipment_8_short:0 "Smith"		#Fictional
- 
  #These are all fictional
  USA_Air_APC_Equipment_1:0 "M75AB"
  USA_Air_APC_Equipment_1_short:0 "M75AB"
@@ -4195,6 +4191,7 @@
  USA_ENGI_MBT_Equipment_5:0 "M43 Cena"			#Fictional
  USA_ENGI_MBT_Equipment_6:0 "M65 Mighty Mouse"		#Fictional
  USA_ENGI_MBT_Equipment_7:0 "M10 Arnold"			#Fictional
+ 
  
  USA_H_AT_Equipment_0:0 "BGM-71 TOW"
  USA_H_AT_Equipment_1:0 "BGM-71D TOW-2"
@@ -4237,7 +4234,7 @@
  USA_MBT_Equipment_4:0 "M1A2 Abrams"
  USA_MBT_Equipment_4_short:0 "M1A2"
  USA_MBT_Equipment_5:0 "M1A3 Abrams"
- USA_MBT_Equipment_5_short:0 "M1A3"		
+ USA_MBT_Equipment_5_short:0 "M1A3"
  USA_MBT_Equipment_7:0 "M1202 Mallory"	#Fictional
  USA_MBT_Equipment_7_short:0 "M1202"	#Fictional
  USA_MBT_Equipment_8:0 "M11 Franks"		#Fictional
@@ -4246,8 +4243,8 @@
  USA_Rec_tank_Equipment_0:0 "M551 Sheridan"
  USA_Rec_tank_Equipment_0_short:0 "M551 Sheridan"
  #USA_Rec_tank_Equipment_0_variant:0 "Cadillac Cage Commando"
- USA_Rec_tank_Equipment_1:0 "LAV-600"
- USA_Rec_tank_Equipment_1_short:0 "LAV-600"
+ USA_Rec_tank_Equipment_1:0 "M3 Bradley"
+ USA_Rec_tank_Equipment_1_short:0 "M3 Bradley"
  #USA_Rec_tank_Equipment_1_variant:0 "LAV-600"
  #USA_Rec_tank_Equipment_1_variant:0 "Stingray"
  USA_Rec_tank_Equipment_2:0 "M1128 Stryker MGS"
@@ -4307,9 +4304,6 @@
  USA_util_vehicle_equipment_7:0 "AOPIMU"		#Fictional
  
  ### Uzbekistan ###
- 
- #UZB_MBT_Equipment_1:0 "T-64"
- #UZB_APC_Equipment_1:0 "BRDM-2"
  
  ###Venezuela###
  VEN_util_vehicle_equipment_2:0 "Tiuna"
@@ -4377,7 +4371,8 @@
  
  ### Bulgaria ###
  
- ### Canada ### 
+ ### Canada ###
+ 
  CAN_destroyer_1:0 "Annapolis-Class"
  CAN_destroyer_1_short:0 "Annapolis-Class"
  CAN_destroyer_2:0 "Iroquois-Class"
@@ -4408,7 +4403,9 @@
  CHI_destroyer_2_short:0 "Type 052 Luhu-Class"
  CHI_missile_destroyer_1:0 "Type 051B Luhai-Class"
  CHI_missile_destroyer_1_short:0 "Type 051B Luhai-Class"
+ #CHI_missile_destroyer_1_variant:0 "Sovremennyy EM-Class"
  #CHI_missile_destroyer_1_variant:0 "Type 051 Luda-Class"
+ #CHI_missile_destroyer_1_variant:0 "Type 051B destroyer"
  #CHI_missile_destroyer_1_variant:0 "Type 052B Luyang I-Class"
  #CHI_missile_destroyer_1_variant:0 "Type 051C Luzhou-Class"
  CHI_missile_destroyer_2:0 "Type 052C Luyang II-Class"
@@ -4449,6 +4446,8 @@
  #CHI_frigate_2_variant:0 "Type 053H2 Jianghu-III-Class"
  CHI_missile_frigate_1:0 "Type 053H1G Jianghu-V-Class"
  CHI_missile_frigate_1_short:0 "Type 053H1G Jianghu-V-Class"
+ CHI_missile_frigate_2:0 "Type 053H2"
+ CHI_missile_frigate_2_short:0 "Type 053H2"
  CHI_missile_frigate_3:0 "Type-54 Jiangkai-Class"
  CHI_missile_frigate_3_short:0 "Type-54 Jiangkai-Class"
  #CHI_missile_frigate_3_variant:0 "Type 053H3 Jiangwei II-Class"
@@ -4467,7 +4466,7 @@
  CHI_LPD_2:0 "Type 071 Yuzhao-Class"
  CHI_LPD_2_short:0 "Type 071 Yuzhao-Class"
  
- ### Chile ### 
+ ### Chile ###
  CHL_missile_frigate_1:0 "Type 23 Duke-Class"
  CHL_missile_frigate_1_short:0 "Type 23 Duke-Class"
  CHL_frigate_1:0 "Condell-Class"
@@ -4481,14 +4480,7 @@
  CUB_frigate_2:0 "Rio Damuji-Class"
  CUB_frigate_2_short:0 "Rio Damuji-Class"
  
- ### Denmark ###
- DEN_diesel_attack_submarine_1:0 "Type 207 Tumleren-Class"
- DEN_diesel_attack_submarine_1_short:0 "Type 207 Tumleren-Class"
- DEN_diesel_attack_submarine_2:0 "Näcken-Class"
- DEN_diesel_attack_submarine_2_short:0 "Näcken-Class"
- DEN_diesel_attack_submarine_5:0 "A26 Skåne-Class"
- DEN_diesel_attack_submarine_5_short:0 "A26 Skåne-Class"
- 
+ ### Denmark ### 
  DEN_missile_frigate_1:0 "Thetis-Class"
  DEN_missile_frigate_1_short:0 "Thetis-Class"
  DEN_missile_frigate_3:0 "Absalon-Class"
@@ -4497,40 +4489,8 @@
  DEN_missile_frigate_4_short:0 "Iver Huitfeldt-Class"
  
  ### Ecuador ###
- ECU_diesel_attack_submarine_2:0 "Type 209 Thomson-Class"
- ECU_diesel_attack_submarine_2_short:0 "Type 209 Thomson-Class"
- 
- ECU_frigate_1:0 "Condell-Class"
- ECU_frigate_1_short:0 "Condell-Class"
- 
- ECU_missile_corvette_1:0 "Tipo 550-Class"
- ECU_missile_corvette_1_short:0 "Tipo 550-Class"
  
  ### Egypt ###
- EGY_corvette_1:0 "Petya-Class"
- EGY_corvette_1_short:0 "Petya-Class"
- EGY_corvette_2:0 "Descubierta-Class"
- EGY_corvette_2_short:0 "Descubierta-Class"
- EGY_missile_corvette_1:0 "Tarantul-Class"
- EGY_missile_corvette_1_short:0 "Tarantul-Class"
- EGY_missile_corvette_3:0 "Ezzat-Class"
- EGY_missile_corvette_3_short:0 "Ezzat-Class"
- EGY_missile_corvette_4:0 "Gowind-Class"
- EGY_missile_corvette_4_short:0 "Gowind-Class"
- 
- EGY_destroyer_1:0 "Knox-Class"
- EGY_destroyer_1_short:0 "Knox-Class"
- 
- EGY_diesel_attack_submarine_1:0 "Romeo-Class"
- EGY_diesel_attack_submarine_1_short:0 "Romeo-Class"
- EGY_diesel_attack_submarine_2:0 "Type 209-Class"
- EGY_diesel_attack_submarine_2_short:0 "Type 209-Class"
- 
- EGY_frigate_1:0 "Type 053-Class"
- EGY_frigate_2:0 "Oliver Hazard Perry-Class"
- EGY_frigate_2_short:0 "Oliver Hazard Perry-Class"
- EGY_missile_frigate_4:0 "FREMM-Class"
- EGY_missile_frigate_4_short:0 "FREMM-Class"
  
  ### United Kingdom ###
  ENG_attack_submarine_1:0 "Churchill-Class"
@@ -4541,8 +4501,27 @@
  ENG_attack_submarine_3_short:0 "Trafalgar-Class"
  ENG_attack_submarine_4:0 "Astute-Class"
  ENG_attack_submarine_4_short:0 "Astute-Class"
- ENG_attack_submarine_5:0 "Dominator-Class"
- ENG_attack_submarine_5_short:0 "Dominator-Class"
+ ENG_attack_submarine_5:0 "Dominator-Class"					#Fictional
+ ENG_attack_submarine_5_short:0 "Dominator-Class"			#Fictional
+ ENG_attack_submarine_6:0 "Adversary-Class"					#Fictional
+ ENG_attack_submarine_6_short:0 "Adversary-Class"			#Fictional
+ ENG_attack_submarine_7:0 "Sealion-Class"					#Fictional
+ ENG_attack_submarine_7_short:0 "Sealion-Class"				#Fictional
+ 
+ ENG_diesel_attack_submarine_1:0 "Oberon-Class"				
+ ENG_diesel_attack_submarine_1_short:0 "Oberon-Class"
+ ENG_diesel_attack_submarine_2:0 "Nile-Class"				#Fictional
+ ENG_diesel_attack_submarine_2_short:0 "Nile-Class"			#Fictional
+ ENG_diesel_attack_submarine_3:0 "Upholder-Class"			
+ ENG_diesel_attack_submarine_3_short:0 "Upholder-Class"		
+ ENG_diesel_attack_submarine_4:0 "Drake-Class"				#Fictional
+ ENG_diesel_attack_submarine_4_short:0 "Drake-Class"		#Fictional
+ ENG_diesel_attack_submarine_5:0 "Saumarez-Class"			#Fictional
+ ENG_diesel_attack_submarine_5_short:0 "Saumarez-Class"		#Fictional
+ ENG_diesel_attack_submarine_6:0 "Diana-Class"				#Fictional
+ ENG_diesel_attack_submarine_6_short:0 "Diana-Class"		#Fictional
+ ENG_diesel_attack_submarine_7:0 "Defender-Class"			#Fictional
+ ENG_diesel_attack_submarine_7_short:0 "Defender-Class"		#Fictional
  
  ENG_carrier_0:0 "Centaur-Class"
  ENG_carrier_0_short:0 "Centaur-Class"
@@ -4550,10 +4529,36 @@
  ENG_carrier_1_short:0 "Invincible-Class"
  ENG_carrier_4:0 "Queen Elizabeth-Class"
  ENG_carrier_4_short:0 "Queen Elizabeth-Class"
- ENG_carrier_7:0 "Victoria-Class"
- ENG_carrier_7_short:0 "Victoria-Class"
- ENG_carrier_8:0 "Leviathan-Class"
- ENG_carrier_8_short:0 "Leviathan-Class"
+ ENG_carrier_5:0 "Courageous-Class"						#Fictional
+ ENG_carrier_5_short:0 "Courageous-Class"				#Fictional
+ ENG_carrier_6:0 "Relentless-Class"						#Fictional	
+ ENG_carrier_6_short:0 "Relentless-Class"				#Fictional
+ ENG_carrier_7:0 "Victoria-Class"						#Fictional
+ ENG_carrier_7_short:0 "Victoria-Class"					#Fictional
+ ENG_carrier_8:0 "Leviathan-Class"						#Fictional
+ ENG_carrier_8_short:0 "Leviathan-Class"				#Fictional	
+ 
+ ENG_Nuclear_carrier_0:0 "Impregnable-Class"			#Fictional
+ ENG_Nuclear_carrier_0_short:0 "Impregnable-Class"		#Fictional
+ ENG_Nuclear_carrier_1:0 "Impassable-Class"				#Fictional
+ ENG_Nuclear_carrier_1_short:0 "Impassable-Class"		#Fictional	
+ ENG_Nuclear_carrier_2:0 "Triumphant-Class"				#Fictional
+ ENG_Nuclear_carrier_2_short:0 "Triumphant-Class"		#Fictional
+ ENG_Nuclear_carrier_3:0 "Formidable-Class"			    #Fictional
+ ENG_Nuclear_carrier_3_short:0 "Formidable-Class"		#Fictional
+ ENG_Nuclear_carrier_4:0 "Victorious-Class"				#Fictional
+ ENG_Nuclear_carrier_4_short:0 "Victorious-Class"		#Fictional
+ ENG_Nuclear_carrier_5:0 "Vengeance-Class"				#Fictional
+ ENG_Nuclear_carrier_5_short:0 "Vengeance-Class"		#Fictional
+ 
+ ENG_N_B_Cruiser_2:0 "Avenger-Class"					#Fictional
+ ENG_N_B_Cruiser_2_short:0 "Avenger-Class"				#Fictional
+ ENG_N_B_Cruiser_5:0 "Royal Oak-Class"					#Fictional
+ ENG_N_B_Cruiser_5_short:0 "Royal Oak-Class"			#Fictional
+ ENG_N_B_Cruiser_6:0 "Implacable-Class"					#Fictional
+ ENG_N_B_Cruiser_6_short:0 "Implacable-Class"			#Fictional
+ ENG_N_B_Cruiser_7:0 "Imperial-Class"					#Fictional
+ ENG_N_B_Cruiser_7_short:0 "Imperial-Class"				#Fictional
  
  ENG_destroyer_1:0 "County-Class"
  ENG_destroyer_1_short:0 "County-Class"
@@ -4564,6 +4569,7 @@
  
  ENG_frigate_1:0 "Type 12 Leander-Class"
  ENG_frigate_1_short:0 "Type 12 Leander-Class"
+ #ENG_frigate_1_variant:0 "Condell-Class"
  ENG_frigate_2:0 "Type 21 Amazon-Class"
  ENG_frigate_2_short:0 "Type 21 Amazon-Class"
  #ENG_frigate_2_variant:0 "Type 22 Broadsword-Class"
@@ -4571,6 +4577,7 @@
  ENG_missile_frigate_1_short:0 "Type 23 Duke-Class"
  ENG_missile_frigate_4:0 "Type-26 Warrior-Class"
  ENG_missile_frigate_4_short:0 "Type-26 Warrior-Class"
+ 
  ENG_missile_frigate_5:0 "Type-31-Class"
  ENG_missile_frigate_5_short:0 "Type-31-Class"
 
@@ -4579,13 +4586,40 @@
  
  ENG_missile_submarine_1:0 "Resolution-Class"
  ENG_missile_submarine_1_short:0 "Resolution-Class"
+ ENG_missile_submarine_2:0 "Protector-Class"			#Fictional
+ ENG_missile_submarine_2_short:0 "Protector-Class"		#Fictional
  ENG_missile_submarine_3:0 "Vanguard-Class"
  ENG_missile_submarine_3_short:0 "Vanguard-Class"
+ ENG_missile_submarine_4:0 "Resolute-Class"				#Fictional
+ ENG_missile_submarine_4_short:0 "Resolute-Class"		#Fictional
+ ENG_missile_submarine_5:0 "Dreadnought-Class"
+ ENG_missile_submarine_5_short:0 "Dreadnought-Class"
+ ENG_missile_submarine_6:0 "Successor-Class"			#Fictional - However originally the Dreadnought-Class was planned to be named this
+ ENG_missile_submarine_6_short:0 "Successor-Class"		#Fictional - However originally the Dreadnought-Class was planned to be named this
+ ENG_missile_submarine_7:0 "Thatcher-Class"				#Fictional
+ ENG_missile_submarine_7_short:0 "Thatcher-Class"		#Fictional
  
- ENG_LPD_1:0 "Fearless-Class"
- ENG_LPD_1_short:0 "Fearless-Class"
+ ENG_LPD_0:0 "Heroic-Class"						#Fictional	
+ ENG_LPD_0_short:0 "Heroic-Class"				#Fictional
+ ENG_LPD_1:0 "Fearless-Class"				
+ ENG_LPD_1_short:0 "Fearless-Class"			
  ENG_LPD_2:0 "Ocean-Class"
  ENG_LPD_2_short:0 "Ocean-Class"
+ ENG_LPD_3:0 "Defiant-class"					#Fictional
+ ENG_LPD_3_short:0 "Defiant-class"				#Fictional
+ ENG_LPD_4:0 "Superb-class"						#Fictional
+ ENG_LPD_4_short:0 "Superb-class"				#Fictional
+ 
+ ENG_LHA_0:0 "Sea Tiger-class"					#Fictional
+ ENG_LHA_0_short:0 "Sea Tiger-class"			#Fictional
+ ENG_LHA_1:0 "Revenge-class"					#Fictional
+ ENG_LHA_1_short:0 "Revenge-class"				#Fictional
+ ENG_LHA_2:0 "Valiant-class"					#Fictional
+ ENG_LHA_2_short:0 "Valiant-class"				#Fictional
+ ENG_LHA_3:0 "Resistance-class"					#Fictional
+ ENG_LHA_3_short:0 "Resistance-class"			#Fictional
+ ENG_LHA_4:0 "Peacemaker-class"					#Fictional
+ ENG_LHA_4_short:0 "Peacemaker-class"			#Fictional
  
  ### Eritrea ###
  ERI_corvette_1:0 "Petya-Class"
@@ -4597,8 +4631,6 @@
  
  ### Equatorial Guinea ###
  EGU_missile_frigate_3:0 "Wele Nzas-Class"
- 
- EGU_missile_corvette_2:0 "Barroso-Class"
  
  ### Finland ###
  FIN_frigate_1:0 "Hämeenmaa-Class"
@@ -4650,8 +4682,6 @@
  FRA_missile_frigate_2_short:0 "La Fayette-Class"
  FRA_missile_frigate_3:0 "Adv. La Fayette-Class"
  FRA_missile_frigate_3_short:0 "Adv. La Fayette-Class"
- #FRA_missile_frigate_3_variant:0 "Aquitaine Class ASW"
- #FRA_missile_frigate_3_variant:0 "Aquitaine Class AAW"
  FRA_missile_frigate_4:0 "Frégates de taille intermédiaire"
  FRA_missile_frigate_4_short:0 "FTI"
  
@@ -4661,9 +4691,10 @@
  FRA_missile_submarine_2_short:0 "Redoutable M4-Class"
  FRA_missile_submarine_3:0 "Triomphant-Class"
  FRA_missile_submarine_3_short:0 "Triomphant-Class"
- 
  FRA_LPD_1:0 "Foudre-Class"
  FRA_LPD_1_short:0 "Foudre-Class"
+ FRA_LPD_2:0 "Mistral-Class"
+ FRA_LPD_2_short:0 "Mistral-Class"
  
  ### Gabon ###
  GAB_missile_corvette_2:0 "Kership-Class"
@@ -4685,7 +4716,7 @@
  GER_diesel_attack_submarine_4_short:0 "Type 212-Class"
  GER_diesel_attack_submarine_5:0 "Type 216-Class"
  GER_diesel_attack_submarine_5_short:0 "Type 216-Class"
- #GER_diesel_attack_submarine_5_variant:0 "Type 218SG" 
+ #GER_diesel_attack_submarine_5_variant:0 "Type 218SG"
  
  GER_frigate_1:0 "Köln-Class"
  GER_frigate_1_short:0 "Köln-Class"
@@ -4700,13 +4731,29 @@
  GER_missile_frigate_4:0 "Baden-Württemberg class"
  GER_missile_frigate_4_short:0 "Baden-Württemberg class"
  
+ 
  GER_corvette_2:0 "Parchim-Class"
  GER_corvette_2_short:0 "Parchim-Class"
  GER_missile_corvette_1:0 "MEKO 140-Class"
  GER_missile_corvette_1_short:0 "MEKO 140-Class"
+ #GER_missile_corvette_1_variant:0 "MEKO A-200AN-Class"
  #GER_missile_corvette_1_variant:0 "Almirante Padilla-Class" 
  GER_missile_corvette_3:0 "Braunschweig-Class"
  GER_missile_corvette_3_short:0 "Braunschweig-Class"
+ 
+ GER_Nuclear_carrier_0:0 "Weissenburg-Class"							#Fictional
+ GER_Nuclear_carrier_0_short:0 "Weissenburg-Class" 						#Fictional
+ GER_Nuclear_carrier_1:0 "Oldenburg-Class"								#Fictional
+ GER_Nuclear_carrier_1_short:0 "Oldenburg-Class"						#Fictional
+ GER_Nuclear_carrier_2:0 "Wittelsbach-Class"							#Fictional
+ GER_Nuclear_carrier_2_short:0 "Wittelsbach-Class"						#Fictional
+ GER_Nuclear_carrier_3:0 "Deutschland-Class"							#Fictional
+ GER_Nuclear_carrier_3_short:0 "Deutschland-Class"						#Fictional
+ GER_Nuclear_carrier_4:0 "Rhineland-Class"								#Fictional
+ GER_Nuclear_carrier_4_short:0 "Rhineland-Class"						#Fictional
+ GER_Nuclear_carrier_5:0 "Mecklenburg-Class"							#Fictional
+ GER_Nuclear_carrier_5_short:0 "Mecklenburg-Class"						#Fictional
+ 
  
  ### Greece ###
  GRE_destroyer_1:0 "Knox-Class"
@@ -4739,7 +4786,7 @@
  HOL_frigate_1_short:0 "Van Speijk-Class"
  HOL_frigate_2:0 "Kortenaer-Class"
  HOL_frigate_2_short:0 "Kortenaer-Class"
- #HOL_frigate_2_variant:0 "Jacob van Heemskerck-Class" 
+ HOL_frigate_2_variant:0 "Jacob van Heemskerck-Class" 
  HOL_missile_frigate_1:0 "Karel Doorman-Class"
  HOL_missile_frigate_1_short:0 "Karel Doorman-Class"
  HOL_missile_frigate_4:0 "De Zeven Provinciën-Class"
@@ -4810,6 +4857,8 @@
  ITA_missile_frigate_4_short:0 "Bergamini-Class"
  #ITA_missile_frigate_4_variant:0 "Pattugliatori Polivalenti d'Altura"
  
+ ITA_corvette_2:0 "Tipo 550-Class"
+ ITA_corvette_2_short:0 "Tipo 550-Class"
  ITA_missile_corvette_1:0 "Minerva-Class"
  ITA_missile_corvette_1_short:0 "Minerva-Class"
  ITA_missile_corvette_3:0 "Comandanti-Class"
@@ -4883,6 +4932,7 @@
  KOR_missile_frigate_2:0 "Gwanggaeto the Great-Class"
  KOR_missile_frigate_2_short:0 "Gwanggaeto the Great-Class"
  #KOR_missile_frigate_2_variant:0 "Gwanggaeto the Great"
+ #KOR_missile_frigate_2_variant:0 "DW 3000F-Class"
  KOR_missile_frigate_3:0 "Chungmugong Yi Sun-sin-Class"
  KOR_missile_frigate_3_short:0 "Chungmugong Yi Sun-sin-Class"
  
@@ -5157,30 +5207,6 @@
  SAU_missile_frigate_2_short:0 "Al Riyadh-Class"
  
  ### Thailand ###
- SIA_LPD_2:0 "Endurance-class"
- SIA_LPD_2_short:0 "Endurance-class"
- 
- SIA_carrier_1:0 "Chakri Naruebet-Class"
- SIA_carrier_1_short:0 "Chakri Naruebet-Class"
- 
- SIA_corvette_1:0 "Tapi-Class"
- SIA_corvette_1_short:0 "Tapi-Class"
- SIA_missile_corvette_1:0 "Ratanakosin class"
- SIA_missile_corvette_1_short:0 "Ratanakosin class"
- 
- SIA_frigate_1:0 "Knox-Class"
- SIA_frigate_1_short:0 "Knox-Class"
- SIA_missile_frigate_1:0 "Naresuan-class"
- SIA_missile_frigate_1_short:0 "Naresuan-class"
- SIA_missile_frigate_2:0 "Type 053H1G Jianghu-V-Class"
- SIA_missile_frigate_2_short:0 "Type 053H1G Jianghu-V-Class"
- SIA_missile_frigate_4:0 "DW 3000F-Class"
- SIA_missile_frigate_4_short:0 "DW 3000F-Class"
- 
- 
- 
- SIA_diesel_attack_submarine_3:0 "S-26 T-Class"
- SIA_diesel_attack_submarine_3_short:0 "S-26 T-Class"
  
  ### Singapore ###
  SIN_diesel_attack_submarine_1:0 "Challanger-Class"
@@ -5307,6 +5333,7 @@
  ### Spain ###
  SPR_carrier_2:0 "Juan Carlos I-Class"
  SPR_carrier_2_short:0 "Juan Carlos I-Class"
+ #SPR_carrier_2:0 "Príncipe de Asturias"
  
  SPR_corvette_2:0 "Descubierta-Class"
  SPR_corvette_2_short:0 "Descubierta-Class"
@@ -5374,22 +5401,10 @@
  TAI_missile_frigate_2_short:0 "Kang Ding-Class"
  
  ### Turkey ###
- TUR_corvette_2:0 "Burak-Class"
- TUR_corvette_2_short:0 "Burak-Class"
  TUR_missile_corvette_2:0 "Ada-Class"
  TUR_missile_corvette_2_short:0 "Ada-Class"
  TUR_missile_corvette_3:0 "TF-100-Class"
  TUR_missile_corvette_3_short:0 "TF-100-Class"
- 
- TUR_destroyer_1:0 "Knox-Class"
- TUR_destroyer_1_short:0 "Knox-Class"
- 
- TUR_diesel_attack_submarine_2:0 "Type 209 Atlay-Class"
- TUR_diesel_attack_submarine_2_short:0 "Type 209 Atlay-Class"
- #TUR_diesel_attack_submarine_2_variant:0 "Preveze class"
- #TUR_diesel_attack_submarine_2_variant:0 "Gür-class"
- TUR_diesel_attack_submarine_4:0 "Type 214 TN-Class"
- TUR_diesel_attack_submarine_4_short:0 "Type 214 TN-Class"
  
  TUR_frigate_2:0 "Oliver Hazard Perry-Class"
  TUR_frigate_2_short:0 "Oliver Hazard Perry-Class"
@@ -5404,27 +5419,13 @@
  TUR_LPD_2_short:0 "TCG Anadolu"
  
  ### United Arab Emirates ###
- UAE_missile_corvette_3:0 "Abu-Dhabi-Class"
- UAE_missile_corvette_3_short:0 "Abu-Dhabi-Class"
+ 											 
  UAE_missile_corvette_2:0 "Miray Jib"
  UAE_missile_corvette_2_short:0 "Miray Jib"
- #UAE_missile_corvette_2_variant:0 "Baynunah-Class" #I've made a variant of this in the UAE country file
  
  ### Ukraine ###
- UKR_frigate_2:0 "Krivak-Class"
- UKR_frigate_2_short:0 "Krivak-Class"
- UKR_missile_frigate_3:0 "Gaiduck-Class"
- UKR_missile_frigate_3_short:0 "Gaiduck-Class"
- 
- UKR_diesel_attack_submarine_1:0 "Foxtrot-Class"
- UKR_diesel_attack_submarine_1_short:0 "Foxtrot-Class"
- 
- UKR_missile_corvette_1:0 "Tarantul-Class"
- UKR_missile_corvette_1_short:0 "Tarantul-Class"
  
  ### Uruguay ###
- URG_frigate_1:0 "Joao Belo-Class"
- URG_frigate_1_short:0 "Joao Belo-Class"
  
  ### United States ###
  USA_attack_submarine_1:0 "Permit-Class"
@@ -5459,8 +5460,8 @@
  USA_carrier_6:0 "Trepassy Bay-Class"				#Fictional
  USA_carrier_6_short:0 "Trepassy Bay-Class"		#Fictional
  
- USA_cruiser_1:0 "Belknap-Class"
- USA_cruiser_1_short:0 "Belknap-Class"
+ USA_cruiser_1:0 "Belknab-Class"
+ USA_cruiser_1_short:0 "Belknab-Class"
  USA_cruiser_2:0 "Virginia-Class"
  USA_cruiser_2_short:0 "Virginia-Class"
  USA_missile_cruiser_1:0 "Ticonderoga-Class"
@@ -5474,6 +5475,7 @@
  
  USA_destroyer_1:0 "Charles F. Adams-Class"
  USA_destroyer_1_short:0 "Charles F. Adams-Class"
+ #USA_destroyer_1:0 "Knox-Class"
  USA_destroyer_2:0 "Spruance-Class"
  USA_destroyer_2_short:0 "Spruance-Class"
  USA_missile_destroyer_1:0 "Arleigh Burke-Class"
@@ -5490,21 +5492,10 @@
  USA_missile_destroyer_6:0 "Thomas B. Howard-Class"				#Fictional
  USA_missile_destroyer_6_short:0 "Thomas B. Howard-Class"		#Fictional
  
- USA_frigate_1:0 "Brooke-Class"
- USA_frigate_1_short:0 "Brooke-Class"
- #USA_frigate_1_variant:0 "Hamilton-Class"
- USA_frigate_2:0 "Oliver Hazard Perry-Class"
- USA_frigate_2_short:0 "Oliver Hazard Perry-Class"
- USA_missile_frigate_1:0 "Oliver Hazard Perry (Long)-Class"
- USA_missile_frigate_1_short:0 "Oliver Hazard Perry (Long)-Class"
- USA_missile_frigate_3:0 "Independence-Class"
- USA_missile_frigate_3_short:0 "Independence-Class"
- USA_missile_frigate_4:0 "Freedom-Class"
- USA_missile_frigate_4_short:0 "Freedom-Class"
- USA_missile_frigate_5:0 "Liberty-Class"				#Fictional
- USA_missile_frigate_5_short:0 "Liberty-Class"			#Fictional
- USA_missile_frigate_6:0 "Washington-Class"				#Fictional
- USA_missile_frigate_6_short:0 "Washington-Class"		#Fictional
+ USA_corvette_1:0 "PF 103-class"
+ USA_corvette_1_short:0 "PF 103-class"															  
+ USA_missile_corvette_1:0 "PFMM Mk16 class"
+ USA_missile_corvette_1_short:0 "PFMM Mk16 class"
  
  #All fictional
  USA_missile_corvette_4:0 "Detroit-Class"
@@ -5513,6 +5504,19 @@
  USA_missile_corvette_5_short:0 "John Adams-Class"
  USA_missile_corvette_6:0 "Saratoga-Class"
  USA_missile_corvette_6_short:0 "Saratoga-Class"
+ 
+ USA_frigate_1:0 "Brooke-Class"
+ USA_frigate_1_short:0 "Brooke-Class"
+ #USA_frigate_1_variant:0 "Hamilton-Class"
+ #USA_frigate_1_variant:0 "Knox-Class"
+ USA_frigate_2:0 "Oliver Hazard Perry-Class"
+ USA_frigate_2_short:0 "Oliver Hazard Perry-Class"
+ USA_missile_frigate_1:0 "Oliver Hazard Perry (Long)-Class"
+ USA_missile_frigate_1_short:0 "Oliver Hazard Perry (Long)-Class"
+ USA_missile_frigate_3:0 "Independence-Class"
+ USA_missile_frigate_3_short:0 "Independence-Class"
+ USA_missile_frigate_4:0 "Freedom-Class"
+ USA_missile_frigate_4_short:0 "Freedom-Class"
  
  #All fictional
  USA_N_B_Cruiser_2:0 "Cowles-Class"
@@ -5574,7 +5578,7 @@
  USA_LHA_4:0 "Honolulu-class"			#Fictional
  USA_LHA_4_short:0 "Honolulu-class"		#Fictional
  
- USA_Nuclear_carrier_0:0 "Enterprise-Class"	
+ USA_Nuclear_carrier_0:0 "Enterprise-Class"
  USA_Nuclear_carrier_0_short:0 "Enterprise-Class"
  USA_Nuclear_carrier_1:0 "Nimitz-Class"
  USA_Nuclear_carrier_1_short:0 "Nimitz-Class"
