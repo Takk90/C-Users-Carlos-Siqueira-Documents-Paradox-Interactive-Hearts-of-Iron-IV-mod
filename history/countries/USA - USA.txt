@@ -15,6 +15,9 @@ add_ideas = {
 	stagnation
 	bud_neg_04
 	defence_04
+	edu_04
+	health_04
+	social_05
 	consumption_econemy
 }
 
@@ -1070,7 +1073,7 @@ create_equipment_variant = {
 	}
 }
 create_equipment_variant = {
-	name = "M133A2"
+	name = "M113A2"
 	type = APC_Equipment_2
 	upgrades = {
 		tank_reliability_upgrade = 1

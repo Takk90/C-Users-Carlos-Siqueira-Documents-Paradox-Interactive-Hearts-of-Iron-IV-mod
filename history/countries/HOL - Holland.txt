@@ -128,6 +128,9 @@ add_ideas = {
 	stable_growth
 	bud_bal
 	defence_01
+	edu_04
+	health_05
+	social_05
 }
 set_country_flag = bud_bal
 set_country_flag = debt_40
@@ -238,4 +241,17 @@ create_equipment_variant = {
 	upgrades = {
 		
 	}
+}
+
+create_equipment_variant = {
+	name = "Jacob van Heemskerck-Class"
+	type = frigate_2
+	upgrades = {
+		frigate_vls_upgrade = 1
+		frigate_asw_upgrade = 0
+		frigate_cm_upgrade = 0
+		frigate_radar_upgrade = 1
+		frigate_stealth_upgrade = 0
+	}
+	obsolete = yes
 }

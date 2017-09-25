@@ -30,6 +30,10 @@ add_ideas = {
 	fast_growth
 	bud_neg_8
 	defence_02
+	export_econemy
+	edu_04
+	health_04
+	social_03
 }
 set_country_flag = bud_neg_8
 set_country_flag = debt_40
