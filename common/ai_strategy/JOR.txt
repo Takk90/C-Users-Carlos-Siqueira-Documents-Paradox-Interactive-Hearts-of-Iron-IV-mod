@@ -24,68 +24,15 @@
 # template_xp_reserve 
 # unit_ratio
 
-#Italian support for Afghanistan
-ITA_AFG2 = {
-
+#Jordan supports commander Haftar in Libya
+Jordan_Support_HOR = {
+	
 	enable = {
-		original_tag = ITA
-		date < 2017.1.12
+		original_tag = JOR
 	}
 	
 	abort = {
-		date > 2017.1.12
-	}
-
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = -200
-	}
-}
-
-ITA_AFG = {
-
-	enable = {
-		original_tag = ITA
-	}
-	
-	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
-			}
-		}
-	}
-	
-	ai_strategy = {
-		type = befriend 
-		id = "AFG"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
-	}
-}
-
-#Italy has special forces in Libya
-Italy_Ops_in_Libya_GNA = {
-
-	enable = {
-		original_tag = ITA
-	}
-	
-	abort = {
-		GNA = { 
+		HOR = { 
 			OR = { 
 				war_with_us = yes 
 				is_bad_salafist = yes
@@ -96,19 +43,61 @@ Italy_Ops_in_Libya_GNA = {
 	
 	ai_strategy = {
 		type = befriend 
-		id = "GNA"
-		value = 25
+		id = "HOR"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = protect 
-		id = "GNA"
-		value = 25
+		id = "HOR"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = influence
-		id = "GNA"
-		value = 25
+		id = "HOR"
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "HOR"
+		value = 50
+	}
+	
+}
+
+#Jordan supports FSA
+JOR_Intervene_FSA = {
+
+	enable = {
+		original_tag = JOR
+	}
+	
+	abort = {
+		FSA = { 
+			OR = { 
+				war_with_us = yes
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend 
+		id = "FSA"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "FSA"
+		value = 100
+	}
+	
+	
+	ai_strategy = {
+		type = support
+		id = "FSA"
+		value = 150
 	}
 }

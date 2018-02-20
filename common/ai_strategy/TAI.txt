@@ -24,37 +24,30 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
-
+Democratic_China_Taiwans_Perspective ={
 	enable = {
-		original_tag = GER
+		original_tag = TAI
+		has_government = democratic
+		country_exists = CHI
 	}
-	
 	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
+		OR = {
+			NOT = { country_exists = CHI }
+			OR = {
+				NOT = { has_government = democratic }
+				NOT = { has_government = neutrality }
 			}
 		}
 	}
 	
 	ai_strategy = {
-		type = befriend 
-		id = "AFG"
-		value = 50
+		type = antagonize
+		id = "CHI"
+		value = 200
 	}
-	
 	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
+		type = contain
+		id = "CHI"
+		value = 100
 	}
 }

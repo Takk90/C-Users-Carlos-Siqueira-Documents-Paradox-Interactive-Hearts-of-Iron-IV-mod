@@ -24,11 +24,11 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
+#Romanian support for Afghanistan
+ROM_AFG = {
 
 	enable = {
-		original_tag = GER
+		original_tag = ROM
 	}
 	
 	abort = {
@@ -55,6 +55,6 @@ GER_AFG = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "AFG"
-		value = 150
+		value = 20
 	}
 }

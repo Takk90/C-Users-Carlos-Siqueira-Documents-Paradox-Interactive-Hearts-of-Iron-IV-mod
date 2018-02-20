@@ -24,29 +24,11 @@
 # template_xp_reserve 
 # unit_ratio
 
-#Italian support for Afghanistan
-ITA_AFG2 = {
+#Georgian support for Afghanistan
+GEO_AFG = {
 
 	enable = {
-		original_tag = ITA
-		date < 2017.1.12
-	}
-	
-	abort = {
-		date > 2017.1.12
-	}
-
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = -200
-	}
-}
-
-ITA_AFG = {
-
-	enable = {
-		original_tag = ITA
+		original_tag = GEO
 	}
 	
 	abort = {
@@ -73,42 +55,61 @@ ITA_AFG = {
 	ai_strategy = {
 		type = send_volunteers_desire
 		id = "AFG"
-		value = 150
+		value = 100
 	}
 }
 
-#Italy has special forces in Libya
-Italy_Ops_in_Libya_GNA = {
-
+#Georgian-Russo Relations
+Georgia_Georgia_Area_Politics ={
 	enable = {
-		original_tag = ITA
+		original_tag = GEO
 	}
-	
 	abort = {
-		GNA = { 
-			OR = { 
-				war_with_us = yes 
-				is_bad_salafist = yes
-				in_different_faction = yes
+		OR = {
+			AND = {
+				is_in_faction_with = ABK
+				is_in_faction_with = SOO
+			}
+			AND = {
+				NOT = { country_exists = ABK }
+				NOT = { country_exists = SOO }
+			}
+			AND = {
+				ABK = { is_subject_of = GEO }
+				SOO = { is_subject_of = GEO }
 			}
 		}
+		
 	}
-	
+
 	ai_strategy = {
-		type = befriend 
-		id = "GNA"
+		type = contain
+		id = "SOV"
+		value = 50
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
 		value = 25
 	}
-	
 	ai_strategy = {
-		type = protect 
-		id = "GNA"
-		value = 25
+		type = antagonize
+		id = "ABK"
+		value = 100
 	}
-	
 	ai_strategy = {
-		type = influence
-		id = "GNA"
-		value = 25
+		type = conquer
+		id = "ABK"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOO"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOO"
+		value = 100
 	}
 }
