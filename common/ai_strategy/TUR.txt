@@ -24,68 +24,15 @@
 # template_xp_reserve 
 # unit_ratio
 
-#Italian support for Afghanistan
-ITA_AFG2 = {
-
+#Turkey backs National Salvation Government in Libya (Muslim Brotherhood, weak)
+Turkey_Support_GNC = {
+	
 	enable = {
-		original_tag = ITA
-		date < 2017.1.12
+		original_tag = TUR
 	}
 	
 	abort = {
-		date > 2017.1.12
-	}
-
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = -200
-	}
-}
-
-ITA_AFG = {
-
-	enable = {
-		original_tag = ITA
-	}
-	
-	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
-			}
-		}
-	}
-	
-	ai_strategy = {
-		type = befriend 
-		id = "AFG"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
-	}
-}
-
-#Italy has special forces in Libya
-Italy_Ops_in_Libya_GNA = {
-
-	enable = {
-		original_tag = ITA
-	}
-	
-	abort = {
-		GNA = { 
+		GNC = { 
 			OR = { 
 				war_with_us = yes 
 				is_bad_salafist = yes
@@ -96,19 +43,68 @@ Italy_Ops_in_Libya_GNA = {
 	
 	ai_strategy = {
 		type = befriend 
-		id = "GNA"
-		value = 25
+		id = "GNC"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = protect 
-		id = "GNA"
-		value = 25
+		id = "GNC"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = influence
-		id = "GNA"
-		value = 25
+		id = "GNC"
+		value = 50
 	}
+	
+	ai_strategy = {
+		type = support
+		id = "GNC"
+		value = 50
+	}
+	
+}
+
+#Turkey supports FSA
+Turkey_Intervene_SYR = {
+
+	enable = {
+		original_tag = TUR
+	}
+	
+	abort = {
+		FSA = { 
+			OR = { 
+				war_with_us = yes 
+				is_bad_salafist = yes
+			}
+		}
+	}
+	
+	ai_strategy = {
+		type = befriend 
+		id = "FSA"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "FSA"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "FSA"
+		value = 150
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "FSA"
+		value = 200
+	}
+	
 }

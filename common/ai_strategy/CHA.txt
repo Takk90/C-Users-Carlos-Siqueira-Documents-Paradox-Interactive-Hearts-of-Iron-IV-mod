@@ -24,37 +24,45 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
-
+#Chad supplies weapons to HOR in Libya
+Chad_Support_HOR = {
+	
 	enable = {
-		original_tag = GER
+		original_tag = CHA
 	}
 	
 	abort = {
-		AFG = { 
+		HOR = { 
 			OR = { 
-				war_with_us = yes
+				war_with_us = yes 
 				is_bad_salafist = yes
+				in_different_faction = yes
 			}
 		}
 	}
 	
 	ai_strategy = {
 		type = befriend 
-		id = "AFG"
+		id = "HOR"
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "HOR"
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "HOR"
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = support
-		id = "AFG"
-		value = 150
+		id = "HOR"
+		value = 50
 	}
 	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
-	}
 }

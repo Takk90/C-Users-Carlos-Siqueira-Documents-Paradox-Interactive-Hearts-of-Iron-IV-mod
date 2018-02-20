@@ -24,37 +24,34 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
-
+#Moroccan occupation
+WestSahara_Morocco_Occupation ={
 	enable = {
-		original_tag = GER
+		original_tag = SHA
+		country_exists = MOR
+		NOT = { owns_state = 373 }
 	}
-	
 	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
-			}
+		OR = {
+			NOT = { country_exists = MOR }
+			NOT = { has_opinion_modifier = SHA_MOR_Occupation }
 		}
+		owns_state = 373
 	}
 	
 	ai_strategy = {
-		type = befriend 
-		id = "AFG"
+		type = antagonize
+		id = "MOR"
 		value = 50
 	}
-	
 	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
+		type = contain
+		id = "MOR"
+		value = 100
 	}
-	
 	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
+		type = conquer
+		id = "MOR"
+		value = 50
 	}
 }

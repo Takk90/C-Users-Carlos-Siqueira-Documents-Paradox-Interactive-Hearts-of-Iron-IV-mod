@@ -24,37 +24,18 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
-
+Kosovo_Serbia_Relations ={
 	enable = {
-		original_tag = GER
+		tag = KOS
+		country_exists = SER
 	}
-	
 	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
-			}
-		}
+		NOT = { country_exists = SER }
 	}
-	
+
 	ai_strategy = {
-		type = befriend 
-		id = "AFG"
+		type = antagonize
+		id = "SER"
 		value = 50
-	}
-	
-	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
 	}
 }

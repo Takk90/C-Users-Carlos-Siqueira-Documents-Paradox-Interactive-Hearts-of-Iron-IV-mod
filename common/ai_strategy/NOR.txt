@@ -24,17 +24,17 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
+#Norway supports FSA
+NOR_Intervene_FSA = {
 
 	enable = {
-		original_tag = GER
+		original_tag = NOR
 	}
 	
 	abort = {
-		AFG = { 
+		FSA = { 
 			OR = { 
-				war_with_us = yes
+				war_with_us = yes 
 				is_bad_salafist = yes
 			}
 		}
@@ -42,19 +42,19 @@ GER_AFG = {
 	
 	ai_strategy = {
 		type = befriend 
-		id = "AFG"
+		id = "FSA"
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "FSA"
 		value = 50
 	}
 	
 	ai_strategy = {
 		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
+		id = "FSA"
 		value = 150
 	}
 }

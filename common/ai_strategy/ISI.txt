@@ -1,3 +1,5 @@
+# Written by Andreas "Cold Evul" Brostrom
+
 # air_factory_balance
 # alliance
 # antagonize
@@ -24,37 +26,29 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
-
+War_On_Terrorism_ISIS = {
 	enable = {
-		original_tag = GER
+		NOT = {
+			original_tag = ISI
+		}
+		has_opinion_modifier = ISIS_Are_Terrorists
 	}
-	
 	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
-			}
+		OR = {
+			has_completed_focus = isis_allegiance
+			NOT = { has_opinion_modifier = ISIS_Are_Terrorists }
 		}
 	}
-	
+
+	# ISIS
 	ai_strategy = {
-		type = befriend 
-		id = "AFG"
-		value = 50
+		type = antagonize
+		id = "ISI"
+		value = 100
 	}
-	
 	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
+		type = contain
+		id = "ISI"
+		value = 100
 	}
 }

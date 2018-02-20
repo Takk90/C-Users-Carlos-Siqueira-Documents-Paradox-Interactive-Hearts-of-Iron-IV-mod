@@ -24,16 +24,15 @@
 # template_xp_reserve 
 # unit_ratio
 
-
-#France has active units in Central African Republic
-France_Intervene_CAR = {
-
+#Sudan backs National Salvation Government in Libya (Muslim Brotherhood, weak)
+Sudan_Support_GNC = {
+	
 	enable = {
-		original_tag = FRA
+		original_tag = SUD
 	}
 	
 	abort = {
-		CAR = { 
+		GNC = { 
 			OR = { 
 				war_with_us = yes 
 				is_bad_salafist = yes
@@ -44,38 +43,39 @@ France_Intervene_CAR = {
 	
 	ai_strategy = {
 		type = befriend 
-		id = "CAR"
-		value = 20
+		id = "GNC"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = protect 
-		id = "CAR"
-		value = 20
+		id = "GNC"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = influence
-		id = "CAR"
-		value = 20
+		id = "GNC"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = support
-		id = "CAR"
-		value = 20
+		id = "GNC"
+		value = 50
 	}
+	
 }
 
-#France has specops in Libya
-France_Ops_in_Libya_HOR = {
+#Sudan has supplied lots of arms to Riek Machar's forces in South Sudan
+Sudan_support_Machar = {
 
 	enable = {
-		original_tag = FRA
+		original_tag = SUD
 	}
 	
 	abort = {
-		HOR = { 
+		AGF = { 
 			OR = { 
 				war_with_us = yes 
 				is_bad_salafist = yes
@@ -86,71 +86,69 @@ France_Ops_in_Libya_HOR = {
 	
 	ai_strategy = {
 		type = befriend 
-		id = "HOR"
-		value = 25
+		id = "AGF"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = protect 
-		id = "HOR"
-		value = 25
+		id = "AGF"
+		value = 50
 	}
 	
 	ai_strategy = {
 		type = influence
-		id = "HOR"
-		value = 25
+		id = "AGF"
+		value = 50
+	}
+	
+	ai_strategy = {
+		type = support
+		id = "AGF"
+		value = 50
 	}
 }
 
-#Support Pakistan if in a civil war against islamists
-FRA_PAK_Civil_War_Relations = {
+#Sudan supports Yemen
+SUD_YEM = {
+
 	enable = {
-		original_tag = FRA
-		PAK = { 
-			has_civil_war = yes
-			NOT = { has_government = fascism }
-			has_country_flag = fighting_jihadis
+		original_tag = SUD
+	}
+	
+	abort = {
+		YEM = { 
+			war_with_us = yes
 		}
 	}
-	abort = {
-		
+	
+	ai_strategy = {
+		type = befriend 
+		id = "YEM"
+		value = 100
 	}
+	
+	ai_strategy = {
+		type = protect 
+		id = "YEM"
+		value = 100
+	}
+	
+	ai_strategy = {
+		type = influence
+		id = "YEM"
+		value = 100
+	} 
+	
 	ai_strategy = {
 		type = support
-		id = "PAK"
-		value = 300
+		id = "YEM"
+		value = 200
 	}
 	
 	ai_strategy = {
 		type = send_volunteers_desire
-		id = "PAK"
-		value = 300
-	}
-}
-
-#Support Egypt if in a civil war against islamists
-FRA_EGY_Civil_War_Relations = {
-	enable = {
-		original_tag = FRA
-		EGY = { 
-			has_civil_war = yes
-			NOT = { has_government = fascism }
-			has_country_flag = fighting_jihadis
-		}
-	}
-	abort = {
-		
-	}
-	ai_strategy = {
-		type = support
-		id = "EGY"
-		value = 300
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "EGY"
-		value = 300
+		id = "YEM"
+		value = 200
 	}
 }

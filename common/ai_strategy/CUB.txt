@@ -24,37 +24,21 @@
 # template_xp_reserve 
 # unit_ratio
 
-#German support for Afghanistan
-GER_AFG = {
-
+#Cuba-US relations
+Cuba_USA_Relations = {
 	enable = {
-		original_tag = GER
+		tag = CUB
+		has_opinion_modifier = CUB_USA_Embargo
 	}
-	
 	abort = {
-		AFG = { 
-			OR = { 
-				war_with_us = yes
-				is_bad_salafist = yes
-			}
+		OR = {
+			NOT = { country_exists = USA }
+			NOT = { has_opinion_modifier = CUB_USA_Embargo }
 		}
 	}
-	
 	ai_strategy = {
-		type = befriend 
-		id = "AFG"
-		value = 50
-	}
-	
-	ai_strategy = {
-		type = support
-		id = "AFG"
-		value = 150
-	}
-	
-	ai_strategy = {
-		type = send_volunteers_desire
-		id = "AFG"
-		value = 150
+		type = antagonize
+		id = "USA"
+		value = 200
 	}
 }
