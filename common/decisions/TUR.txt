@@ -1,0 +1,111 @@
+kurd_rallies = {
+
+    #Stop the rallies
+	stop_rallies = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		original_tag = TUR 
+		}
+
+		available = {
+		TUR = {
+		    controls_state = 162
+			has_idea = multi_ethnic_state_idea
+		    }
+		PKK = {
+	        exists = no	
+		    }
+		}
+
+		cost = 50
+		fire_only_once = yes
+
+		visible = {
+		has_country_flag = kurd_rally1
+		has_country_flag = kurd_activism
+		}
+		
+		complete_effect = {
+		clr_country_flag = kurd_rally1
+		hidden_effect = {
+	    country_event = { id = kurd_rally.3 days = 3 } 
+	        }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Increase Security Level
+	security_increase = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		original_tag = TUR 
+		}
+
+		available = {
+		TUR = {
+		    controls_state = 162
+			has_idea = multi_ethnic_state_idea
+		    }
+		PKK = {
+	        exists = no	
+		    }
+		}
+
+		cost = 50
+		fire_only_once = yes
+
+		visible = {
+		has_country_flag = kurd_activism
+		}
+
+		complete_effect = {
+		set_country_flag = tur_security_increase
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Open up talks with the Kurds
+	kurd_talks = {
+		icon = generic_political_discourse
+		
+		fire_only_once = yes
+		cost = 50
+		
+		allowed = {
+		original_tag = TUR 
+		}
+		
+		visible = {
+		has_country_flag = kurd_activism
+		}
+		
+		available = {
+		TUR = {
+		    controls_state = 162
+			has_idea = multi_ethnic_state_idea
+		    }
+		PKK = {
+	        exists = no	
+		    }
+		}
+		
+		ai_will_do = {
+		factor = 1 
+		}
+
+		complete_effect = {
+		clr_country_flag = kurd_rally1
+		}
+	}
+
+}
