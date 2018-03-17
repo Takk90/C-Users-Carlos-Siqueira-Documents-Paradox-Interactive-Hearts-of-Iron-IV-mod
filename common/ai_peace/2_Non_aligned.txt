@@ -1,18 +1,18 @@
-# Logic for Western AI on how to deal in peace conferences
+# Logic for non-aligned AI on how to deal in peace conferences
 #By Niko92
 
-#General rule for Western countries
+#General rule for non-aligned countries
 #1. Always take cores and claims
-#2. Liberate countries that have been annexed
+#2. Occasionally annex new territory
 #3.1 If the owner has capitulated (is occupied), puppet
 #3.2 If the owner has not capitulated (not occupied), just change government
 
 Western_peace = {
 	enable = {
-		has_government = democratic
+		has_government = neutrality
 	}
 
-	annex_randomness = 0			#We don't want Western annexing
+	annex_randomness = 0
 	liberate_randomness = 0
 	puppet_randomness = 0
 	take_states_randomness = 0
@@ -25,7 +25,7 @@ Western_peace = {
 
 	#Liberate makes a country independent (!DOESN'T CHANGE POLITICS OF LIBERATED COUNTRY!) - FROM is country to be liberated
 	liberate = {
-		factor = 2500
+		factor = 0
 	}
 
 	#Makes country puppet - FROM is target
