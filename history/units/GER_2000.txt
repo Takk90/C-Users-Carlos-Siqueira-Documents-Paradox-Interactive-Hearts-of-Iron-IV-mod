@@ -43,6 +43,30 @@ division_template = {
 		SP_Arty_Battery = { x = 0 y = 0 }
 	}
 }
+division_template = {
+	name = "Panzergrenadierdivision"
+
+	regiments = {
+		Mech_Recce_Bat = { x = 0 y = 0 }
+		Arm_Inf_Bat = { x = 0 y = 1 }
+		Mech_Inf_Bat = { x = 0 y = 2 }
+		Mech_Inf_Bat = { x = 0 y = 3 }
+		
+		Mech_Recce_Bat = { x = 1 y = 0 }
+		Arm_Inf_Bat = { x = 1 y = 1 }
+		Mech_Inf_Bat = { x = 1 y = 2 }
+		Mech_Inf_Bat = { x = 1 y = 3 }
+		Mech_Recce_Bat = { x = 2 y = 0 }
+		Arm_Inf_Bat = { x = 2 y = 1 }
+		Mech_Inf_Bat = { x = 2 y = 2 }
+		Mech_Inf_Bat = { x = 2 y = 3 }
+		SP_Arty_Bat = { x = 3 y = 0 }
+		H_Engi_Bat = { x = 3 y = 1 }
+		
+	}
+	support = {
+	}
+}
 
 division_template = {
 	name = "Luftlandebrigade"
@@ -100,15 +124,15 @@ units = {
 	division = {
 		name = "Panzergrenadierbrigade 13"
 		location = 3535
-		division_template = "Panzerbrigade"
+		division_template = "Panzergrenadierbrigade"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 	
 	division = {
 		name = "Panzergrenadierbrigade 41"
-		location = 6542
-		division_template = "Panzerbrigade"
+		location = 6521
+		division_template = "Panzergrenadierbrigade"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
@@ -132,7 +156,7 @@ units = {
 	division = {
 		name = "Panzergrenadierbrigade 37"
 		location = 692
-		division_template = "Panzerbrigade"
+		division_template = "Panzergrenadierbrigade"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
@@ -140,15 +164,15 @@ units = {
 	division = {
 		name = "DSK"
 		location = 6488
-		division_template = "Fallschirmdivision"
+		division_template = "Panzergrenadierdivision"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 	
 	division = {
 		name = "Dt.-Frz. Brigade"
-		location = 6542
-		division_template = "Panzerbrigade"
+		location = 6521
+		division_template = "Panzergrenadierbrigade"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
@@ -171,7 +195,7 @@ units = {
 	
 	division = {
 		name = "MNK Deutschland"
-		location = 3340
+		location = 9347
 		division_template = "Panzergrenadierdivision"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
@@ -239,6 +263,32 @@ navy = {
 
 instant_effect = {
 	
+	add_equipment_to_stockpile = {
+		type = Inf_equipment_3 #Heckler & Koch G36
+		amount = 16100
+    }
+	add_equipment_to_stockpile = {
+		type = command_control_equipment_3
+		amount = 2450
+    }
+	add_equipment_to_stockpile = {	
+		type = L_AT_Equipment_1 #Panzerfaust 3
+		amount = 580
+    }
+		add_equipment_to_stockpile = {
+		type = H_AT_Equipment_2 #Milan
+		amount = 385
+    }
+	add_equipment_to_stockpile = {
+		type = AA_Equipment_1 #Stinger
+		amount = 760
+		producer = USA
+    }
+	
+	add_equipment_to_stockpile = {
+		type = ENG_MBT_Equipment_2 #Leopard 1 
+		amount = 220
+    }
 	add_equipment_to_stockpile = {
 		type = MBT_Equipment_2 #Leopard 1 
 		amount = 670
@@ -347,7 +397,7 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = transport_helicopter_equipment_1 #Sea King HU5
 		amount = 21
-		version_name = "Sea King HU5"
+		#version_name = "Sea King HU5"
 		producer = USA
     }
 	add_equipment_to_stockpile = {
@@ -373,7 +423,7 @@ instant_effect = {
 		type = Strike_fighter_equipment_1 #Su-22 Fitter
 		amount = 1
 		producer = SOV
-		version_name = "Su-22 Fitter"
+		#version_name = "Su-22 Fitter"
     }
 	add_equipment_to_stockpile = {
 		type = transport_plane_equipment_1 #C-160R Transall
