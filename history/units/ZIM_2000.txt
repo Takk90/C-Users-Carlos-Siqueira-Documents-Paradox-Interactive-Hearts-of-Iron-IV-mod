@@ -169,12 +169,12 @@ instant_effect = {
     }
 	add_equipment_to_stockpile = {
 		type = AA_Equipment_0 #SA-7 #1965
-		amount = 50 #random number
+		amount = 30
 		producer = SOV
     }
 	add_equipment_to_stockpile = {
 		type = SP_AA_Equipment_0 #ZSU and etc #1965
-		amount = 298
+		amount = 116
 		producer = SOV
     }
 	
@@ -207,6 +207,6 @@ instant_effect = {
 	
 	#TPT • Medium 2 AS532UL Cougar (VIP) 
 	
-	#No current procurment according to military balance 2016
+	#No current procurment according to military balance 2000
 	
 }
