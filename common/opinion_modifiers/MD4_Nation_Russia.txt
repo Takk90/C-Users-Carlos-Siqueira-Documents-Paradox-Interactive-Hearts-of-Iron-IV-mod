@@ -7,20 +7,12 @@
 # decay
 # months/years/days = timer
 # trade = yes/no
-
 opinion_modifiers = {
-	# ISIS
-	ISIS_Are_Terrorists = {
-		value = -60
+
+	annexed_crimea = {
+		value = -40
+		months = 40
+		decay = 1
 	}
-	ISIS_Are_Terrorists_Trade = {
-		value = -100
-	}
-	# Al-Qaida
-	AlQaida_Are_Terrorists = {
-		value = -60
-	}
-	AlQaida_Are_Terrorists_Trade = {
-		value = -100
-	}
+	
 }
