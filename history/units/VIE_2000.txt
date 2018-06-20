@@ -304,8 +304,6 @@ units = {
 	name = "Vietnam Navy"               
         base = 4119 
         location = 4119 #Haiphong
-        ship = { name = "011 Dinh Tien Hoang" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = VIE creator = SOV } } }
-        ship = { name = "012 Ly Thai To" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = VIE creator = SOV } } }
         ship = { name = "HQ-09" definition = corvette experience = 10 equipment = { corvette_1 = { amount = 1 owner = VIE creator = SOV } } }
         ship = { name = "HQ-11" definition = corvette experience = 10 equipment = { corvette_1 = { amount = 1 owner = VIE creator = SOV } } }
         ship = { name = "HQ-13" definition = corvette experience = 10 equipment = { corvette_1 = { amount = 1 owner = VIE creator = SOV } } }
@@ -329,12 +327,8 @@ units = {
 	name = "Flotilla 182"               
         base = 4401
         location = 4401 #Ho Chi Minh City
-		ship = { name = "182 Hanoi" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
+        ship = { name = "182 Ha Noi" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
         ship = { name = "183 Ho Chi Minh City" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
-        ship = { name = "184 Hai Phong" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
-        ship = { name = "185 Khanh Hoa" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
-        ship = { name = "186 Da Nang" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
-        ship = { name = "187 Ba Ria-Vung Tau" definition = diesel_attack_submarine experience = 10 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = VIE creator = SOV } } }
 	}	
 }
 instant_effect = {
@@ -557,14 +551,21 @@ instant_effect = {
 			create_production_license = {
 				target = VIE 
 				equipment = {
-					type = AS_Fighter_equipment_2 #Su-30
+					type = MR_Fighter_equipment_1 #Mig-21
 				}
 				cost_factor = 0
 			}
 			create_production_license = {
 				target = VIE 
 				equipment = {
-					type = missile_corvette_2 #Gepard Class
+					type = L_AT_Equipment_1 #RPG-29
+				}
+				cost_factor = 0
+			}
+			create_production_license = {
+				target = VIE 
+				equipment = {
+					type = missile_corvette_1 #Tarantul Class
 				}
 				cost_factor = 0
 			}
@@ -575,39 +576,10 @@ instant_effect = {
 				}
 				cost_factor = 0
 			}
-			create_production_license = {
-				target = VIE 
-				equipment = {
-					type = L_AT_Equipment_1 #RPG-29
-				}
-				cost_factor = 0
-			}
-			
-			
-		}
-		HOL = {
-			create_production_license = {
-				target = VIE 
-				equipment = {
-					type = missile_corvette_3 #SIGMA 9814
-				}
-				cost_factor = 0
-			}
-		}
-		ISR = {
-			create_production_license = {
-				target = VIE 
-				equipment = {
-					type = Inf_equipment_4 #TAR-21
-				}
-				cost_factor = 0
-			}
-		}
 		else = {	
-			add_equipment_production = { #Su-30
+			add_equipment_production = { #Mig-21
 				equipment = {
-					type = AS_Fighter_equipment_2
-					version_name = "Su-30MK2"
+					type = MR_Fighter_equipment_1
 					creator = SOV
 				}
 				requested_factories = 1
@@ -615,9 +587,19 @@ instant_effect = {
 				efficiency = 50
 				#amount = 2
 			}
-			add_equipment_production = { #Gepard Class
+			add_equipment_production = { #TAR-21
 				equipment = {
-					type = missile_corvette_2
+					type = L_AT_Equipment_1 #RPG-29
+					creator = SOV
+				}
+				requested_factories = 1
+				progress = 0.2
+				efficiency = 100
+				amount = 2
+			}
+			add_equipment_production = { #Tarantul Class
+				equipment = {
+					type = missile_corvette_1
 					creator = SOV
 				}
 				requested_factories = 3
@@ -625,39 +607,9 @@ instant_effect = {
 				efficiency = 100
 				amount = 2
 			}
-			add_equipment_production = { #SIGMA 9814
-				equipment = {
-					type = missile_corvette_3
-					creator = HOL
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 100
-				amount = 2
-			}
 			add_equipment_production = { #KILO class
 				equipment = {
 					type = diesel_attack_submarine_3
-					creator = SOV
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 100
-				amount = 2
-			}
-			add_equipment_production = { #TAR-21
-				equipment = {
-					type = Inf_equipment_4 #TAR-21
-					creator = ISR
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 100
-				amount = 2
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = L_AT_Equipment_1 #RPG-29
 					creator = SOV
 				}
 				requested_factories = 1
