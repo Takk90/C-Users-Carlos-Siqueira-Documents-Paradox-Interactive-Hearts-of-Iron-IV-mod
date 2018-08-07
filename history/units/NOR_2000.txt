@@ -8,22 +8,7 @@
 		armor_Comp = { x = 0 y = 0 }
 		Arm_Recce_Comp = { x = 0 y = 1 }
 		SP_Arty_Battery = { x = 0 y = 2 }
-		SP_AA_Battery = { x = 0 y = 3 }
-		H_Engi_Comp = { x = 0 y = 4 }
-	}
-}
-
-division_template = {
-	name = "Infanteribataljon"
-
-	regiments = {
-		Mech_Inf_Bat = { x = 0 y = 0 }
-	}
-    support = {
-		Mech_Recce_Comp = { x = 0 y = 0 }
-		SP_Arty_Battery = { x = 0 y = 1 }
-		SP_AA_Battery = { x = 0 y = 2 }
-		L_Engi_Comp = { x = 0 y = 3 }
+		H_Engi_Comp = { x = 0 y = 3 }
 	}
 }
 
@@ -45,7 +30,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Lett Infanteribataljon"
+	name = "Jegerbataljon"
 
 	regiments = {
 		L_Inf_Bat = { x = 0 y = 0 }
@@ -56,61 +41,116 @@ division_template = {
 }
 
 division_template = {
-	name = "Infanteribrigade" #for the AI and player to build
+	name = "Motorisert Infanteribrigade"
 
 	regiments = {
-		Mot_Inf_Bat = { x = 0 y = 0 }
+		Mech_Inf_Bat = { x = 0 y = 0 }
 		Mech_Inf_Bat = { x = 0 y = 1 }
-		Mech_Inf_Bat = { x = 0 y = 2 }
-		Arm_Recce_Bat = { x = 1 y = 0 }
-		H_Engi_Bat = { x = 1 y = 1 }
-		SP_Arty_Bat = { x = 1 y = 2 }
+		Mech_Recce_Bat = { x = 0 y = 2 }
+		Arty_Bat = { x = 1 y = 0 }
 	}
 	support = {
-		SP_AA_Battery = { x = 0 y = 0 }
-		armor_Comp = { x = 0 y = 1 }
+		L_Engi_Comp = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mekanisert Brigade"
+
+	regiments = {
+		Mech_Inf_Bat = { x = 0 y = 0 }
+		Mech_Inf_Bat = { x = 0 y = 1 }
+		SP_Arty_Bat = { x = 1 y = 0 }
+	}
+	support = {
+		armor_Comp = { x = 0 y = 0 }
+		Arm_Recce_Comp = { x = 0 y = 1 }
+		H_Engi_Comp = { x = 0 y = 2 }
+		SP_AA_Battery = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Panserbrigade" #Brigade Sør
+
+	regiments = {
+		armor_Bat = { x = 0 y = 0 }
+		Arm_Inf_Bat = { x = 0 y = 1 }
+		Mech_Recce_Bat = { x = 0 y = 2 }
+		SP_Arty_Bat = { x = 1 y = 0 }
+	}
+	support = {
+		H_Engi_Comp = { x = 0 y = 0 }
+		SP_AA_Battery = { x = 0 y = 1 }
 	}
 }
 
 units = {
 
 ####### Norwegian Army #######
-
     division = {			
-		name = "2. Bataljon"
+		name = "6. Brigade"
 		location = 3145
-		division_template = "Infanteribataljon"
-		start_experience_factor = 0.3
+		division_template = "Panserbrigade"
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.01
 	}
 	division = {			
-		name = "Panserbataljonen"
-		location = 3145
-		division_template = "Stormpanserbataljon"
-		start_experience_factor = 0.5
+		name = "5. Brigade"
+		location = 91
+		division_template = "Motorisert Infanteribrigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+	division = {			
+		name = "Brigade Nord"
+		location = 91
+		division_template = "Motorisert Infanteribrigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.01
+	}
+	division = {			
+		name = "15. Brigade"
+		location = 9126
+		division_template = "Mekanisert Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+	division = {			
+		name = "12. Brigade"
+		location = 6116
+		division_template = "Mekanisert Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.01
+	}
+	division = {			
+		name = "Brigade Sør"
+		location = 3136
+		division_template = "Panserbrigade" #Rena
+		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	division = {			
 		name = "Telemark Bataljon"
-		location = 3145 #rena
+		location = 3136 #rena
 		division_template = "Stormpanserbataljon"
-		start_experience_factor = 0.7
+		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
 	}
 	division = {			
 		name = "Forsvarets Spesialkommando"
-		location = 3145
+		location = 3136
 		division_template = "Spesialkommandogruppe"
-		start_experience_factor = 0.9
+		start_experience_factor = 0.7
 		start_equipment_factor = 0.01
 	}
 	
 	division = {			
-		name = "Garrisonen i Sør-Varanger"
+		name = "Jegerbataljonen"
 		location = 9116
-		division_template = "Lett Infanteribataljon"
-		start_experience_factor = 0.4
+		division_template = "Jegerbataljon"
+		start_experience_factor = 0.6
 		start_equipment_factor = 0.01
 	}
 	
@@ -129,21 +169,9 @@ navy = {
 		base = 122
 		location = 122 
 		
-		ship = { name = "KNM Fridtjof Nansen" definition = frigate experience = 75 equipment = { missile_frigate_3 = { amount = 1 owner = NOR creator = SPR version_name = "Fridtjof Nansen-Class" } }  }
-		ship = { name = "KNM Roald Amundsen" definition = frigate experience = 75 equipment = { missile_frigate_3 = { amount = 1 owner = NOR creator = SPR version_name = "Fridtjof Nansen-Class" } }  }
-		ship = { name = "KNM Otto Sverdrup" definition = frigate experience = 75 equipment = { missile_frigate_3 = { amount = 1 owner = NOR creator = SPR version_name = "Fridtjof Nansen-Class" } }  }
-		ship = { name = "KNM Helge Ingstad" definition = frigate experience = 75 equipment = { missile_frigate_3 = { amount = 1 owner = NOR creator = SPR version_name = "Fridtjof Nansen-Class" } }  }
-		ship = { name = "KNM Thor Heyerdahl" definition = frigate experience = 75 equipment = { missile_frigate_3 = { amount = 1 owner = NOR creator = SPR version_name = "Fridtjof Nansen-Class" } }  }
-		
-		#Better to add later as fast attack crafts
-		#ship = { name = "HNoMS Skjold" definition = corvette experience = 75 equipment = { missile_corvette_4 = { amount = 1 owner = NOR } }  }
-		#ship = { name = "HNoMS Storm" definition = corvette experience = 75 equipment = { missile_corvette_4 = { amount = 1 owner = NOR } }  }
-		#ship = { name = "HNoMS Skudd" definition = corvette experience = 75 equipment = { missile_corvette_4 = { amount = 1 owner = NOR } }  }
-		#ship = { name = "HNoMS Steil" definition = corvette experience = 75 equipment = { missile_corvette_4 = { amount = 1 owner = NOR } }  }
-		#ship = { name = "HNoMS Glimt" definition = corvette experience = 75 equipment = { missile_corvette_4 = { amount = 1 owner = NOR } }  }
-		#ship = { name = "HNoMS Gnist" definition = corvette experience = 75 equipment = { missile_corvette_4 = { amount = 1 owner = NOR } }  }
-		
-	
+		ship = { name = "KNM Bergen" definition = frigate experience = 75 equipment = { frigate_1 = { amount = 1 owner = NOR } }  }
+		ship = { name = "KNM Trondheim" definition = frigate experience = 75 equipment = { frigate_1 = { amount = 1 owner = NOR } }  }
+		ship = { name = "KNM Narvik" definition = frigate experience = 75 equipment = { frigate_1 = { amount = 1 owner = NOR } }  }
 	}
 	
 	navy = {					
@@ -157,19 +185,16 @@ navy = {
 		ship = { name = "KNM Utvær" definition = diesel_attack_submarine experience = 75 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = NOR } }  }
 		ship = { name = "KNM Uthaug" definition = diesel_attack_submarine experience = 75 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = NOR } }  }
 		ship = { name = "KNM Uredd" definition = diesel_attack_submarine experience = 75 equipment = { diesel_attack_submarine_3 = { amount = 1 owner = NOR } }  }	
+		
+		ship = { name = "KNM Skolpen" definition = diesel_attack_submarine experience = 75 equipment = { diesel_attack_submarine_1 = { amount = 1 owner = NOR } }  }
+		ship = { name = "KNM Stord" definition = diesel_attack_submarine experience = 75 equipment = { diesel_attack_submarine_1 = { amount = 1 owner = NOR } }  }
+		ship = { name = "KNM Svenner" definition = diesel_attack_submarine experience = 75 equipment = { diesel_attack_submarine_1 = { amount = 1 owner = NOR } }  }	
 	}
 	
 }
 
 instant_effect = {
  
-    #### Aircraft ####
-    add_equipment_to_stockpile = {
-    type = MR_Fighter_equipment_4 #F-35
-    amount = 6
-    producer = USA
-    }
-
     add_equipment_to_stockpile = {
     type = MR_Fighter_equipment_2 #F-16A
     amount = 57
@@ -187,13 +212,8 @@ instant_effect = {
     producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = transport_helicopter_equipment_4 #NHIndustries NH-90
-    amount = 3
-    producer = FRA
-    }
-	add_equipment_to_stockpile = {
     type = transport_helicopter_equipment_1 #Sea King HU5
-    amount = 3
+    amount = 12
     producer = USA
 	#version_name = "Sea King HU5"
     }
@@ -206,21 +226,20 @@ instant_effect = {
 	
 	### Vehicles ###
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_4 #Leopard 2A4
-    amount = 52
+    type = MBT_Equipment_2 #Leopard 1
+    amount = 170
 	producer = GER
-    }
-	
-	add_equipment_to_stockpile = {
-    type = IFV_Equipment_5 #CV-90 Upg vers
-    amount = 41
-    producer = SWE
     }
 	
 	add_equipment_to_stockpile = {
     type = IFV_Equipment_4 #CV-90 Mk1
     amount = 104
     producer = SWE
+    }
+	
+	add_equipment_to_stockpile = {
+    type = IFV_Equipment_2 #NM-135
+    amount = 53
     }
 	
 	add_equipment_to_stockpile = {
@@ -231,13 +250,13 @@ instant_effect = {
 	
 	add_equipment_to_stockpile = {
     type = APC_Equipment_2 #Bandvagn 206
-    amount = 500
+    amount = 1800
 	producer = SWE
     }
 	
 	add_equipment_to_stockpile = {
-    type = APC_Equipment_3 #NOR rebuilt M113's
-    amount = 24
+    type = APC_Equipment_3 #NOR redesigned M113's
+    amount = 80
     }
 	
 	add_equipment_to_stockpile = {
@@ -253,26 +272,20 @@ instant_effect = {
     }
 	
 	add_equipment_to_stockpile = {
-    type = util_vehicle_equipment_2 #M-B G-Class
-    amount = 80
-    producer = GER
-    }
-	
-	add_equipment_to_stockpile = {
-    type = util_vehicle_equipment_4 #Iveco LMV
-    amount = 169
-    producer = ITA
-    }
-	
-	add_equipment_to_stockpile = {
-    type = util_vehicle_equipment_4 #Dingo
-    amount = 20
-    producer = GER
+    type = util_vehicle_equipment_1
+    amount = 500
+    producer = SWE
     }
 	
 	add_equipment_to_stockpile = {
     type = SP_arty_equipment_1 #M109A3
-    amount = 18
+    amount = 126
+	producer = USA
+    }
+	
+	add_equipment_to_stockpile = {
+    type = artillery_equipment_0 #M144
+    amount = 46
 	producer = USA
     }
 	
@@ -284,34 +297,26 @@ instant_effect = {
 	
 	# div stuff
 	
-	### Inf Equip
-	add_equipment_to_stockpile = {
-    type = Inf_equipment_4 #2005
-    amount = 2900
-	producer = GER
-    }
-	
 	add_equipment_to_stockpile = {
     type = Inf_equipment_0 #1965
-    amount = 6000
+    amount = 16000
     }
-	
+		
 	add_equipment_to_stockpile = {
     type = L_AT_Equipment_1 #Eryx
-    amount = 45
+    amount = 424
 	producer = CAN
     }
 	
 	add_equipment_to_stockpile = {
-    type = L_AT_Equipment_2 #Javelin
-    amount = 60
+    type = H_AT_Equipment_1 #TOW-2
+    amount = 150
 	producer = USA
     }
 	
 	add_equipment_to_stockpile = {
-    type = H_AT_Equipment_1 #TOW-2
-    amount = 50
-	producer = USA
+    type = H_AT_Equipment_1 #NM142
+    amount = 97
     }
 
 	add_equipment_to_stockpile = {
@@ -321,13 +326,13 @@ instant_effect = {
 	
 	add_equipment_to_stockpile = {
     type = AA_Equipment_1 #RBS 70
-    amount = 40
+    amount = 300
 	producer = SWE
     }
-
+	
 	add_equipment_to_stockpile = {
-    type = command_control_equipment_4 #C4ISTAR
-    amount = 340
+    type = command_control_equipment_1 #C4ISTAR
+    amount = 880
     }
 	
 	add_equipment_to_stockpile = {
@@ -349,66 +354,23 @@ instant_effect = {
 	
 	if = {
 		limit = { has_dlc = "Death or Dishonor" }
-		USA = {
-			create_production_license = {
-				target = NOR 
-				equipment = {
-					type = MR_Fighter_equipment_4 #f-35
-				}
-				cost_factor = 0
-			}
-		}
 		SWE = {
 			create_production_license = {
 				target = NOR 
 				equipment = {
-					type = IFV_Equipment_5 #CV-90 Upg vers
+					type = IFV_Equipment_4 #CV-90 Upg vers
 				}
 				cost_factor = 0
 			}
 		}
-		GER = {
-			create_production_license = {
-				target = NOR 
-				equipment = {
-					type = Inf_equipment_4
-				}
-				cost_factor = 0
-			}
-			create_production_license = {
-				target = NOR 
-				equipment = {
-					type = util_vehicle_equipment_4
-				}
-				cost_factor = 0
-			}
-			create_production_license = {
-				target = NOR 
-				equipment = {
-					type = ENGI_MBT_Equipment_4
-				}
-				cost_factor = 0
-			}
-		}
-		
-		
 		
 		else = {
 			add_equipment_production = {
 				equipment = {
-					type = MR_Fighter_equipment_4 #f-35
-					creator = "USA"
-				}
-				requested_factories = 2
-				progress = 0.5
-				efficiency = 50
-			}
-			add_equipment_production = {
-				equipment = {
-					type = IFV_Equipment_5 #CV-90 Upg vers
+					type = IFV_Equipment_4 #CV-90 Upg vers
 					creator = "SWE"
 				}
-				requested_factories = 1
+				requested_factories = 2
 				progress = 0.5
 				efficiency = 50
 			}
