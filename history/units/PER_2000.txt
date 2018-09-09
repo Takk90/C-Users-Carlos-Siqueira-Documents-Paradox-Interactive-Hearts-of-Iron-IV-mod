@@ -16,6 +16,36 @@
 }
 
 division_template = {
+    name = "Armored Division" #Artesh
+    regiments = {
+       armor_Bat = { x = 0 y = 0 }
+       armor_Bat = { x = 0 y = 1 }
+	   armor_Bat = { x = 0 y = 2 }
+	   armor_Recce_Bat = { x = 0 y = 3 }
+	   SP_Arty_Bat = { x = 0 y = 4 }
+	   
+	   armor_Bat = { x = 1 y = 0 }
+       armor_Bat = { x = 1 y = 1 }
+	   armor_Bat = { x = 1 y = 2 }
+	   SP_Arty_Bat = { x = 1 y = 3 }
+	   
+       Mech_Inf_Bat = { x = 2 y = 0 }
+	   Arm_Inf_Bat = { x = 2 y = 1 }
+	   Arm_Recce_Bat = { x = 2 y = 2 }
+	   
+	   Mot_Inf_Bat = { x = 3 y = 0 }
+       Mot_Inf_Bat = { x = 3 y = 1 }
+	   Mot_Inf_Bat = { x = 3 y = 2 }
+	   
+       SP_AA_Bat = { x = 4 y = 0 }
+	   SP_AA_Bat = { x = 4 y = 1 }
+	   H_Engi_Bat = { x = 4 y = 2 }
+	   SP_Arty_Bat = { x = 4 y = 3 }
+	   SP_Arty_Bat = { x = 4 y = 4 }
+    }
+}
+
+division_template = {
     name = "Mechanized Brigade" #Artesh
     regiments = {
        Arm_Inf_Bat = { x = 0 y = 0 }
@@ -50,6 +80,34 @@ division_template = {
 }
 
 division_template = {
+    name = "Infantry Division" #Artesh
+    regiments = {
+	   Mot_Inf_Bat = { x = 0 y = 0 }
+       Mot_Inf_Bat = { x = 0 y = 1 }
+       Mot_Inf_Bat = { x = 0 y = 2 }
+       Mot_Recce_Bat = { x = 0 y = 3 }
+	   
+	   Mot_Inf_Bat = { x = 1 y = 0 }
+       Mot_Inf_Bat = { x = 1 y = 1 }
+       Mot_Inf_Bat = { x = 1 y = 2 }
+	   Mot_Recce_Bat = { x = 1 y = 3 }
+	   
+	   Mot_Inf_Bat = { x = 2 y = 0 }
+       Mot_Inf_Bat = { x = 2 y = 1 }
+       Mot_Inf_Bat = { x = 2 y = 2 }
+	   
+       Arty_Bat = { x = 3 y = 0 }
+	   Arty_Bat = { x = 3 y = 1 }
+	   Arty_Bat = { x = 3 y = 2 }
+	   L_Engi_Bat = { x = 3 y = 3 }
+	   
+	   armor_Bat = { x = 4 y = 0 }
+	   SP_Arty_Bat = { x = 4 y = 1 }
+       SP_Arty_Bat = { x = 4 y = 2 }
+    }
+}
+
+division_template = {
     name = "Mechanized Division" #Artesh 2nd tier – mostly motorized
     regiments = {
        Arm_Inf_Bat = { x = 0 y = 0 }
@@ -76,6 +134,24 @@ division_template = {
 }
 
 division_template = {
+    name = "Commando Division" #Artesh
+    regiments = {
+       L_Air_assault_Bat = { x = 0 y = 0 }
+       L_Air_assault_Bat = { x = 0 y = 1 }
+       L_Air_assault_Bat = { x = 0 y = 2 }
+	   L_Air_assault_Bat = { x = 1 y = 0 }
+       L_Air_assault_Bat = { x = 1 y = 1 }
+       L_Air_assault_Bat = { x = 1 y = 2 }
+	   L_Air_assault_Bat = { x = 2 y = 0 }
+       L_Air_assault_Bat = { x = 2 y = 1 }
+       L_Air_assault_Bat = { x = 2 y = 2 }
+	   L_Recce_Bat = { x = 3 y = 0 }
+       Arty_Bat  = { x = 3 y = 1 }
+    }
+	priority = 2
+}
+
+division_template = {
     name = "Commando Brigade" #Artesh
     regiments = {
        Special_Forces = { x = 0 y = 0 }
@@ -86,20 +162,6 @@ division_template = {
     }
 	support = {
          L_Engi_Comp = { x = 0 y = 0 }
-	}
-	priority = 2
-}
-
-division_template = {
-    name = "Air Assault Brigade" #Artesh
-    regiments = {
-       L_Air_assault_Bat = { x = 0 y = 0 }
-       L_Air_assault_Bat = { x = 0 y = 1 }
-       L_Air_assault_Bat = { x = 0 y = 2 }
-	   L_Air_assault_Bat = { x = 0 y = 3 }
-       Arty_Bat = { x = 1 y = 0 }
-    }
-	support = {
 	}
 	priority = 2
 }
@@ -123,6 +185,8 @@ division_template = {
     regiments = {
        L_Marine_Bat = { x = 0 y = 0 }
        L_Marine_Bat = { x = 0 y = 1 }
+	   L_Marine_Bat = { x = 0 y = 2 }
+       L_Marine_Bat = { x = 0 y = 3 }
     }
 	support = {
         L_Recce_Comp = { x = 0 y = 0 }
@@ -219,31 +283,6 @@ division_template = {
     }
 	support = {
 	armor_Comp = { x = 0 y = 0 }
-	}
-}
-
-division_template = {
-    name = "IRGC Afghan Division" #Sepah
-    regiments = {
-       Mot_Inf_Bat = { x = 0 y = 0 }
-	   Mot_Militia_Bat = { x = 0 y = 1 }
-	   Mot_Militia_Bat = { x = 0 y = 2 }
-	   Mot_Militia_Bat = { x = 0 y = 3 }
-	   Mot_Militia_Bat = { x = 0 y = 4 }
-	   Mot_Militia_Bat = { x = 1 y = 0 }
-	   Mot_Militia_Bat = { x = 1 y = 1 }
-	   Mot_Militia_Bat = { x = 1 y = 2 }
-	   Mot_Militia_Bat = { x = 1 y = 3 }
-	   Mot_Militia_Bat = { x = 1 y = 4 }
-	   armor_Bat = { x = 2 y = 0 }
-	   Mot_Recce_Bat = { x = 3 y = 0 }
-	   L_Engi_Bat = { x = 3 y = 1 }
-	   Arty_Bat = { x = 4 y = 0 }
-	   Arty_Bat = { x = 4 y = 1 }
-	   SP_Arty_Bat = { x = 4 y = 2 }
-	   SP_AA_Bat = { x = 4 y = 3 }
-    }
-	support = {
 	}
 }
 
@@ -573,277 +612,107 @@ units = {
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.01
 	}
-	
-	##### IRCG 'Foreign Legion' #####
-	
-	#Afghan IRGC Div
-	division= {	
-		name = "'Fatemiyoun' Afghan Division"
-		location = 4111 #Syria
-		division_template = "IRGC Afghan Division"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
-	#Pakistani IRCG Bde
-	division= {	
-		name = "'Zeinabiyoun' Pakistani Brigade"
-		location = 4111 #Syria
-		division_template = "IRGC Infantry Brigade"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
 
 ### Iranian Army (Artesh) ###
-	#Former & current Divisions
-    #21st Inf Div
+
 	division= {	
-		name = "121st Takavar Brigade"
+		name = "21st Infantry Division"
 		location = 1896
-		division_template = "Commando Brigade"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "221st Infantry Brigade"
-		location = 12861
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "321st Infantry Brigade"
-		location = 4755
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "421st Infantry Brigade"
-		location = 12793
-		division_template = "Infantry Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 
-    #28th Inf Div
 	division= {	
-		name = "128th Infantry Brigade"
+		name = "28th Infantry Division"
 		location = 5098
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "228th Infantry Brigade"
-		location = 4943
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "328th Infantry Brigade"
-		location = 4008
-		division_template = "Infantry Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
-	#30th Inf Div
 	division= {	
-		name = "130th Infantry Brigade"
+		name = "30th Infantry Division"
 		location = 7573
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "230th Infantry Brigade"
-		location = 7602
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "330th Infantry Brigade"
-		location = 10385
-		division_template = "Infantry Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
-	#64th Inf Div
 	division= {	
-		name = "164th Infantry Brigade"
+		name = "64th Infantry Division"
 		location = 7604
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "264th Infantry Brigade"
-		location = 1636
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "364th Infantry Brigade"
-		location = 1822
-		division_template = "Infantry Brigade"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	division= {	
-		name = "77th Mechanized Division"
+		name = "77th Infantry Division"
 		location = 5029
-		division_template = "Mechanized Division"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	division= {	
-		name = "84th Mechanized Division"
+		name = "84th Infantry Division"
 		location = 5050
-		division_template = "Mechanized Division"
+		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 
     #92nd Arm Div
 	division= {	
-		name = "192nd Armored Brigade"
+		name = "92nd Armored Division"
 		location = 7953
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "292nd Armored Brigade"
-		location = 2065
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "392nd Armored Brigade"
-		location = 9060
-		division_template = "Armored Brigade"
+		division_template = "Armored Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	#81st Arm Div
 	division= {	
-		name = "181st Armored Brigade"
+		name = "81st Armored Division"
 		location = 12773
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "281st Mechanized Brigade"
-		location = 12773
-		division_template = "Mechanized Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "381st Mechanized Brigade"
-		location = 829
-		division_template = "Mechanized Brigade"
+		division_template = "Armored Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	#88th Arm Div
 	division= {	
-		name = "188th Mechanized Brigade"
+		name = "88th Armored Division"
 		location = 12895
-		division_template = "Mechanized Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "288th Armored Brigade"
-		location = 10782
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "388th Armored Brigade"
-		location = 13082
-		division_template = "Armored Brigade"
+		division_template = "Armored Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	#16th Arm Div
 	division= {	
-		name = "116th Mechanized Brigade"
+		name = "16th Armored Division"
 		location = 7969
-		division_template = "Mechanized Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "216th Armored Brigade"
-		location = 4553
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "316th Armored Brigade"
-		location = 8040
-		division_template = "Armored Brigade"
+		division_template = "Armored Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
 	#58th 'Zulfiqar' Commando Div
 	division= {	
-		name = "158th Takavar Brigade"
+		name = "58th Takavar Division"
 		location = 11671
-		division_template = "Air Assault Brigade"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "258th Takavar Brigade"
-		location = 11671
-		division_template = "Commando Brigade"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "358th Takavar Brigade"
-		location = 11671
-		division_template = "Commando Brigade"
+		division_template = "Commando Division"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
 	}
 	
 	#23rd Commando Div
 	division= {	
-		name = "123rd Takavar Brigade"
+		name = "23rd Takavar Division"
 		location = 10837
-		division_template = "Air Assault Brigade"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "223rd Takavar Brigade"
-		location = 10837
-		division_template = "Air Assault Brigade"
-		start_experience_factor = 0.6
-		start_equipment_factor = 0.01
-	}
-	division= {	
-		name = "323rd Takavar Brigade"
-		location = 10837
-		division_template = "Air Assault Brigade"
+		division_template = "Commando Division"
 		start_experience_factor = 0.6
 		start_equipment_factor = 0.01
 	}
@@ -905,18 +774,10 @@ units = {
 	}
 	
 	division= {	
-		name = "65th Airborne Brigade"
-		location = 4111 #Syria
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
-	
-	division= {	
 		name = "55th Airborne Brigade"
 		location = 8117
 		division_template = "Airborne Brigade"
-		start_experience_factor = 0.4
+		start_experience_factor = 0.5
 		start_equipment_factor = 0.01
 	}
 	
@@ -999,13 +860,6 @@ units = {
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.01
 	}
-	division= {	
-		name = "2nd Marine Brigade"
-		location = 7982
-		division_template = "Marine Brigade"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
 
 
 navy = {
@@ -1021,117 +875,68 @@ navy = {
         ship = { name = "Alvand" definition = frigate experience = 30 equipment = { frigate_2 = { amount = 1 owner = PER } } }
         ship = { name = "Alborz" definition = frigate experience = 30 equipment = { frigate_2 = { amount = 1 owner = PER } } }
         ship = { name = "Sabalan" definition = frigate experience = 30 equipment = { frigate_2 = { amount = 1 owner = PER } } }
-        ship = { name = "Jamaran" definition = corvette experience = 30 equipment = { missile_corvette_1 = { amount = 1 owner = PER } } }
-        ship = { name = "Damavand" definition = corvette experience = 30 equipment = { missile_corvette_1 = { amount = 1 owner = PER } } }
 	}
 }
 instant_effect = {
 
-add_equipment_to_stockpile = {
-	type = MR_Fighter_equipment_1 #F-5
-	amount = 75
-	producer = USA
-    }
-add_equipment_to_stockpile = {
-	type = MR_Fighter_equipment_1 #Azarakhsh
-	amount = 6
-    }
-add_equipment_to_stockpile = {
-	type = MR_Fighter_equipment_2 #Saegheh
-	amount = 30
-    }
-add_equipment_to_stockpile = {
-	type = MR_Fighter_equipment_1 #Mirage
-	amount = 10
-	producer = FRA
-    }
-add_equipment_to_stockpile = {
-	type = MR_Fighter_equipment_1 #J-7
-	amount = 24
-	producer = CHI
-    }
-add_equipment_to_stockpile = {
-	type = MR_Fighter_equipment_2 #MIG-29
-	amount = 36
-	producer = SOV
-    }
-add_equipment_to_stockpile = {
-	type = Int_Fighter_equipment_1 #F-14
-	amount = 43
-	producer = USA
-    }
-add_equipment_to_stockpile = {
-	type = AS_Fighter_equipment_1 #F-4
-	amount = 64
-	producer = USA
-    }
-add_equipment_to_stockpile = {
-	type = Strike_fighter_equipment_2 #Su-24
-	amount = 30
-	producer = SOV
-    }
-add_equipment_to_stockpile = {
-	type = CAS_equipment_2 #Su-25
-	amount = 10
-	producer = SOV
-    }
-add_equipment_to_stockpile = {
-    type = nav_plane_equipment_2 #P-3C
-    amount = 5
-	producer = USA
+	add_equipment_to_stockpile = {
+		type = MR_Fighter_equipment_1 #F-5
+		amount = 80
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = L_Strike_fighter_equipment_2 #Tucano
-	amount = 15
-    producer = BRA
-    }
-    add_equipment_to_stockpile = {
-    type = attack_helicopter_equipment_1 #AH-1 Cobra
-    amount = 50
-	producer = USA
+		type = MR_Fighter_equipment_1 #J-7
+		amount = 24
+		producer = CHI
     }
 	add_equipment_to_stockpile = {
-    type = attack_helicopter_equipment_2 #Toofan
-    amount = 11
+		type = MR_Fighter_equipment_2 #MIG-29
+		amount = 36
+		producer = SOV
     }
-	
 	add_equipment_to_stockpile = {
-		type = Air_UAV_equipment_1 #Shahed 129
+		type = Int_Fighter_equipment_1 #F-14
+		amount = 43
+		producer = USA
+    }
+	add_equipment_to_stockpile = {
+		type = AS_Fighter_equipment_1 #F-4
+		amount = 81
+		producer = USA
+    }
+	add_equipment_to_stockpile = {
+		type = Strike_fighter_equipment_2 #Su-24
 		amount = 30
+		producer = SOV
     }
-	
+	add_equipment_to_stockpile = {
+		type = nav_plane_equipment_2 #P-3C
+		amount = 5
+		producer = USA
+    }
 	add_equipment_to_stockpile = {
 		type = transport_plane_equipment_1 #C-130 and var boeing
 		amount = 30
 		producer = USA
     }
 	add_equipment_to_stockpile = {
-		type = transport_plane_equipment_2 #Il-76
-		amount = 12
-		producer = SOV
-    }
-	add_equipment_to_stockpile = {
-		type = transport_plane_equipment_2 #Iran-140
-		amount = 7
-		producer = PER
-    }
-	add_equipment_to_stockpile = {
-		type = transport_helicopter_equipment_1 #Shabaviz 2-75/2061
+		type = attack_helicopter_equipment_1 #AH-1 Cobra
 		amount = 100
-    }
-	add_equipment_to_stockpile = {
-		type = transport_helicopter_equipment_1 #AB-214, AB-206, UH-1H etc
-		amount = 225
 		producer = USA
     }
 	add_equipment_to_stockpile = {
-		type = transport_helicopter_equipment_2 #Mi-171
-		amount = 25
-		producer = SOV
+		type = transport_helicopter_equipment_1 #AB-214, AB-206, UH-1H etc
+		amount = 577
+		producer = USA
+    }
+	add_equipment_to_stockpile = {
+		type = transport_helicopter_equipment_1 #SA-319
+		amount = 10
+		producer = FRA
     }
 	add_equipment_to_stockpile = {
 		type = transport_helicopter_equipment_3 #CH-47C
-		amount = 29
+		amount = 45
 		producer = USA
     }
 	
@@ -1140,331 +945,235 @@ add_equipment_to_stockpile = {
 	#Inf Eq
 	
     add_equipment_to_stockpile = {
-    type = Inf_equipment_0 #Licence produced German G3 rifle
-    amount = 45000
+		type = Inf_equipment_0 #Licence produced German G3 rifle
+		amount = 65000
     }
-    add_equipment_to_stockpile = {
-    type = Inf_equipment_3 #M4 copies
-    amount = 12000
-    }
-    add_equipment_to_stockpile = {
-    type = Inf_equipment_2 #KH-2002
-    amount = 5000
-    }
-	
     	
 	#ATGM
 	
     add_equipment_to_stockpile = {
-    type = L_AT_Equipment_0 #Saeghe
-    amount = 1800
+		type = L_AT_Equipment_0 #Saeghe
+		amount = 2800
     }
     add_equipment_to_stockpile = {
-    type = L_AT_Equipment_2 #9K115-2 Metis-M
-    amount = 600
-	producer = SOV
-    }
-    add_equipment_to_stockpile = {
-    type = H_AT_Equipment_1 #Toophan 5/Towsan-1
-    amount = 700
-    }
-    add_equipment_to_stockpile = {
-    type = H_AT_Equipment_2 #Dehlavie/Kornet
-    amount = 400
+		type = H_AT_Equipment_1 #Toophan 5/Towsan-1
+		amount = 1200
     }
 	
 	#SP-AA
 	
 	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_0 #tigercat
-    amount = 15
-	producer = ENG
+		type = SP_AA_Equipment_0 #tigercat
+		amount = 15
+		producer = ENG
     }
 	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_0 #MIB-23 Hawk
-    amount = 150
-	producer = USA
+		type = SP_AA_Equipment_0 #MIB-23 Hawk
+		amount = 150
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_1 #rapier
-    amount = 30
-	producer = ENG
+		type = SP_AA_Equipment_1 #rapier
+		amount = 30
+		producer = ENG
     }
 	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_1
-	#version_name = "SA-15 Tor-M"
-    amount = 29
-	producer = SOV
+		type = SP_AA_Equipment_0   #SA-6/SA-5
+		amount = 208
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_0   #SA-6/SA-5
-    amount = 208
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_2
-	#version_name = "SA-22 Pantsir"
-    amount = 10
-	producer = SOV
-    }
-	
-	add_equipment_to_stockpile = {
-    type = SP_AA_Equipment_1 #FM-80 Crotale
-    amount = 250
-	producer = FRA
+		type = SP_AA_Equipment_1 #FM-80 Crotale
+		amount = 250
+		producer = FRA
     }
 	
 	#MANPADS
 	
 	add_equipment_to_stockpile = {
-    type = AA_Equipment_1 #RS-70
-    amount = 50
-	producer = SWE
+		type = AA_Equipment_1 #RS-70
+		amount = 50
+		producer = SWE
     }
 	add_equipment_to_stockpile = {
-    type = AA_Equipment_1 #Stinger
-    amount = 320
-	producer = USA
+		type = AA_Equipment_1 #Stinger
+		amount = 1020
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = AA_Equipment_0 #SA-7
-    amount = 250
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = AA_Equipment_1 #SA-16
-    amount = 700
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = AA_Equipment_2 #SA-24 Igla-S
-    amount = 50
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = AA_Equipment_1 #QW-1
-    amount = 100
-	producer = CHI
-    }
-	add_equipment_to_stockpile = {
-    type = AA_Equipment_1 #Misagh-1
-    amount = 600
-    }
-	add_equipment_to_stockpile = {
-    type = AA_Equipment_2 #Misagh-2
-    amount = 200
+		type = AA_Equipment_0 #SA-7
+		amount = 1150
+		producer = SOV
     }
 	
 	### Artillery
 	#Towed
 	
 	add_equipment_to_stockpile = {
-    type = artillery_equipment_1 #F77
-    amount = 18
-	producer = SWE
+		type = artillery_equipment_0 #D-30
+		amount = 430
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = artillery_equipment_1 #G5
-    amount = 50
-	producer = SAF
+		type = artillery_equipment_0 #Type-59
+		amount = 1200
+		producer = CHI
     }
 	add_equipment_to_stockpile = {
-    type = artillery_equipment_1 #G5
-    amount = 120
-	producer = CAN
+		type = artillery_equipment_0 #M114/M-101
+		amount = 200
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = artillery_equipment_2 #WAC-21
-    amount = 15
-	producer = CHI
-    }
-	add_equipment_to_stockpile = {
-    type = artillery_equipment_0 #D-30
-    amount = 680
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = artillery_equipment_0 #M114
-    amount = 70
-	producer = USA
+		type = artillery_equipment_0 #GC-5
+		amount = 80
+		producer = CAN
     }
 	
 	#SP Art
 	
 	add_equipment_to_stockpile = {
-    type = SP_arty_equipment_0 #Raad-1
-    amount = 60
+		type = SP_arty_equipment_0 #Raad-1
+		amount = 60
     }
 	add_equipment_to_stockpile = {
-    type = SP_arty_equipment_1 #M109
-    amount = 150
-	producer = USA
+		type = SP_arty_equipment_1 #M109
+		amount = 220
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = SP_arty_equipment_1 #Raad-2
-    amount = 50
-    }
-	add_equipment_to_stockpile = {
-    type = SP_arty_equipment_0 #M-1978
-    amount = 30
-	producer = NKO
+		type = SP_arty_equipment_0 #M-1978
+		amount = 30
+		producer = NKO
     }
 	
 	#MLRS
 	
 	add_equipment_to_stockpile = {
-    type = SP_R_arty_equipment_0 #Grad
-    amount = 100
-	producer = SOV
+		type = SP_R_arty_equipment_0 #Grad
+		amount = 105
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = SP_R_arty_equipment_0 #var Iranian MLRS
-    amount = 857
+		type = SP_R_arty_equipment_0 #var Iranian MLRS
+		amount = 857
     }
 	add_equipment_to_stockpile = {
-    type = SP_R_arty_equipment_1 #Fajr-3
-    amount = 20
-    }
-	add_equipment_to_stockpile = {
-    type = SP_R_arty_equipment_2 #Fajr-5
-    amount = 30
+		type = SP_R_arty_equipment_1 #Fajr-3
+		amount = 20
     }
 	
 	#C&C
 	
 	add_equipment_to_stockpile = {
-    type = command_control_equipment_1 #C3
-    amount = 5400
-    }
-	add_equipment_to_stockpile = {
-    type = command_control_equipment_2 #C3STAR
-    amount = 2600
+		type = command_control_equipment_1 #C3
+		amount = 8000
     }
 	
 ### Vehicles ###
     #MBT
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_3 #Zulfiqar
-    amount = 160
+		type = MBT_Equipment_3 #Zulfiqar
+		amount = 40
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_1 #M60
-    amount = 150
-	producer = USA
+		type = MBT_Equipment_1 #M60
+		amount = 150
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_1 #M48
-    amount = 168
-	producer = USA
+		type = MBT_Equipment_1 #M48
+		amount = 168
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_1 #T-62
-	#version_name = "T-62"
-    amount = 75
-	producer = SOV
+		type = MBT_Equipment_1 #T-62
+		#version_name = "T-62"
+		amount = 75
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_2 #T-72S
-    amount = 480
-	producer = SOV
+		type = MBT_Equipment_2 #T-72S
+		amount = 420
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_2 #Cheftain
-    amount = 150
-	producer = ENG
+		type = MBT_Equipment_2 #Cheftain
+		amount = 150
+		producer = ENG
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_2 #Safir-74
-    amount = 238
+		type = MBT_Equipment_1 #T-55
+		amount = 100
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = MBT_Equipment_1 #T-55
-    amount = 100
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = MBT_Equipment_1 #Type 59/69
-    amount = 400
-	producer = CHI
+		type = MBT_Equipment_1 #Type 59/69
+		amount = 400
+		producer = CHI
     }
 	
 	#Light Tanks
 	add_equipment_to_stockpile = {
-    type = Rec_tank_Equipment_0 #Cascavel
-    amount = 35
-	producer = BRA
+		type = Rec_tank_Equipment_0 #Cascavel
+		amount = 35
+		producer = BRA
     }
 	add_equipment_to_stockpile = {
-    type = Rec_tank_Equipment_1 #Scorpion
-    amount = 80
-	producer = ENG
-    }
-	add_equipment_to_stockpile = {
-    type = Rec_tank_Equipment_1 #Tosan
-    amount = 50
+		type = Rec_tank_Equipment_1 #Scorpion
+		amount = 80
+		producer = ENG
     }
 	
 	#IFV's
 	add_equipment_to_stockpile = {
-    type = IFV_Equipment_1 #BMP-1
-    amount = 210
-	producer = SOV
+		type = IFV_Equipment_1 #BMP-1
+		amount = 300
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = IFV_Equipment_2 #Boragh
-    amount = 160
+		type = IFV_Equipment_2 #Boragh
+		amount = 50
     }
 	add_equipment_to_stockpile = {
-    type = IFV_Equipment_3 #BMP-2
-    amount = 420
-	producer = SOV
+		type = IFV_Equipment_3 #BMP-2
+		amount = 400
+		producer = SOV
     }
 	
 	#APC's
 	add_equipment_to_stockpile = {
-    type = APC_Equipment_2 #M113
-    amount = 200
-	producer = USA
+		type = APC_Equipment_2 #M113
+		amount = 250
+		producer = USA
     }
 	add_equipment_to_stockpile = {
-    type = APC_Equipment_1 #BTR-50/60
-    amount = 300
-	producer = SOV
-    }
-	add_equipment_to_stockpile = {
-    type = APC_Equipment_3 #Sarir
-    amount = 100
+		type = APC_Equipment_1 #BTR-50/60
+		amount = 300
+		producer = SOV
     }
 	
 	#Utility vehicles
 	add_equipment_to_stockpile = {
-    type = util_vehicle_equipment_1 #Safir Jeep
-    amount = 11000
-    }
-	add_equipment_to_stockpile = {
-    type = util_vehicle_equipment_2 #Sepehr
-    amount = 600
-    }
-	add_equipment_to_stockpile = {
-    type = util_vehicle_equipment_3 #Aras
-    amount = 400
+    type = util_vehicle_equipment_0 #Khawar?
+    amount = 12000
     }
 	
 	#Eng Vehicles
     add_equipment_to_stockpile = {
-    type = ENGI_MBT_Equipment_2 #Cheftain ARV
-    amount = 35
-	producer = ENG
+		type = ENGI_MBT_Equipment_2 #Cheftain ARV
+		amount = 35
+		producer = ENG
     }
 	add_equipment_to_stockpile = {
-    type = ENGI_MBT_Equipment_1 #BAT-1
-    amount = 80
-	producer = SOV
+		type = ENGI_MBT_Equipment_1 #BAT-1
+		amount = 80
+		producer = SOV
     }
 	add_equipment_to_stockpile = {
-    type = ENGI_MBT_Equipment_2 #BAT-2
-    amount = 40
-	producer = SOV
+		type = ENGI_MBT_Equipment_2 #BAT-2
+		amount = 40
+		producer = SOV
     }
 		
     add_equipment_production = { #Moudge Class
@@ -1486,17 +1195,6 @@ add_equipment_to_stockpile = {
 					type = diesel_attack_submarine_3			#Kilo-Class
 				}
 				cost_factor = 0
-			}
-		}
-		else = {
-			add_equipment_production = {
-				equipment = {
-					type = diesel_attack_submarine_3
-					creator = "SOV"
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
 			}
 		}
 	}
