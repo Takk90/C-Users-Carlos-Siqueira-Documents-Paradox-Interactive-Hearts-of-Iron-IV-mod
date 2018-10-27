@@ -164,7 +164,7 @@
 		name = "Seppo Toivonen" #Kenraaliluutnantti #General Lietnuant
 		picture = "gen_Seppo_Toivonen.dds"
 		traits = {  }
-		id = 21300
+		id = 71700
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -175,7 +175,7 @@
 		name = "Petri Hulkko" #Maavoimien komentaja #Ground Forces Commander
 			picture = "gen_Petri_Hulkko.dds"
 		traits = {  }
-		id = 21301
+		id = 71701
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -186,7 +186,7 @@
 		name = "Jarmo Lindberg"
 		picture = "Portrait_Jarmo_Lindberg.dds"
 		traits = { old_guard defensive_doctrine }
-		id = 21302
+		id = 71702
 		skill = 4
 		attack_skill = 4
 		defense_skill = 4
@@ -198,7 +198,7 @@
 		name = "Pekka Järvi"
 		picture = "Portrait_Pekka_Jaervi.dds"
 		traits = { panzer_leader }
-		id = 21303
+		id = 71703
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -210,7 +210,7 @@
 		name = "Ahti Kurvinen"
 		picture = "Portrait_Ahti_ Kurvinen.dds"
 		traits = { ranger winter_specialist }
-		id = 21304
+		id = 71704
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -222,7 +222,7 @@
 		name = "Antti Lehtisalo"
 		picture = "Portrait_Antti_Lehtisalo.dds"
 		traits = { ranger }
-		id = 21305
+		id = 71705
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -234,7 +234,7 @@
 		name = "Vesa Virtanen"
 		picture = "Portrait_Vesa_Virtanen.dds"
 		traits = { trickster }
-		id = 21306
+		id = 71706
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -246,7 +246,7 @@
 		name = "Jari Kallio"
 		picture = "Portrait_Jari_Kallio.dds"
 		traits = { trait_engineer }
-		id = 21307
+		id = 71707
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -258,7 +258,7 @@
 		name = "Arto-Pekka Nurminen"
 		picture = "Portrait_Artto-Pekka_Nurminen.dds"
 		traits = { trickster }
-		id = 21308
+		id = 71708
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -270,7 +270,7 @@
 		name = "Ali Mättölä"
 		picture = "Portrait_ Ali_ Maettoelae.dds"
 		traits = { commando }
-		id = 21309
+		id = 71709
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -282,7 +282,7 @@
 		name = "Ilkka Laitinen"
 		picture = "Portrait_Ilkka_Laitinen.dds"
 		traits = { ranger }
-		id = 21310
+		id = 71710
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -294,7 +294,7 @@
 		name = "Kim Jäämeri"
 		picture = "Portrait_Kim_Jaeaemeri.dds"
 		traits = { commando }
-		id = 21311
+		id = 71711
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -306,7 +306,7 @@
 		name = "Kyösti Halonen"
 		picture = "Portrait_Kyoesti_Halonen.dds"
 		traits = { trait_engineer }
-		id = 21312
+		id = 71712
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -318,7 +318,7 @@
 		name = "Eero Pyötsiä"
 		picture = "Portrait_Eero_Pyoetsia.dds"
 		traits = { trait_engineer }
-		id = 21313
+		id = 71713
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -330,7 +330,7 @@
 		name = "Timo Kivinen"
 		picture = "Portrait_Timo_Kivinen.dds"
 		traits = { trait_engineer }
-		id = 21314
+		id = 71714
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -342,7 +342,7 @@
 		name = "Markku Myllykangas"
 		picture = "Portrait_Markku_Myllykangas.dds"
 		traits = { hill_fighter }
-		id = 21315
+		id = 71715
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -354,7 +354,7 @@
 		name = "Pasi Velimäki"
 		picture = "Portrait_Pasi_Velimaeki.dds"
 		traits = { fortress_buster }
-		id = 21316
+		id = 71716
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -366,7 +366,7 @@
 		name = "Timo Kakkola"
 		picture = "Portrait_Timo_Kakkola.dds"
 		traits = { winter_specialist }
-		id = 21317
+		id = 71717
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -378,7 +378,7 @@
 		name = "Sampo Eskelinen"
 		picture = "Portrait_Sampo_Eskelinen.dds"
 		traits = { trait_engineer }
-		id = 21318
+		id = 71718
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -390,7 +390,7 @@
 		name = "Harri Ohra-Aho"
 		picture = "Portrait_Harri_Ohra-Aho.dds"
 		traits = { trickster }
-		id = 21319
+		id = 71719
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -402,7 +402,7 @@
 		name = "Kjell Törner"
 		picture = "Portrait_Kjell_Toerner.dds"
 		traits = { commando naval_invader }
-		id = 21320
+		id = 71720
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -414,7 +414,7 @@
 		name = "Esa Pulkkinen"
 		picture = "Portrait_Esa_Pukkinen.dds"
 		traits = { hill_fighter }
-		id = 21321
+		id = 71721
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -426,42 +426,42 @@
 		name = "Juha Rannikko"
 		picture = "Portrait_Juha_Ranniko.dds"
 		traits = { air_controller }
-		id = 21322
+		id = 71722
 	}
 
 	create_navy_leader = {
 		name = "Kari Takanen"
 		picture = "Portrait_Kari_Takanen.dds"
 		traits = { superior_tactician }
-		id = 21323
+		id = 71723
 	}
 
 	create_navy_leader = {
 		name = "Veijo Teipalus"
 		picture = "Portrait_Veijo_Taipalus.dds"
 		traits = { old_guard_navy superior_tactician }
-		id = 21324
+		id = 71724
 	}
 
 	create_navy_leader = {
 		name = "Erkki Mikkola"
 		picture = "Portrait_Erkki_Mikkola.dds"
 		traits = { seawolf }
-		id = 21325
+		id = 71725
 	}
 
 	create_navy_leader = {
 		name = "Juha Vauhkonen"
 		picture = "Portrait_Juha_Vauhkonen.dds"
 		traits = { spotter }
-		id = 21326
+		id = 71726
 	}
 
 	create_navy_leader = {
 		name = "Timo Hirvonen"
 		picture = "Portrait_Timo_Hirvonen.dds"
 		traits = { blockade_runner }
-		id = 21327
+		id = 71727
 	}
 }
 

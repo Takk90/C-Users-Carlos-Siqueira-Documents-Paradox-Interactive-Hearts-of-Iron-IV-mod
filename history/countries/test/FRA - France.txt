@@ -228,7 +228,7 @@
 	create_corps_commander = {
 		name = "Pierre Chavancy"
 		picture = "generals/Pierre_Chavancy.dds"
-		id = 21600
+		id = 72000
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -238,7 +238,7 @@
 	create_corps_commander = {
 		name = "Bertrand Ract-Madoux"
 		picture = "generals/Bertrand_Ract_Madoux.dds"
-		id = 21601
+		id = 72001
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -249,7 +249,7 @@
 		name = "Jean-Pierre Bosser"
 		picture = "gen_Jean_Pierre_Bosser.dds"
 		traits = {  }
-		id = 21602
+		id = 72002
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -260,7 +260,7 @@
 		name = "Bertrant Ract Madoux"
 		picture = "gen_Bertrand_Ract_Madoux.dds"
 		traits = {  }
-		id = 21603
+		id = 72003
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -271,7 +271,7 @@
 		name = "Herve Bizeul"
 		picture = "gen_Herve_Bizeul.dds"
 		traits = {  }
-		id = 21604
+		id = 72004
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -282,7 +282,7 @@
 		name = "Nicolas Casanova"
 		picture = "gen_Nicolas_Casanova.dds"
 		traits = {  }
-		id = 21605
+		id = 72005
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -293,31 +293,31 @@
 		name = "Christophe Prazuck"
 		picture = "adm_Christophe_Prazuck.dds"
 		traits = {  }
-		id = 21606
+		id = 72006
 	}
 	create_navy_leader = {
 		name = "Denis Beraud"
 		picture = "adm_Denis_Beraud.dds"
 		traits = {  }
-		id = 21607
+		id = 72007
 	}
 	create_navy_leader = {
 		name = "Marc de Briancon"
 		picture = "adm_Marc_de_Briancon.dds"
 		traits = {  }
-		id = 21608
+		id = 72008
 	}
 	create_navy_leader = {
 		name = "Pierre Francois Forissier"
 		picture = "adm_Pierre_Francois_Forissier.dds"
 		traits = {  }
-		id = 21609
+		id = 72009
 	}
 	create_field_marshal = {
 		name = "Pierre de Villiers"
 		picture = "Portrait_Pierre_de_Villiers.dds"
 		traits = { old_guard organisational_leader }
-		id = 21610
+		id = 72010
 		skill = 4
 		attack_skill = 4
 		defense_skill = 4
@@ -329,7 +329,7 @@
 		name = "Arnaud Sainte-Claire Deville"
 		picture = "Portrait_Arnaud_Sainte-Claire_Deville.dds"
 		traits = { defensive_doctrine }
-		id = 21611
+		id = 72011
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -341,7 +341,7 @@
 		name = "François Labuze"
 		picture = "Portrait_Francois_Labuze.dds"
 		traits = { panzer_leader }
-		id = 21612
+		id = 72012
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -353,7 +353,7 @@
 		name = "Franck Boudet"
 		picture = "Portrait_Franck_Boudet.dds"
 		traits = { ranger }
-		id = 21613
+		id = 72013
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -365,7 +365,7 @@
 		name = "Christophe Bizien"
 		picture = "Portrait_Christophe_Bizien.dds"
 		traits = { trait_engineer }
-		id = 21614
+		id = 72014
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -377,7 +377,7 @@
 		name = "Loïc Girard"
 		picture = "Portrait_Loic_Girard.dds"
 		traits = { naval_invader }
-		id = 21615
+		id = 72015
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -389,7 +389,7 @@
 		name = "Pascal Ianni"
 		picture = "Portrait_Pascal_Ianni.dds"
 		traits = { naval_invader }
-		id = 21616
+		id = 72016
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -401,7 +401,7 @@
 		name = "Thomas Mollard"
 		picture = "Portrait_Thomas_Mollard.dds"
 		traits = { hill_fighter }
-		id = 21617
+		id = 72017
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -413,7 +413,7 @@
 		name = "Etienne du Peyroux"
 		picture = "Portrait_Etienne_du_Peyroux.dds"
 		traits = { naval_invader }
-		id = 21618
+		id = 72018
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -425,7 +425,7 @@
 		name = "François Régis Jaminet"
 		picture = "Portrait_Francois_Regis_Jaminet.dds"
 		traits = { naval_invader }
-		id = 21619
+		id = 72019
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -437,7 +437,7 @@
 		name = "Jean-Jacques Fatinet"
 		picture = "Portrait_Jean-Jacques_Fatinet.dds"
 		traits = { trait_mountaineer }
-		id = 21620
+		id = 72020
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -449,7 +449,7 @@
 		name = "Guillaume de Sercey"
 		picture = "Portrait_Guillaume_de_Sercey.dds"
 		traits = { trait_engineer }
-		id = 21621
+		id = 72021
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -461,7 +461,7 @@
 		name = "Guillaume Venard"
 		picture = "Portrait_Guillaume_Venard.dds"
 		traits = { trait_engineer }
-		id = 21622
+		id = 72022
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -473,7 +473,7 @@
 		name = "Benoit Durieux"
 		picture = "Portrait_Benoit_Durieux.dds"
 		traits = { panzer_leader }
-		id = 21623
+		id = 72023
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -485,7 +485,7 @@
 		name = "Éric Bellot des Minières"
 		picture = "Portrait_Eric_Bellot_des_Minieres.dds"
 		traits = { commando urban_assault_specialist }
-		id = 21624
+		id = 72024
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -497,7 +497,7 @@
 		name = "Jean-Frédéric Lenoble"
 		picture = "Portrait_Jean-Frederic_Lenoble.dds"
 		traits = { trait_engineer }
-		id = 21625
+		id = 72025
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -509,7 +509,7 @@
 		name = "Eric Maury"
 		picture = "Portrait_Eric_Maury.dds"
 		traits = { trickster }
-		id = 21626
+		id = 72026
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -521,7 +521,7 @@
 		name = "Jean-François Lafont Rapnouil"
 		picture = "Portrait_Jean-Francois_Lafont_Rapnouil.dds"
 		traits = {  }
-		id = 21627
+		id = 72027
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -533,7 +533,7 @@
 		name = "Pierre Liot de Nortbecourt"
 		picture = "Portrait_Pierre_Liot_de_Nortbecourt.dds"
 		traits = { commando winter_specialist }
-		id = 21628
+		id = 72028
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -545,7 +545,7 @@
 		name = "Jean Maurin"
 		picture = "Portrait_Jean_Maurin.dds"
 		traits = { commando desert_fox jungle_rat }
-		id = 21629
+		id = 72029
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -557,49 +557,49 @@
 		name = "Bruno Thouvenin"
 		picture = "Portrait_Bruno_Thouvenin.dds"
 		traits = { spotter }
-		id = 21630
+		id = 72030
 	}
 
 	create_navy_leader = {
 		name = "François Rebourd"
 		picture = "Portrait_Francois_Rebourd.dds"
 		traits = { seawolf }
-		id = 21631
+		id = 72031
 	}
 
 	create_navy_leader = {
 		name = "Louis-Michel Guillaume"
 		picture = "Portrait_Louis-Michel_Guillaume.dds"
 		traits = { blockade_runner }
-		id = 21632
+		id = 72032
 	}
 
 	create_navy_leader = {
 		name = "Charles-Henri du Ché"
 		picture = "Portrait_Charles-Henri_du_Che.dds"
 		traits = { air_controller }
-		id = 21633
+		id = 72033
 	}
 
 	create_navy_leader = {
 		name = "Pascal Ausseur"
 		picture = "Portrait_Pascal_Ausseurs.dds"
 		traits = { seawolf }
-		id = 21634
+		id = 72034
 	}
 
 	create_navy_leader = {
 		name = "Emmanuel de Oliveira"
 		picture = "Portrait_Emmanuel_de_Oliveira.dds"
 		traits = { spotter }
-		id = 21635
+		id = 72035
 	}
 
 	create_navy_leader = {
 		name = "Jean-Baptiste Dupuis"
 		picture = "Portrait_Jean-Baptiste_Dupuis.dds"
 		traits = { blockade_runner }
-		id = 21636
+		id = 72036
 	}
 
 }

@@ -1,7 +1,7 @@
 ﻿2000.1.1 = {
-	capital = 547		#This is the PRC, not Taiwan. Taiwan is "TAI"
+	capital = 547
 	oob = "CHI_2000"
-	set_convoys = 180
+	set_convoys = 380
 	
 	add_ideas = {
 		gdp_3
@@ -128,6 +128,7 @@
 		cruiser_1 = 1
 		cruiser_2 = 1
 		missile_cruiser_1 = 1
+		missile_cruiser_4 = 1
 		
 		destroyer_1 = 1
 		destroyer_2 = 1 #Type 052 destroyer
@@ -160,7 +161,7 @@
 	create_corps_commander = {
 		name = "Yen Teh-fa"
 		picture = "generals/Yen_Teh_Fa.dds"
-		id = 12600
+		id = 71400
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -171,7 +172,7 @@
 	create_corps_commander = {
 		name = "Chen Chuan-kuan"
 		picture = "generals/Chen_Chuan_Kuan.dds"
-		id = 12601
+		id = 71401
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -182,7 +183,7 @@
 	create_corps_commander = {
 		name = "Chiu_Kuo-cheng"
 		picture = "generals/Chiu_Kuo_Cheng.dds"
-		id = 12602
+		id = 71402
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -193,7 +194,7 @@
 	create_corps_commander = {
 		name = "Lee Shying-jow"
 		picture = "generals/Lee_Shying_Jow.dds"
-		id = 12603
+		id = 71403
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -204,7 +205,7 @@
 	create_corps_commander = {
 		name = "Chai Hui-chen"
 		picture = "generals/Chai_Hui_Chen.dds"
-		id = 12604
+		id = 71404
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -215,25 +216,25 @@
 	create_navy_leader = {
 		name = "Kao Kuang-chi"
 		picture = "admirals/Kao_Kuang_Chi.dds"
-		id = 12605
+		id = 71405
 	}
 
 	create_navy_leader = {
 		name = "Lee Hsi-min"
 		picture = "admirals/Lee_Hsi_Min.dds"
-		id = 12606
+		id = 71406
 	}
 
 	create_navy_leader = {
 		name = "Lin Chen-yi"
 		picture = "admirals/Lin_Chen_Yi.dds"
-		id = 12607
+		id = 71407
 	}
 	create_field_marshal = {
 		name = "Fang Fenghui"
 		picture = "gen_fang_fenghui.dds"
 		traits = { old_guard defensive_doctrine organisational_leader }
-		id = 12608
+		id = 71408
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -246,7 +247,7 @@
 		name = "Zhao Keshi"
 		picture = "gen_zhao_keshi.dds"
 		traits = { old_guard logistics_wizard }
-		id = 12609
+		id = 71409
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -259,7 +260,7 @@
 		name = "Li Zuocheng"
 		picture = "gen_Li_Zuocheng.dds"
 		traits = { old_guard offensive_doctrine inspirational_leader }
-		id = 12610
+		id = 71410
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -272,7 +273,7 @@
 		name = "Lie Yuejun"
 		picture = "gen_lie_yuejun.dds"
 		traits = { panzer_leader naval_invader }
-		id = 12611
+		id = 71411
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -285,7 +286,7 @@
 		name = "Rong Guiqing"
 		picture = "gen_rong_guiqing.dds"
 		traits = { trait_mountaineer jungle_rat }
-		id = 12612
+		id = 71412
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -298,7 +299,7 @@
 		name = "Song Puxuan"
 		picture = "gen_song_puxuan.dds"
 		traits = { winter_specialist urban_assault_specialist old_guard }
-		id = 12613
+		id = 71413
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -311,7 +312,7 @@
 		name = "Wang Guanzhong"
 		picture = "gen_Wang_Guanzhong.dds"
 		traits = { old_guard }
-		id = 12614
+		id = 71414
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -324,7 +325,7 @@
 		name = "Wang Jiaocheng"
 		picture = "gen_wang_jiaocheng.dds"
 		traits = { naval_invader panzer_leader }
-		id = 12615
+		id = 71415
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -337,7 +338,7 @@
 		name = "Wei Fenghe"
 		picture = "gen_wei_fenghe.dds"
 		traits = { fortress_buster }
-		id = 12616
+		id = 71416
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -350,7 +351,7 @@
 		name = "Zhang Shibo"
 		picture = "Gen_Zhang_Shibo.dds"
 		traits = { urban_assault_specialist }
-		id = 12617
+		id = 71417
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -363,7 +364,7 @@
 		name = "Zhang Yang"
 		picture = "gen_zhang_yang.dds"
 		traits = { old_guard }
-		id = 12618
+		id = 71418
 		skill = 1
 		attack_skill = 1
 		defense_skill = 1
@@ -376,7 +377,7 @@
 		name = "Zhao Zongqi"
 		picture = "gen_zhao_zongqi.dds"
 		traits = { desert_fox trait_mountaineer winter_specialist }
-		id = 12619
+		id = 71419
 		skill = 2
 		attack_skill = 2
 		defense_skill = 2
@@ -389,7 +390,7 @@
 		name = "Qi Jianguo"
 		picture = "gen_Qi_Jianguo.dds"
 		traits = { hill_fighter ranger }
-		id = 12620
+		id = 71420
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -402,7 +403,7 @@
 		name = "Zhang Haiqing"
 		picture = "gen_Zhang_Haiqing.dds"
 		traits = { swamp_fox commando }
-		id = 12621
+		id = 71421
 		skill = 3
 		attack_skill = 3
 		defense_skill = 3
@@ -416,77 +417,77 @@
 		name = "Wu Shengli"
 		picture = "adm_wu_shengli.dds"
 		traits = { seawolf old_guard_navy }
-		id = 12622
+		id = 71422
 	}
 
 	create_navy_leader = {
 		name = "Guan Jianguo"
 		picture = "Adm_Guan_Jianguo.dds"
 		traits = { blockade_runner }
-		id = 12623
+		id = 71423
 	}
 
 	create_navy_leader = {
 		name = "Jiang Weilie"
 		picture = "Adm_Jiang_Weilie.dds"
 		traits = { blockade_runner old_guard_navy }
-		id = 12624
+		id = 71424
 	}
 
 	create_navy_leader = {
 		name = "Li Xiaoyan"
 		picture = "adm_Li_Xiaoyan.dds"
 		traits = { air_controller }
-		id = 12625
+		id = 71425
 	}
 
 	create_navy_leader = {
 		name = "Liu Geng"
 		picture = "Adm_Liu_Geng.dds"
 		traits = { air_controller }
-		id = 12626
+		id = 71426
 	}
 
 	create_navy_leader = {
 		name = "Qiuyan Peng"
 		picture = "adm_Qiuyan_Peng.dds"
 		traits = { seawolf }
-		id = 12627
+		id = 71427
 	}
 
 	create_navy_leader = {
 		name = "Su Zhiqian"
 		picture = "adm_Su_Zhiqian.dds"
 		traits = { seawolf }
-		id = 12628
+		id = 71428
 	}
 
 	create_navy_leader = {
 		name = "Wang Dengping"
 		picture = "Adm_Wang_Dengping.dds"
 		traits = { seawolf }
-		id = 12629
+		id = 71429
 	}
 
 	create_navy_leader = {
 		name = "Yao Zhilou"
 		picture = "Adm_Yao_Zhilou.dds"
 		traits = { superior_tactician old_guard_navy }
-		id = 12630
+		id = 71430
 	}
 
 	create_navy_leader = {
 		name = "Zhang Wendan"
 		picture = "adm_Zhang_Wendan.dds"
 		traits = { superior_tactician }
-		id = 12631
+		id = 71431
 	}
 
 	create_navy_leader = {
 		name = "Li Xiaoyan"
 		picture = "adm2_Li_Xiaoyan.dds"
 		traits = { blockade_runner }
-		id = 12632
+		id = 71432
 	}
 	
 	create_equipment_variant = {
@@ -620,10 +621,10 @@
 
 2017.1.1 = {
 	capital = 547
-	set_convoys = 100
+	set_convoys = 380
 	oob = "CHI_2017"
 	
-	create_faction = SHANGHAI_PACT
+	create_faction = BEST_CHINA
 	
 	add_ideas = {
 		pop_050
