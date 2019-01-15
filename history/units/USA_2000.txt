@@ -1,4 +1,34 @@
 ﻿division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		Arm_Inf_Bat = { x = 0 y = 0 }
+		Mot_Inf_Bat = { x = 0 y = 1 }
+		Mot_Inf_Bat = { x = 0 y = 2 }
+		Mech_Inf_Bat = { x = 1 y = 0 }
+		Mot_Inf_Bat = { x = 1 y = 1 }
+		Mot_Inf_Bat = { x = 1 y = 2 }
+		Mech_Inf_Bat = { x = 2 y = 0 }
+		Mot_Inf_Bat = { x = 2 y = 1 }
+		Mot_Inf_Bat = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		motorized_rocket_brigade = { x = 3 y = 3 }
+		Mech_Inf_Bat = { x = 4 y = 0 }
+		Mech_Inf_Bat = { x = 4 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		military_police = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+		recon = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
 	name = "Stryker Brigade"
 
 	regiments = {						
@@ -167,650 +197,343 @@ division_template = {
 
 units = {
 
-####### US Army #######
-
-	### Special Forces ###
-		
-	division = {			
-		name = "Marine Raider Regiment"
-		location = 1132
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "75th Ranger Regiment"
-		location = 7583
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "Navy SEAL Warfare Group 1"
-		location = 1562
-		division_template = "Special Operations Battalion"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "Navy SEAL Warfare Group 2"
-		location = 788
-		division_template = "Special Operations Battalion"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "Navy SEAL Warfare Group 4"
-		location = 788
-		division_template = "Special Operations Battalion"
-		start_experience_factor = 0.7
+division = {
+		name = "1st Infantry Division 'The Big Red One'"
+		location = 12024	#Kansas
+		division_template = "Armored Division"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 
-	division = {			
-		name = "Civil Affairs Brigade"
-		location = 7083
-		division_template = "Civil Affairs Brigade"
-		start_experience_factor = 0.9
+	division = {
+		name = "2nd Infantry Division 'Indian Head'"
+		location = 7125		#South Korea
+		division_template = "Infantry Division B"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 	
-	division = {			
-		name = "1st Special Forces Group"
-		location = 7386
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
+	division = {
+		name = "3rd Infantry Division 'Rock of the Marne'"
+		location = 7612		#Georgia
+		division_template = "Armored Division"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 	
-	division = {			
-		name = "3rd Special Forces Group"
-		location = 7083
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
+	division = {
+		name = "4th Infantry Division 'Iron Horse'"
+		location = 7386		#Washington
+		division_template = "Armored Division"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 	
-	division = {			
-		name = "5th Special Forces Group"
-		location = 4402
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
+	division = {
+		name = "10th Mountain Division"
+		location = 11660		#New York
+		division_template = "Mountain Division"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
 	
-	division = {			
-		name = "7th Special Forces Group"
-		location = 10380
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "10th Special Forces Group"
-		location = 10588
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "19th Special Forces Group"
-		location = 4865
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "20th Special Forces Group"
-		location = 12735
-		division_template = "Special Operations Regiment"
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.01
-	}
-	
-	### First Army ###
-	division = {			
-		name = "157th 'Spartan' Infantry Brigade"
-		location = 1595
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}		
-	division = {			
-		name = "158th 'Warrior' Infantry Brigade"
-		location = 4464
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}	
-	division = {			
-		name = "174th 'Patriot' Infantry Brigade"
-		location = 6778
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "177th 'Mudcats' Armored Brigade"
-		location = 4464 
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "188th 'Battle Ready' Infantry Brigade"
-		location = 1480
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "205th 'Bayonet' Infantry Brigade"
-		location = 1595
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "5th Armored Brigade"
-		location = 10740
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "120th Infantry Brigade"
-		location = 5022
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "181st 'Eagle' Infantry Brigade"
-		location = 10341
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "189th 'Bayonet' Infantry Brigade"
-		location = 7386
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "191st Infantry Brigade"
-		location = 7386
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	} 
-#US 8th Army
- 	division = {			
-		name = "2nd Infantry Division"
-		location = 7125
+	division = {
+		name = "24th Infantry Division"
+		location = 12024	#Kansas
 		division_template = "Infantry Division"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
-	division = {			
-		name = "2nd Infantry - Aviation Brigade"
-		location = 7125
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-#I Corps
- 	division = {			
-		name = "1st Stryker BCT"
-		location = 7386
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	} 	
- 	division = {			
-		name = "2nd Stryker BCT"
-		location = 7386
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	} 	
-#III Corps
-	#1st Infantry
- 	division = {			
-		name = "1st Infantry - 1st Armored BCT"
-		location = 1352 
-		division_template = "Armored Brigade"
+	
+	division = {
+		name = "25th Infantry Division"
+		location = 4180		#Hawaii
+		division_template = "Infantry Division"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
-	division = {			
-		name = "1st Infantry - 2nd Armored BCT"
-		location = 1352 
-		division_template = "Armored Brigade"
+	
+	division = {
+		name = "1st Armored Division"
+		location = 7836	#Texas
+		division_template = "Armored Division"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
-	division = {			
-		name = "1st Infantry - Aviation Brigade"
-		location = 1352
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	#1st Cavalry
- 	division = {			
-		name = "1st Cavalry - 1st Armored BCT"
-		location = 5022
-		division_template = "Armored Brigade"
+	
+	division = {
+		name = "1st Cavalry Division"
+		location = 7836	#Texas
+		division_template = "Armored Division"
 		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
-	division = {			
-		name = "1st Cavalry - 2nd Armored BCT"
-		location = 5022
-		division_template = "Armored Brigade"
+	
+	division = {
+		name = "49th Armored Division"
+		location = 7836	#Texas
+		division_template = "Armored Division"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "1st Cavalry - 3rd Armored BCT"
-		location = 5022
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "1st Cavalry - Aviation Brigade"
-		location = 5022
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "3rd Cavalry Regiment"
-		location = 5022
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	#1st Armored
- 	division = {			
-		name = "1st Armored - 1st Stryker BCT"
-		location = 10740
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "1st Armored - 2nd Armored BCT"
-		location = 10740
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "1st Armored - 3rd Armored BCT"
-		location = 10740
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "1st Armored - Aviation Brigade"
-		location = 10740
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	#4th Infantry Div
-	 division = {			
-		name = "4th Infantry - 1st Stryker BCT"
-		location = 10588
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "4th Infantry - 2nd Infantry BCT"
-		location = 10588
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "4th Infantry - 3rd Armored BCT"
-		location = 10588
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "4th Infantry - Aviation Brigade"
-		location = 10588
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-#3rd Infantry Division
- 	division = {			
-		name = "3rd Infantry - 1st Armored BCT"
-		location = 1480
-		division_template = "Armored Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
- 	division = {			
-		name = "3rd Infantry - 2nd Infantry BCT"
-		location = 7386
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "3rd Infantry - 48th Infantry BCT"
-		location = 7386
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "3rd Infantry - Aviation Brigade"
-		location = 7386
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-#10th Mountain Division
- 	division = {			
-		name = "10th Mountain - 1st Infantry BCT"
-		location = 6778
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	} 	
- 	division = {			
-		name = "10th Mountain - 2nd Infantry BCT"
-		location = 6778
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	} 	
- 	division = {			
-		name = "10th Mountain - 3rd Infantry BCT"
-		location = 6778
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "10th Mountain - Aviation Brigade"
-		location = 6778
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-#82nd Airborne Division
-division = {			
-		name = "82nd Airborne - 1st Brigade"
-		location = 7083
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-division = {			
-		name = "82nd Airborne - 2nd Brigade"
-		location = 7083
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-division = {			
-		name = "82nd Airborne - 3rd Brigade"
-		location = 7083
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "82nd Airborne - Aviation Brigade"
-		location = 7083
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-#101st Airborne Division
-division = {			
-		name = "101st Airborne - 1st Brigade"
-		location = 4402
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-division = {			
-		name = "101st Airborne - 2nd Brigade"
-		location = 4402
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-division = {			
-		name = "101st Airborne - 3rd Brigade"
-		location = 4402
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "101st Airborne - Aviation Brigade"
-		location = 4402
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.8
 		start_equipment_factor = 0.01
 	}
 
-#25th Infantry Division
- 	division = {			
-		name = "25th Infantry - 1st Stryker BCT"
-		location = 13069
-		division_template = "Stryker Brigade"
+	division = {
+		name = "1st Marine Division"
+		location = 1562
+		division_template = "Marine Division A"
 		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}  	
-	division = {			
-		name = "25th Infantry - 2nd Stryker BCT"
-		location = 4180
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	} 	
-	division = {			
-		name = "25th Infantry - 3rd Infantry BCT"
-		location = 4180
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}  	
-	division = {			
-		name = "25th Infantry - 4th Infantry BCT"
-		location = 13069
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "25th Infantry - Aviation Brigade"
-		location = 13069
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-#Independent
-	division = {			
-		name = "11th Cavalry Regiment"
-		location = 10387
-		division_template = "Armored Cavalry Regiment"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "2nd Cavalry Regiment"
-		location = 3299
-		division_template = "Stryker Brigade"
-		start_experience_factor = 0.75
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "173rd Airborne BCT"
-		location = 11584
-		division_template = "Airborne Brigade"
-		start_experience_factor = 0.8
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "12th Combat Aviation Brigade"
-		location = 3299 #Germany
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "16th Combat Aviation Brigade"
-		location = 7386
-		division_template = "Combat Aviation Brigade"
-		start_experience_factor = 0.9
 		start_equipment_factor = 0.01
 	}
 
-# US Marine Corps
+	division = {
+		name = "2nd Marine Division"
+		location = 4168
+		division_template = "Marine Division A"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.01
+	}
 
-   #1st Marine Div
-	division = {			
-		name = "1st Marine Regiment"
-		location = 1562
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
+	division = {
+		name = "3rd Marine Division"
+		location = 7315
+		division_template = "Marine Division"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
 	}
-	division = {			
-		name = "5th Marine Regiment"
-		location = 1562
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "7th Marine Regiment"
-		location = 1562
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "11th Marine Regiment"
-		location = 1562
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "3rd Marine Aircraft Wing"
-		location = 1562
-		division_template = "Marine Aircraft Wing"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	
-	#2nd Marine Div
-	division = {			
-		name = "2nd Marine Regiment"
-		location = 1132 
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "6th Marine Regiment"
-		location = 1132 
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "8th Marine Regiment"
-		location = 1132 
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "2nd Marine Aircraft Wing"
-		location = 1132
-		division_template = "Marine Aircraft Wing"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	
-	#3rd Marine Division
-	division = {			
-		name = "3rd Marine Regiment"
-		location = 7115
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "4th Marine Regiment" #okinawa
-		location = 7115
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "1st Marine Aircraft Wing"
-		location = 7115
-		division_template = "Marine Aircraft Wing"
-		start_experience_factor = 0.7
-		start_equipment_factor = 0.01
-	}
-	
-	#4th Marine Division
-	division = {			
-		name = "23rd Marine Regiment"
-		location = 7552 
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "25th Marine Regiment"
-		location = 7552 
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
-	division = {			
-		name = "14th Marine Regiment"
-		location = 7552 
-		division_template = "Marine Regiment"
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.01
-	}
-	
-	division = {			
-		name = "4th Marine Aircraft Wing"
+
+	division = {
+		name = "4th Marine Division (Reserve)"
 		location = 7552
-		division_template = "Marine Aircraft Wing"
-		start_experience_factor = 0.4
+		division_template = "Marine Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "82nd Airborne Division"
+		location = 12054	#North Carolina
+		division_template = "Airborne Division"
+		start_experience_factor = 0.75
 		start_equipment_factor = 0.01
+	}
+	
+	division = {
+		name = "101st Airborne Division"
+		location = 12709	#Kentucky
+		division_template = "Airborne Division"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.01
+	}
+	
+	division = {
+		name = "1st Special Forces Group"
+		location = 7386	#Fort Lewis
+		division_template = "Special Forces Group"
+		start_experience_factor = 0.6
+	}
+	
+	division = {
+		name = "3rd Special Forces Group"
+		location = 10468	#Fort Bragg
+		division_template = "Special Forces Group"
+		start_experience_factor = 0.6
+	}
+	
+	division = {
+		name = "5th Special Forces Group"
+		location = 4402	#Fort Campbell
+		division_template = "Special Forces Group"
+		start_experience_factor = 0.6
+	}
+
+	division = {
+		name = "7th Special Forces Group"
+		location = 10352	#Eglin AFB
+		division_template = "Special Forces Group"
+		start_experience_factor = 0.6
+	}
+	
+	division = {
+		name = "10th Special Forces Group"
+		location = 1738	#Fort Carson
+		division_template = "Special Forces Group"
+		start_experience_factor = 0.6
+	}
+	
+	division = {
+		name = "75th Ranger Regiment"
+		location = 6855	#Fort Benning
+		division_template = "Special Forces Group"
+		start_experience_factor = 0.8
+	}
+	
+	division = {
+		name = "172nd Infantry Brigade (Separate)"
+		location = 586	#Grafenwöhr, Germany
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.01
+	}
+	
+	division = {
+		name = "28th Infantry Division"
+		location = 6872		#Pennsylvania
+		division_template = "National Guard Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "29th Infantry Division"
+		location = 11738	#Virginia
+		division_template = "National Guard Division A"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+		infantry_equipment_1 = { owner = "USA" }
+		modern_tank_equipment_2 = { owner = "USA" }
+		}
+	}
+	
+	division = {
+		name = "34th Infantry Division"
+		location = 6752		#Minnesota
+		division_template = "National Guard Division A"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+		infantry_equipment_1 = { owner = "USA" }
+		modern_tank_equipment_2 = { owner = "USA" }
+		}
+	}
+	
+	division = {
+		name = "35th Infantry Division"
+		location = 12024	#Kansas
+		division_template = "National Guard Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "38th Infantry Division"
+		location = 4437	#Indiana
+		division_template = "National Guard Division A"
+		start_experience_factor = 0.1
+		force_equipment_variants = { 
+		infantry_equipment_1 = { owner = "USA" }
+		modern_tank_equipment_2 = { owner = "USA" }
+		}
+	}
+	
+	division = {
+		name = "40th Infantry Division"
+		location = 9814		#California
+		division_template = "National Guard Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "42nd Infantry Division"
+		location = 11660	#New York
+		division_template = "National Guard Division"
+		start_experience_factor = 0.1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "75th Division (Training)"
+		location = 7836	#Texas
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "78th Division (Training)"
+		location = 11782	#New Jersey
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "80th Division (Training)"
+		location = 7612		#Georgia
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "84th Division (Training)"
+		location = 12709	#Kentucky
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "85th Division (Training)"
+		location = 11738	#Virginia
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "87th Division (Training)"
+		location = 492	#Alabama
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "91st Division (Training)"
+		location = 9814		#California
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "95th Division (Training)"
+		location = 5103		#Oklahoma
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "98th Division (Training)"
+		location = 7612		#Georgia
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "100th Division (Training)"
+		location = 12709	#Kentucky
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "104th Division (Training)"
+		location = 7386		#Washington
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
+	}
+	
+	division = {
+		name = "108th Division (Training)"
+		location = 12054	#North Carolina
+		division_template = "Reserve Training Division"
+		start_experience_factor = 0
+		force_equipment_variants = { infantry_equipment_1 = { owner = "USA" } }
 	}
 
 	##### NAVAL UNITS #####
