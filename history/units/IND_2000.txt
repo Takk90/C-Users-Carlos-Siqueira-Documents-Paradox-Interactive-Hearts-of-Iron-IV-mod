@@ -165,16 +165,11 @@ division_template = {
 	priority = 2
 }
 
-# 2 divs - like before
-# Merge all single btn to bde's 
-# 13 commands:
-# 8 inf bde's
-# 8 mech btn
-# 36 ind inf btn (mot. inf)
-# 15 ind commando btn (lt. inf)
-# + sof & marines (size added)
-# 2000 and 2017 OOB, only minor changes, can stay the same
-#
+# Kostrad - 2divs: 3 bde + 3 AB bde (30.000 total) - correct here but can simplify
+# 11 Mil Area Commands:
+# 2bde, 65 inf btn, 8 cav btn,
+# Special forces - ca 7-8 btn
+# Marines 2x6btn bde's
 
 units = {
 	#Kostrad (Army Strategic Command)
