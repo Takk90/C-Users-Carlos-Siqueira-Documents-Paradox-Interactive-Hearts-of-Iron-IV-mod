@@ -64,10 +64,11 @@ division_template = {
 		
 		Arty_Bat = { x = 1 y = 0 }
 		L_Engi_Bat = { x = 1 y = 1 }
+		
+		armor_Recce_Bat = { x = 2 y = 0 }
 	}
 	
 	support = {
-		armor_Recce_Comp = { x = 0 y = 0 }
 	}
 }
 
@@ -92,17 +93,15 @@ division_template = {
 division_template = {
 	name = "Brigade Yonif Mekanis"		#Mechanised Infantry Brigade
 	regiments = {
-		Mech_Inf_Bat = { x = 0 y = 0 }
-		Mech_Inf_Bat = { x = 0 y = 1 }
-		Mech_Inf_Bat = { x = 0 y = 2 }
-		Arm_Inf_Bat = { x = 0 y = 3 }
-		armor_Recce_Bat = { x = 0 y = 4 }
+		Arm_Inf_Bat = { x = 0 y = 0 }
+		Arm_Inf_Bat = { x = 0 y = 1 }
+		armor_Recce_Bat = { x = 0 y = 2 }
+		armor_Recce_Bat = { x = 0 y = 3 }
 	}
 	
 	support = {
 		SP_Arty_Battery = { x = 0 y = 0 }
 		H_Engi_Comp = { x = 0 y = 1 }
-		armor_Comp = { x = 0 y = 2 }
 	}
 }
 
@@ -203,25 +202,6 @@ units = {
 		location = 7381	#Cijantung
 		division_template = "Kelompok Kopassus"
 		start_experience_factor = 0.5
-		start_equipment_factor = 0.01
-	}
-	
-	#Territorial Command
-	##Kodam Iskandar Muda
-	#not in 2000
-	
-	division = {
-		name = "Brigade Infanteri 25"
-		location = 7658	#Ache
-		division_template = "Brigade Infanteri"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division = {
-		name = "Kodam Iskandar Muda"
-		location = 7658	#Ache
-		division_template = "Kodam-I"
-		start_experience_factor = 0.3
 		start_equipment_factor = 0.01
 	}
 	
@@ -419,16 +399,14 @@ units = {
 	   base = 4608		#Surabaya
 		location = 4608 
 		ship = { name = "KRI Cakra" definition = diesel_attack_submarine experience = 30 equipment = { diesel_attack_submarine_2 = { amount = 1 owner = IND creator = GER version_name = "Type 209-Class" } } }
-		ship = { name = "KRI Nagapasa" definition = diesel_attack_submarine experience = 30 equipment = { diesel_attack_submarine_2 = { amount = 1 owner = IND creator = KOR } } }
-		ship = { name = "KRI Raden Eddy Martadinata" definition = frigate experience = 30 equipment = { missile_frigate_3 = { amount = 1 owner = IND creator = HOL } } }
+		
 		ship = { name = "KRI Ahmad Yani" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG } } }
 		ship = { name = "KRI Slamet Riyadi" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG } } }
 		ship = { name = "KRI Yos Sudarso" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG } } }
-		ship = { name = "KRI Diponegoro" definition = corvette experience = 30 equipment = { missile_corvette_3 = { amount = 1 owner = IND creator = HOL } } }
-		ship = { name = "KRI Sultan Hasanuddin" definition = corvette experience = 30 equipment = { missile_corvette_3 = { amount = 1 owner = IND creator = HOL } } }
-		ship = { name = "KRI Bung Tomo" definition = corvette experience = 30 equipment = { missile_corvette_2 = { amount = 1 owner = IND creator = ENG } } }
-		ship = { name = "KRI John Lie" definition = corvette experience = 30 equipment = { missile_corvette_2 = { amount = 1 owner = IND creator = ENG } } }
+		ship = { name = "KRI Wilhemus Zakarias" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG version_name = "Type 81 Tribsl-Class" } } }
 		ship = { name = "KRI Fatahillah" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = HOL } } }
+		ship = { name = "KRI Samadikun" definition = corvette experience = 30 equipment = { corvette_1 = { amount = 1 owner = IND creator = USA version_name = "Claud Jones-Class" } } }
+		ship = { name = "KRI Martadinata" definition = corvette experience = 30 equipment = { corvette_1 = { amount = 1 owner = IND creator = USA version_name = "Claud Jones-Class" } } }
 		ship = { name = "KRI Kapitan Pattimura" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Untung Suropati" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Nuku" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
@@ -436,8 +414,6 @@ units = {
 		ship = { name = "KRI Cut Nyak Dien" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Sultan Thaha" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Sutanto" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
-		ship = { name = "KRI Makassar" definition = LPD experience = 30 equipment = { LPD_2 = { amount = 1 owner = IND creator = KOR version_name = "Makassar-Class" } } air_wings = { }  }
-		ship = { name = "KRI Surabaya" definition = LPD experience = 30 equipment = { LPD_2 = { amount = 1 owner = IND creator = KOR version_name = "Makassar-Class" } } air_wings = { }  }
 	}
 	
 	navy = {
@@ -445,16 +421,16 @@ units = {
 	   base = 7381		#Jakarta
 		location = 7381 
 		ship = { name = "KRI Nanggala" definition = diesel_attack_submarine experience = 30 equipment = { diesel_attack_submarine_2 = { amount = 1 owner = IND creator = GER version_name = "Type 209-Class" } } }
-		ship = { name = "KRI Ardadedali" definition = diesel_attack_submarine experience = 30 equipment = { diesel_attack_submarine_2 = { amount = 1 owner = IND creator = KOR } } }
-		ship = { name = "KRI I Gusti Ngurah Rai" definition = frigate experience = 30 equipment = { missile_frigate_3 = { amount = 1 owner = IND creator = HOL } } }
+		
 		ship = { name = "KRI Oswald Siahaan" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG } } }
 		ship = { name = "KRI Abdul Halim Perdanakusuma" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG } } }
 		ship = { name = "KRI Karel Satsuit Tubun" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG } } }
-		ship = { name = "KRI Sultan Iskandar Muda" definition = corvette experience = 30 equipment = { missile_corvette_3 = { amount = 1 owner = IND creator = HOL } } }
-		ship = { name = "KRI Frans Kaiseipo" definition = corvette experience = 30 equipment = { missile_corvette_3 = { amount = 1 owner = IND creator = HOL } } }
-		ship = { name = "KRI Usman Harun" definition = corvette experience = 30 equipment = { missile_corvette_2 = { amount = 1 owner = IND creator = ENG } } }
+		ship = { name = "KRI Hasanuddin" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG version_name = "Type 81 Tribsl-Class" } } }
+		ship = { name = "KRI Martha Krystina Tiyahahu" definition = frigate experience = 30 equipment = { frigate_1 = { amount = 1 owner = IND creator = ENG version_name = "Type 81 Tribsl-Class" } } }
 		ship = { name = "KRI Malahayati" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = HOL } } }
 		ship = { name = "KRI Nala" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = HOL } } }
+		ship = { name = "KRI Mongisidi" definition = corvette experience = 30 equipment = { corvette_1 = { amount = 1 owner = IND creator = USA version_name = "Claud Jones-Class" } } }
+		ship = { name = "KRI Ngurah Rai" definition = corvette experience = 30 equipment = { corvette_1 = { amount = 1 owner = IND creator = USA version_name = "Claud Jones-Class" } } }
 		ship = { name = "KRI Sutedi Senoputra" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Wiratno" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Tjiptadi" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
@@ -462,10 +438,7 @@ units = {
 		ship = { name = "KRI Imam Bonjol" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Teuku Umar" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
 		ship = { name = "KRI Silas Papare" definition = corvette experience = 30 equipment = { corvette_2 = { amount = 1 owner = IND creator = GER } } }
-		ship = { name = "KRI Banjarmasin" definition = LPD experience = 30 equipment = { LPD_2 = { amount = 1 owner = IND creator = KOR version_name = "Makassar-Class" } } air_wings = { }  }
-		ship = { name = "KRI Banda Aceh" definition = LPD experience = 30 equipment = { LPD_2 = { amount = 1 owner = IND creator = KOR version_name = "Makassar-Class" } } air_wings = { }  }
 	}
-	
 }
 
 
@@ -490,123 +463,86 @@ instant_effect = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = infantry_weapons2		#K2
-		amount = 2500
-		producer = KOR
-	}
-
-	add_equipment_to_stockpile = {
-		type = infantry_weapons2		#SG 550
-		amount = 2500
-		producer = SWI
-	}
-
-	add_equipment_to_stockpile = {
-		type = infantry_weapons3		#G36
-		amount = 1250
-		producer = GER
-	}
-
-	add_equipment_to_stockpile = {
 		type = infantry_weapons1		#Pindad SS1
-		amount = 10500
+		amount = 20500
 		producer = IND
-	}
-
-	add_equipment_to_stockpile = {
-		type = infantry_weapons2		#Pindad SS2
-		amount = 4500
-		producer = IND
-	}
-
-	add_equipment_to_stockpile = {
-		type = infantry_weapons4		#HK 416
-		amount = 250
-		producer = GER
 	}
 	
 	add_equipment_to_stockpile = {
 		type = command_control_equipment1 
-		amount = 3000
+		amount = 4000
 		producer = IND
 	}
 	
-	add_equipment_to_stockpile = {
-		type = MBT_3		#Leopard 2
-		amount = 71
-		producer = GER
-	}
-	
-	add_equipment_to_stockpile = {
-		type = MBT_4		#Leopard 2A4 
-		amount = 42
-		producer = GER
-	}
-	
+
+	## Vehicles
+	# 749 rec tanks
 	add_equipment_to_stockpile = {
 		type = Rec_tank_0		#AMX-13
 		#version_name = "AMX-13"
-		amount = 225
+		amount = 275
 		producer = FRA
 	}
-	
+	add_equipment_to_stockpile = {
+		type = Rec_tank_1		#AMX-10
+		amount = 34
+		producer = FRA
+	}
 	add_equipment_to_stockpile = {
 		type = Rec_tank_0		#Ferret
 		amount = 55
 		producer = ENG
 	}
-	
 	add_equipment_to_stockpile = {
 		type = Rec_tank_0		#Alvis Saladin
 		#version_name = "Alvis Saladin"
 		amount = 69
 		producer = ENG
 	}
-	
 	add_equipment_to_stockpile = {
 		type = Rec_tank_0		#Cadillac Cage Commando
-		#version_name = "Cadillac Cage Commando"
-		amount = 58
+		amount = 82
 		producer = USA
 	}
-	
+	add_equipment_to_stockpile = {
+		type = Rec_tank_0		#PT-76
+		amount = 130
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = Rec_tank_0		#BRDM
+		amount = 14
+		producer = UKR
+	}
 	add_equipment_to_stockpile = {
 		type = Rec_tank_1		#FV101
 		amount = 90
 		producer = ENG
 	}
 	
+	#251 IFV
 	add_equipment_to_stockpile = {
-		type = Rec_tank_1		#Badak FSV
-		amount = 50
-		producer = IND
+		type = IFV_2		#BMP-2
+		amount = 11
+		producer = SOV
 	}
-	
-	add_equipment_to_stockpile = {
-		type = IFV_2		#Marder
-		amount = 50
-		producer = GER
-	}
-	
 	add_equipment_to_stockpile = {
 		type = IFV_2		#Alvis Stormer
 		amount = 40
 		producer = ENG
 	}
-	
 	add_equipment_to_stockpile = {
-		type = APC_1		#AMX-VCI
-		#version_name = "AMX-VCI"
-		amount = 75
+		type = IFV_1		#AMX-VCI
+		amount = 200
 		producer = FRA
 	}
 	
+	#120 APC
 	add_equipment_to_stockpile = {
-		type = APC_2		#M113
-		amount = 155
-		producer = USA
+		type = APC_1		#BTR-50
+		amount = 74
+		producer = SOV
 	}
-	
 	add_equipment_to_stockpile = {
 		type = APC_2		#VAB
 		amount = 46
@@ -614,280 +550,92 @@ instant_effect = {
 	}
 	
 	add_equipment_to_stockpile = {
-		type = APC_2		#Bandvagn 206
-		amount = 50
-		producer = SWE
-	}
-	
-	add_equipment_to_stockpile = {
-		type = APC_3		#ZSL-92
-		amount = 50
-		producer = CHI
-	}
-	
-	add_equipment_to_stockpile = {
-		type = APC_5		#Pandur II
-		amount = 4
-		producer = AUS
-	}
-	
-	add_equipment_to_stockpile = {
-		type = APC_5		#Hanwha Tarantula
-		amount = 22
-		producer = KOR
-	}
-	
-	add_equipment_to_stockpile = {
-		type = APC_2		#Pindak Anoa
-		amount = 260
-		producer = IND
-	}
-	
-	add_equipment_to_stockpile = {
 		type = util_vehicle_0		#M151
-		amount = 250
+		amount = 5000
 		producer = USA
 	}
-	
 	add_equipment_to_stockpile = {
-		type = util_vehicle_0		#
-		amount = 2500
+		type = util_vehicle_2		#Pindad APR-1
+		amount = 40
 		producer = IND
 	}
-	
-	add_equipment_to_stockpile = {
-		type = util_vehicle_2		#Casspir
-		amount = 50
-		producer = SAF
-	}
-	
 	add_equipment_to_stockpile = {
 		type = util_vehicle_2		#Land Rover Defender
 		amount = 100
 		producer = ENG
 	}
 	
-	add_equipment_to_stockpile = {
-		type = util_vehicle_3		#Mamba
-		amount = 50
-		producer = SAF
-	}
 	
 	add_equipment_to_stockpile = {
-		type = util_vehicle_3		#Bushmaster
-		amount = 55
-		producer = AST
-	}
-	
-	add_equipment_to_stockpile = {
-		type = util_vehicle_3		#VBL
-		amount = 18
+		type = artillery_2		#LG1
+		amount = 20
 		producer = FRA
 	}
-	
-	add_equipment_to_stockpile = {
-		type = util_vehicle_4		#Pindad Komodo
-		amount = 200
-		producer = IND
-	}
-	
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1		#Astros II
-		amount = 36
-		producer = BRA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1		#NDL-40
-		amount = 50
-		producer = IND
-	}
-	
-	add_equipment_to_stockpile = {
-		type = SP_arty_1		#M109
-		amount = 18
-		producer = USA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1		#R-Han 122
-		amount = 50
-	}
-	
-	add_equipment_to_stockpile = {
-		type = SP_arty_2		#CAESAR
-		amount = 55
-		producer = FRA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = SP_arty_0		#Mk 61
-		amount = 50
-		producer = FRA
-	}
-	
 	add_equipment_to_stockpile = {
 		type = artillery_0		#M101
 		#version_name = "M101"
-		amount = 156
+		amount = 308
 		producer = USA
 	}
-	
 	add_equipment_to_stockpile = {
 		type = artillery_1		#FH-2000
-		amount = 8
+		amount = 5
 		producer = SIN
 	}
-	
-	add_equipment_to_stockpile = {
-		type = artillery_1		#KH-178
-		amount = 54
-		producer = KOR
-	}
-	
-	add_equipment_to_stockpile = {
-		type = artillery_2		#KH-179
-		amount = 18
-		producer = KOR
-	}
-	
-	add_equipment_to_stockpile = {
-		type = ENGI_MBT_2		#Bergepaner 2
-		amount = 6
-		producer = GER
-	}
-	
-	add_equipment_to_stockpile = {
-		type = ENGI_MBT_3		#Bergepaner 3
-		amount = 4
-		producer = GER
-	}
-	
-	add_equipment_to_stockpile = {
-		type = Anti_Air_1		#Grom
-		amount = 150
-		producer = POL
-	}
-	
 	add_equipment_to_stockpile = {
 		type = Anti_Air_1		#RBS 70
-		amount = 150
+		amount = 1500
 		producer = SWE
 	}
-	
 	add_equipment_to_stockpile = {
-		type = Anti_Air_2		#Starstreak
-		amount = 500
+		type = SP_Anti_Air_1		#Rapier
+		amount = 51
 		producer = ENG
 	}
-	
 	add_equipment_to_stockpile = {
-		type = Anti_Air_1		#Mistral
-		amount = 150
+		type = Anti_tank_0		#LRAC
+		amount = 700
 		producer = FRA
 	}
-	
+
 	add_equipment_to_stockpile = {
-		type = Anti_tank_2		#Metis
-		amount = 1000
-		producer = SOV
+		type = transport_helicopter1		#AS-330
+		amount = 18
+		producer = FRA
 	}
-	
 	add_equipment_to_stockpile = {
-		type = Heavy_Anti_tank_2		#Javelin
-		amount = 500
+		type = transport_helicopter1		#bo 105
+		amount = 26
+		producer = GER
+	}
+	add_equipment_to_stockpile = {
+		type = transport_helicopter1		#Bell 205
+		amount = 80
 		producer = USA
 	}
-	
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1		#Mi-24
-		amount = 5
-		producer = SOV
+		type = L_Strike_fighter2		#A4
+		amount = 24
+		producer = SIN
 	}
-	
 	add_equipment_to_stockpile = {
-		type = attack_helicopter2		#AH-64 Apache
-		amount = 8
-		producer = USA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Mi-17
-		#version_name = "Mil Mi-17"
-		amount = 11
-		producer = SOV
-	}
-	
-	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#A�rospatiale SA-330 Puma
-		amount = 11
-		producer = FRA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = transport_helicopter1		#Eurocopter AS332 Super Puma
-		#version_name = "Eurocopter AS332 Super Puma"
-		amount = 9
-		producer = FRA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = transport_helicopter2		#Eurocopter Fennec
-		#version_name = "Eurocopter Fennec"
-		amount = 6
-		producer = FRA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = transport_helicopter2		#Cougar
-		amount = 2
-		producer = FRA
-	}
-	
-	add_equipment_to_stockpile = {
-		type = L_Strike_fighter2		#T-50
-		amount = 15
-		producer = KOR
-	}
-	
-	add_equipment_to_stockpile = {
-		type = L_Strike_fighter3		#Hawk 200
+		type = L_Strike_fighter2		#Hawk
 		amount = 24
 		producer = ENG
 	}
-	
-	add_equipment_to_stockpile = {
-		type = L_Strike_fighter3		#Super Tucano
-		amount = 15
-		producer = BRA
-	}
-	
 	add_equipment_to_stockpile = {
 		type = MR_Fighter1		#F-5
 		amount = 6
 		producer = USA
 	}
-	
 	add_equipment_to_stockpile = {
 		type = MR_Fighter2		#F-16
 		amount = 17
 		producer = USA
 	}
-	
 	add_equipment_to_stockpile = {
-		type = AS_Fighter2		#Su-27
-		amount = 16
-		producer = SOV
-	}
-	
-	add_equipment_to_stockpile = {
-		type = transport_plane1		#C-130
-		amount = 21
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = transport_plane2		#CN-235
-		amount = 49
+		type = transport_plane2		#CN-235 & Similar
+		amount = 101
 	}
 	
 	if = {
@@ -940,77 +688,6 @@ instant_effect = {
 		}
 	}
 	
-	if = {
-		limit = { has_dlc = "Death or Dishonor" }
-		KOR = {
-			create_production_license = {
-				target = IND
-				equipment = {
-					type = diesel_attack_submarine_2			#Cang Bogo
-				}
-				cost_factor = 0
-			}
-		}
-		else = {
-			add_equipment_production = {
-				equipment = {
-					type = diesel_attack_submarine_2
-					creator = "KOR"
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
-			}
-		}
-	}
-	
-	if = {
-		limit = { has_dlc = "Death or Dishonor" }
-		HOL = {
-			create_production_license = {
-				target = IND
-				equipment = {
-					type = missile_frigate_3			#Sigma Class
-				}
-				cost_factor = 0
-			}
-		}
-		else = {
-			add_equipment_production = {
-				equipment = {
-					type = missile_frigate_3
-					creator = "HOL"
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
-			}
-		}
-	}
-	
-	if = {
-		limit = { has_dlc = "Death or Dishonor" }
-		HOL = {
-			create_production_license = {
-				target = IND
-				equipment = {
-					type = missile_corvette_3			#Sigma Class
-				}
-				cost_factor = 0
-			}
-		}
-		else = {
-			add_equipment_production = {
-				equipment = {
-					type = missile_corvette_3
-					creator = "HOL"
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
-			}
-		}
-	}
 	
 	if = {
 		limit = { has_dlc = "Death or Dishonor" }
@@ -1083,55 +760,4 @@ instant_effect = {
 			}
 		}
 	}
-	
-	if = {
-		limit = { has_dlc = "Death or Dishonor" }
-		ENG = {
-			create_production_license = {
-				target = IND
-				equipment = {
-					type = missile_corvette_2			#F-2000 Class
-				}
-				cost_factor = 0
-			}
-		}
-		else = {
-			add_equipment_production = {
-				equipment = {
-					type = missile_corvette_2
-					creator = "ENG"
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
-			}
-		}
-	}
-	
-	if = {
-		limit = { has_dlc = "Death or Dishonor" }
-		KOR = {
-			create_production_license = {
-				target = IND
-				equipment = {
-					type = LPD_2 #Makassar Class
-					version_name = "Makassar-Class"
-				}
-				cost_factor = 0
-			}
-		}
-		else = {
-			add_equipment_production = {
-				equipment = {
-					type = LPD_2
-					version_name = "Makassar-Class"
-					creator = "KOR"
-				}
-				requested_factories = 1
-				progress = 0.2
-				efficiency = 50
-			}
-		}
-	}
-	
 }
