@@ -260,7 +260,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 100.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -282,7 +282,7 @@ set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
+set_variable = { Conservative_pop = 1.0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
@@ -359,19 +359,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 99.7 
+			popularity = 97.4 
 		}
 		communism = { #Emerging
-			popularity = 0.2 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.0 
+			popularity = 2.6 
 		}
 		nationalist = { #nationalist
-			popularity = 0.2 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -379,11 +379,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.345 }
-set_variable = { liberalism_pop = 0.014 }
-set_variable = { socialism_pop = 0.638 }
+set_variable = { conservatism_pop = 0.439 }
+set_variable = { liberalism_pop = 0.077 }
+set_variable = { socialism_pop = 0.458 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.001 }
+set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -398,10 +398,10 @@ set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.026 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.002 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -410,19 +410,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 59.3 
+			popularity = 67.8 
 		}
 		communism = { #Emerging
-			popularity = 1.9 
+			popularity = 2.0 
 		}
 		fascism = { #Salafist
-			popularity = 3.0 
+			popularity = 2.0 
 		}
 		neutrality = { #neutrality
-			popularity = 9.0 
+			popularity = 16.7 
 		}
 		nationalist = { #nationalist
-			popularity = 1.3 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -430,28 +430,28 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.078 }
-set_variable = { liberalism_pop = 0.152 }
-set_variable = { socialism_pop = 0.363 }
+set_variable = { conservatism_pop = 0.087 }
+set_variable = { liberalism_pop = 0.398 }
+set_variable = { socialism_pop = 0.193 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.019 }
+set_variable = { Conservative_pop = 0.02 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0.03 }
+set_variable = { Caliphate_pop = 0.02 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.03 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.06 }
+set_variable = { Neutral_Communism_pop = 0.019 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.148 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.013 }
+set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
@@ -512,16 +512,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 41.0 
+			popularity = 63.0 
 		}
 		communism = { #Emerging
-			popularity = 24.0 
+			popularity = 1.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 35.0 
+			popularity = 36.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -532,13 +532,13 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.21 }
-set_variable = { liberalism_pop = 0.04 }
-set_variable = { socialism_pop = 0.16 }
+set_variable = { conservatism_pop = 0.14 }
+set_variable = { liberalism_pop = 0.35 }
+set_variable = { socialism_pop = 0.14 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0.23 }
+set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0.01 }
@@ -549,7 +549,7 @@ set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0.01 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0.34 }
-set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0.01 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
@@ -563,10 +563,10 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 99.3 
+			popularity = 47.0 
 		}
 		communism = { #Emerging
-			popularity = 1.4 
+			popularity = 52.4 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -575,7 +575,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 0.5 
 		}
 	}
 	ruling_party = 
@@ -583,12 +583,12 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.529 }
-set_variable = { liberalism_pop = 0.398 }
-set_variable = { socialism_pop = 0.066 }
+set_variable = { conservatism_pop = 0.177 }
+set_variable = { liberalism_pop = 0.009 }
+set_variable = { socialism_pop = 0.284 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.007 }
-set_variable = { Conservative_pop = 0 }
+set_variable = { Communist-State = 0 }
+set_variable = { Conservative_pop = 0.524 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
@@ -604,8 +604,8 @@ set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0.001 }
+set_variable = { Nat_Populism_pop = 0.004 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -614,109 +614,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 73.8 
-		}
-		communism = { #Emerging
-			popularity = 7.5 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 18.7 
-		}
-		nationalist = { #nationalist
-			popularity = 0.0 
-		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.372 }
-set_variable = { liberalism_pop = 0.019 }
-set_variable = { socialism_pop = 0.347 }
-set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.005 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.07 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.048 }
-set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0.034 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.003 }
-set_variable = { Neutral_Green_pop = 0.102 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
-set_variable = { Monarchist_pop = 0 }
-recalculate_party = yes
-
-
-###AUS###
-set_politics = {
-	parties = {
-		democratic = { #western
-			popularity = 61.5 
-		}
-		communism = { #Emerging
-			popularity = 2.0 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 15.9 
-		}
-		nationalist = { #nationalist
-			popularity = 20.5 
-		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.24 }
-set_variable = { liberalism_pop = 0.05 }
-set_variable = { socialism_pop = 0.268 }
-set_variable = { Western_Autocracy_pop = 0.057 }
-set_variable = { Communist-State = 0.01 }
-set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.0 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.035 }
-set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.124 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.205 }
-set_variable = { Monarchist_pop = 0 }
-recalculate_party = yes
-
-
-###AZE###
-set_politics = {
-	parties = {
-		democratic = { #western
-			popularity = 96.8 
+			popularity = 83.4 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -725,10 +623,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 3.1 
+			popularity = 7.9 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 8.7 
 		}
 	}
 	ruling_party = 
@@ -736,9 +634,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.89 }
-set_variable = { liberalism_pop = 0.057 }
-set_variable = { socialism_pop = 0.021 }
+set_variable = { conservatism_pop = 0.339 }
+set_variable = { liberalism_pop = 0.051 }
+set_variable = { socialism_pop = 0.444 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -748,13 +646,115 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.031 }
+set_variable = { Neutral_conservatism_pop = 0.053 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.026 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0.003 }
+set_variable = { Nat_Populism_pop = 0.084 }
+set_variable = { Monarchist_pop = 0 }
+recalculate_party = yes
+
+
+###AUS###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 63.7 
+		}
+		communism = { #Emerging
+			popularity = 1.0 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 7.4 
+		}
+		nationalist = { #nationalist
+			popularity = 26.9 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.269 }
+set_variable = { liberalism_pop = 0.036 }
+set_variable = { socialism_pop = 0.332 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.005 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.074 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.269 }
+set_variable = { Monarchist_pop = 0 }
+recalculate_party = yes
+
+
+###AZE###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 82.1 
+		}
+		communism = { #Emerging
+			popularity = 12.6 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 11.3 
+		}
+		nationalist = { #nationalist
+			popularity = 0.0 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.623 }
+set_variable = { liberalism_pop = 0.173 }
+set_variable = { socialism_pop = 0.025 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.063 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.064 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.049 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
@@ -869,19 +869,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 90.4 
+			popularity = 48.1 
 		}
 		communism = { #Emerging
-			popularity = 6.0 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
-			popularity = 0.0 
+			popularity = 4.3 
 		}
 		neutrality = { #neutrality
 			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 41.4 
 		}
 	}
 	ruling_party = 
@@ -889,17 +889,17 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.113 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.791 }
+set_variable = { conservatism_pop = 0.072 }
+set_variable = { liberalism_pop = 0.009 }
+set_variable = { socialism_pop = 0.4 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.021 }
+set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.018 }
-set_variable = { Caliphate_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.0 }
+set_variable = { Caliphate_pop = 0.043 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
@@ -911,7 +911,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.0 }
+set_variable = { Nat_Populism_pop = 0.414 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -971,19 +971,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 73.6 
+			popularity = 64.6 
 		}
 		communism = { #Emerging
-			popularity = 7.4 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 9.0 
+			popularity = 14.3 
 		}
 		nationalist = { #nationalist
-			popularity = 3.7 
+			popularity = 11.3 
 		}
 	}
 	ruling_party = 
@@ -991,11 +991,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.319 }
-set_variable = { liberalism_pop = 0.212 }
-set_variable = { socialism_pop = 0.205 }
+set_variable = { conservatism_pop = 0.2 }
+set_variable = { liberalism_pop = 0.244 }
+set_variable = { socialism_pop = 0.202 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.037 }
+set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -1006,14 +1006,14 @@ set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0.004 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.086 }
+set_variable = { Neutral_Green_pop = 0.143 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.037 }
+set_variable = { Nat_Fascism_pop = 0.014 }
+set_variable = { Nat_Populism_pop = 0.099 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -1175,7 +1175,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 90.2 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -1184,163 +1184,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 9.8 
-		}
-		nationalist = { #nationalist
 			popularity = 0.0 
 		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.282 }
-set_variable = { liberalism_pop = 0.322 }
-set_variable = { socialism_pop = 0.298 }
-set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
-set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.098 }
-set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
-set_variable = { Monarchist_pop = 0.0 }
-recalculate_party = yes
-
-
-###BLR###
-set_politics = {
-	parties = {
-		democratic = { #western
-			popularity = 8.7 
-		}
-		communism = { #Emerging
-			popularity = 81.8 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 7.2 
-		}
 		nationalist = { #nationalist
-			popularity = 2.3 
-		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.02 }
-set_variable = { liberalism_pop = 0.027 }
-set_variable = { socialism_pop = 0.04 }
-set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.801 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.017 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.039 }
-set_variable = { oligarchism_pop = 0.033 }
-set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.023 }
-set_variable = { Monarchist_pop = 0 }
-recalculate_party = yes
-
-
-###BLZ###
-set_politics = {
-	parties = {
-		democratic = { #western
 			popularity = 100.0 
-		}
-		communism = { #Emerging
-			popularity = 0.0 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 0.0 
-		}
-		nationalist = { #nationalist
-			popularity = 0.0 
-		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.505 }
-set_variable = { liberalism_pop = 0.017 }
-set_variable = { socialism_pop = 0.478 }
-set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
-set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.0 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
-set_variable = { Monarchist_pop = 0 }
-recalculate_party = yes
-
-
-###BOL###
-set_politics = {
-	parties = {
-		democratic = { #western
-			popularity = 0.0 
-		}
-		communism = { #Emerging
-			popularity = 61.4 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 29.8 
-		}
-		nationalist = { #nationalist
-			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -1357,57 +1204,6 @@ set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.614 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
-set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.242 }
-set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.056 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
-set_variable = { Monarchist_pop = 0 }
-recalculate_party = yes
-
-
-###BOS###
-set_politics = {
-	parties = {
-		democratic = { #western
-			popularity = 59.0 
-		}
-		communism = { #Emerging
-			popularity = 0.0 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 0.0 
-		}
-		nationalist = { #nationalist
-			popularity = 0.0 
-		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.59 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
-set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
@@ -1422,6 +1218,210 @@ set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Monarchist_pop = 1.0 }
+recalculate_party = yes
+
+
+###BLR###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 4.0 
+		}
+		communism = { #Emerging
+			popularity = 97.0 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 3.0 
+		}
+		nationalist = { #nationalist
+			popularity = 1.0 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.02 }
+set_variable = { liberalism_pop = 0.01 }
+set_variable = { socialism_pop = 0.01 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.05 }
+set_variable = { Conservative_pop = 0.85 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.02 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { oligarchism_pop = 0.03 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.01 }
+set_variable = { Monarchist_pop = 0 }
+recalculate_party = yes
+
+
+###BLZ###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 99.8 
+		}
+		communism = { #Emerging
+			popularity = 0.0 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 0.2 
+		}
+		nationalist = { #nationalist
+			popularity = 0.0 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.394 }
+set_variable = { liberalism_pop = 0.007 }
+set_variable = { socialism_pop = 0.597 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0.002 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Monarchist_pop = 0 }
+recalculate_party = yes
+
+
+###BOL###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 55.0 
+		}
+		communism = { #Emerging
+			popularity = 11.1 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 18.2 
+		}
+		nationalist = { #nationalist
+			popularity = 0.0 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.222 }
+set_variable = { liberalism_pop = 0.161 }
+set_variable = { socialism_pop = 0.167 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.111 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.182 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Monarchist_pop = 0 }
+recalculate_party = yes
+
+
+###BOS###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 72.9 
+		}
+		communism = { #Emerging
+			popularity = 0.0 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 2.5 
+		}
+		nationalist = { #nationalist
+			popularity = 11.3 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.501 }
+set_variable = { liberalism_pop = 0.003 }
+set_variable = { socialism_pop = 0.225 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0.025 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.113 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -1481,16 +1481,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 48.4 
+			popularity = 53.7 
 		}
 		communism = { #Emerging
-			popularity = 51.6 
+			popularity = 38.9 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.0 
+			popularity = 11.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -1501,21 +1501,21 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
+set_variable = { conservatism_pop = 0.006 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.484 }
+set_variable = { socialism_pop = 0.531 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
+set_variable = { Communist-State = 0.036 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.516 }
+set_variable = { anarchist_communism_pop = 0.317 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
+set_variable = { neutral_Social_pop = 0.11 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -1532,19 +1532,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 60.3 
+			popularity = 59.9 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 21.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 5.8 
+			popularity = 2.9 
 		}
 		nationalist = { #nationalist
-			popularity = 4.9 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -1554,27 +1554,27 @@ set_politics = {
 }
 set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.603 }
+set_variable = { socialism_pop = 0.599 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.212 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.013 }
+set_variable = { Neutral_conservatism_pop = 0.017 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.045 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.012 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.049 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -1787,7 +1787,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 98.0 
+			popularity = 100.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -1796,10 +1796,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 1.0 
+			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 1.0 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -1807,9 +1807,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.3 }
-set_variable = { liberalism_pop = 0.55 }
-set_variable = { socialism_pop = 0.13 }
+set_variable = { conservatism_pop = 0.34 }
+set_variable = { liberalism_pop = 0.56 }
+set_variable = { socialism_pop = 0.1 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -1826,10 +1826,10 @@ set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.01 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.01 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -1940,7 +1940,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 47.8 
+			popularity = 45.2 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -1952,7 +1952,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 52.2 
+			popularity = 54.8 
 		}
 	}
 	ruling_party = 
@@ -1960,8 +1960,8 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.478 }
+set_variable = { conservatism_pop = 0.452 }
+set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -1982,7 +1982,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.522 }
+set_variable = { Nat_Populism_pop = 0.548 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -2147,13 +2147,13 @@ set_politics = {
 			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 164.4 
+			popularity = 159.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 10.4 
+			popularity = 13.5 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -2168,17 +2168,17 @@ set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.747 }
+set_variable = { Communist-State = 0.724 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0.117 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.033 }
+set_variable = { anarchist_communism_pop = 0.025 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.104 }
+set_variable = { neutral_Social_pop = 0.135 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -2195,16 +2195,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 74.0 
+			popularity = 83.0 
 		}
 		communism = { #Emerging
-			popularity = 2.0 
+			popularity = 6.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 24.0 
+			popularity = 11.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -2215,21 +2215,21 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.33 }
-set_variable = { liberalism_pop = 0.05 }
-set_variable = { socialism_pop = 0.36 }
+set_variable = { conservatism_pop = 0.66 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0.17 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.02 }
+set_variable = { anarchist_communism_pop = 0.06 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.22 }
+set_variable = { Neutral_conservatism_pop = 0.11 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.02 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -2348,7 +2348,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 4.0 
+			popularity = 100.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -2357,10 +2357,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 51.0 
+			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 45.0 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -2368,9 +2368,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.04 }
+set_variable = { conservatism_pop = 0.519 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
+set_variable = { socialism_pop = 0.481 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -2382,7 +2382,7 @@ set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.51 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -2390,7 +2390,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.45 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -2552,19 +2552,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 78.5 
+			popularity = 80.9 
 		}
 		communism = { #Emerging
-			popularity = 4.6 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 15.4 
+			popularity = 16.3 
 		}
 		nationalist = { #nationalist
-			popularity = 1.5 
+			popularity = 2.7 
 		}
 	}
 	ruling_party = 
@@ -2572,29 +2572,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.485 }
-set_variable = { liberalism_pop = 0.031 }
-set_variable = { socialism_pop = 0.269 }
+set_variable = { conservatism_pop = 0.313 }
+set_variable = { liberalism_pop = 0.197 }
+set_variable = { socialism_pop = 0.299 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0.0 }
-set_variable = { Conservative_pop = 0.031 }
+set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.015 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.077 }
+set_variable = { Neutral_conservatism_pop = 0.007 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.023 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.054 }
+set_variable = { Neutral_Green_pop = 0.156 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0.0 }
-set_variable = { Nat_Populism_pop = 0.015 }
+set_variable = { Nat_Populism_pop = 0.027 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -2705,19 +2705,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 51.4 
+			popularity = 62.7 
 		}
 		communism = { #Emerging
-			popularity = 51.4 
+			popularity = 66.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 16.0 
+			popularity = 2.4 
 		}
 		nationalist = { #nationalist
-			popularity = 3.7 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -2725,11 +2725,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.307 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.062 }
-set_variable = { Western_Autocracy_pop = 0.145 }
-set_variable = { Communist-State = 0.257 }
+set_variable = { conservatism_pop = 0.345 }
+set_variable = { liberalism_pop = 0.037 }
+set_variable = { socialism_pop = 0.081 }
+set_variable = { Western_Autocracy_pop = 0.164 }
+set_variable = { Communist-State = 0.33 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -2737,16 +2737,16 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.052 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.06 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0.014 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.048 }
+set_variable = { Neutral_Green_pop = 0.01 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.037 }
+set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
@@ -2756,19 +2756,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 61.4 
+			popularity = 68.6 
 		}
 		communism = { #Emerging
-			popularity = 30.7 
+			popularity = 22.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 12.5 
+			popularity = 10.4 
 		}
 		nationalist = { #nationalist
-			popularity = 6.9 
+			popularity = 3.9 
 		}
 	}
 	ruling_party = 
@@ -2776,29 +2776,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.197 }
-set_variable = { liberalism_pop = 0.027 }
-set_variable = { socialism_pop = 0.204 }
-set_variable = { Western_Autocracy_pop = 0.186 }
-set_variable = { Communist-State = 0.149 }
+set_variable = { conservatism_pop = 0.277 }
+set_variable = { liberalism_pop = 0.086 }
+set_variable = { socialism_pop = 0.323 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.11 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.009 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.068 }
+set_variable = { Neutral_conservatism_pop = 0.09 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.0 }
-set_variable = { Neutral_Libertarian_pop = 0.025 }
+set_variable = { neutral_Social_pop = 0.003 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.032 }
+set_variable = { Neutral_Green_pop = 0.011 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.069 }
+set_variable = { Nat_Populism_pop = 0.039 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -2858,19 +2858,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 54.6 
+			popularity = 78.7 
 		}
 		communism = { #Emerging
-			popularity = 7.8 
+			popularity = 2.4 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 16.5 
+			popularity = 6.4 
 		}
 		nationalist = { #nationalist
-			popularity = 21.1 
+			popularity = 12.5 
 		}
 	}
 	ruling_party = 
@@ -2878,29 +2878,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.042 }
-set_variable = { liberalism_pop = 0.241 }
-set_variable = { socialism_pop = 0.263 }
+set_variable = { conservatism_pop = 0.132 }
+set_variable = { liberalism_pop = 0.364 }
+set_variable = { socialism_pop = 0.291 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.078 }
+set_variable = { anarchist_communism_pop = 0.024 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0.075 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.09 }
+set_variable = { Neutral_Green_pop = 0.064 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.211 }
+set_variable = { Nat_Fascism_pop = 0.005 }
+set_variable = { Nat_Populism_pop = 0.12 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3011,19 +3011,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 65.0 
+			popularity = 99.4 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 0.4 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 35.0 
+			popularity = 0.1 
 		}
 		nationalist = { #nationalist
-			popularity = 0.1 
+			popularity = 0.3 
 		}
 	}
 	ruling_party = 
@@ -3031,11 +3031,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.005 }
-set_variable = { liberalism_pop = 0.621 }
-set_variable = { socialism_pop = 0.024 }
+set_variable = { conservatism_pop = 0.246 }
+set_variable = { liberalism_pop = 0.249 }
+set_variable = { socialism_pop = 0.499 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
+set_variable = { Communist-State = 0.002 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -3045,15 +3045,15 @@ set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.35 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.001 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.001 }
+set_variable = { Nat_Populism_pop = 0.003 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3164,19 +3164,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 26.5 
+			popularity = 38.0 
 		}
 		communism = { #Emerging
-			popularity = 46.2 
+			popularity = 12.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 24.1 
+			popularity = 36.5 
 		}
 		nationalist = { #nationalist
-			popularity = 6.1 
+			popularity = 19.5 
 		}
 	}
 	ruling_party = 
@@ -3184,21 +3184,21 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.214 }
+set_variable = { conservatism_pop = 0.209 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.051 }
+set_variable = { socialism_pop = 0.171 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.029 }
+set_variable = { Communist-State = 0.06 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.404 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.172 }
+set_variable = { Neutral_conservatism_pop = 0.256 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.069 }
+set_variable = { neutral_Social_pop = 0.109 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -3206,7 +3206,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.061 }
+set_variable = { Nat_Populism_pop = 0.195 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3266,19 +3266,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 18.0 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 60.0 
+			popularity = 96.0 
 		}
 		fascism = { #Salafist
-			popularity = 2.0 
+			popularity = 0.3 
 		}
 		neutrality = { #neutrality
-			popularity = 19.0 
+			popularity = 4.8 
 		}
 		nationalist = { #nationalist
-			popularity = 1.0 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -3286,29 +3286,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.02 }
-set_variable = { liberalism_pop = 0.14 }
-set_variable = { socialism_pop = 0.01 }
-set_variable = { Western_Autocracy_pop = 0.01 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.58 }
-set_variable = { Autocracy_pop = 0.02 }
+set_variable = { conservatism_pop = 0 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.01 }
+set_variable = { Conservative_pop = 0.15 }
+set_variable = { Autocracy_pop = 0.78 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0.005 }
-set_variable = { Kingdom_pop = 0.015 }
-set_variable = { Neutral_conservatism_pop = 0.06 }
+set_variable = { anarchist_communism_pop = 0.01 }
+set_variable = { Caliphate_pop = 0.003 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.02 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0.01 }
 set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0.12 }
+set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.018 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.01 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3368,7 +3368,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 83.9 
+			popularity = 90.7 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -3377,10 +3377,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 1.6 
+			popularity = 0.6 
 		}
 		nationalist = { #nationalist
-			popularity = 3.0 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -3388,9 +3388,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.424 }
-set_variable = { liberalism_pop = 0.015 }
-set_variable = { socialism_pop = 0.4 }
+set_variable = { conservatism_pop = 0.317 }
+set_variable = { liberalism_pop = 0.183 }
+set_variable = { socialism_pop = 0.407 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -3407,10 +3407,10 @@ set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.016 }
+set_variable = { Neutral_Green_pop = 0.006 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.03 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3470,19 +3470,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 81.4 
+			popularity = 70.6 
 		}
 		communism = { #Emerging
-			popularity = 0.1 
+			popularity = 8.1 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 9.6 
+			popularity = 7.3 
 		}
 		nationalist = { #nationalist
-			popularity = 8.3 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -3490,29 +3490,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.137 }
-set_variable = { liberalism_pop = 0.277 }
+set_variable = { conservatism_pop = 0.161 }
+set_variable = { liberalism_pop = 0.159 }
 set_variable = { socialism_pop = 0.152 }
-set_variable = { Western_Autocracy_pop = 0.248 }
+set_variable = { Western_Autocracy_pop = 0.234 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.001 }
+set_variable = { anarchist_communism_pop = 0.081 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.087 }
+set_variable = { Neutral_conservatism_pop = 0.073 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.009 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.002 }
-set_variable = { Nat_Populism_pop = 0.081 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3524,13 +3524,13 @@ set_politics = {
 			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 91.8 
+			popularity = 92.9 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 8.2 
+			popularity = 7.1 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -3550,12 +3550,12 @@ set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.918 }
+set_variable = { anarchist_communism_pop = 0.929 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.082 }
+set_variable = { neutral_Social_pop = 0.071 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -3623,19 +3623,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 60.1 
+			popularity = 73.2 
 		}
 		communism = { #Emerging
-			popularity = 8.2 
+			popularity = 13.8 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 13.0 
+			popularity = 12.9 
 		}
 		nationalist = { #nationalist
-			popularity = 19.0 
+			popularity = 1.0 
 		}
 	}
 	ruling_party = 
@@ -3643,29 +3643,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.227 }
-set_variable = { liberalism_pop = 0.196 }
-set_variable = { socialism_pop = 0.178 }
+set_variable = { conservatism_pop = 0.248 }
+set_variable = { liberalism_pop = 0.232 }
+set_variable = { socialism_pop = 0.252 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.003 }
+set_variable = { Communist-State = 0.009 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.076 }
+set_variable = { anarchist_communism_pop = 0.12 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.038 }
+set_variable = { Neutral_conservatism_pop = 0.046 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0.002 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0.001 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.092 }
+set_variable = { Neutral_Green_pop = 0.08 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.19 }
+set_variable = { Nat_Populism_pop = 0.01 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -3674,19 +3674,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 50.0 
+			popularity = 62.0 
 		}
 		communism = { #Emerging
-			popularity = 2.0 
+			popularity = 19.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 27.0 
+			popularity = 14.0 
 		}
 		nationalist = { #nationalist
-			popularity = 21.0 
+			popularity = 12.0 
 		}
 	}
 	ruling_party = 
@@ -3694,29 +3694,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.2 }
-set_variable = { liberalism_pop = 0.24 }
-set_variable = { socialism_pop = 0.06 }
+set_variable = { conservatism_pop = 0.24 }
+set_variable = { liberalism_pop = 0.06 }
+set_variable = { socialism_pop = 0.32 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.0 }
+set_variable = { Communist-State = 0.07 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.02 }
+set_variable = { anarchist_communism_pop = 0.05 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.06 }
+set_variable = { Neutral_conservatism_pop = 0.11 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.2 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.0 }
-set_variable = { Neutral_Green_pop = 0.01 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.03 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.21 }
+set_variable = { Nat_Populism_pop = 0.12 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -4235,10 +4235,10 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 45.6 
+			popularity = 87.2 
 		}
 		communism = { #Emerging
-			popularity = 52.3 
+			popularity = 14.4 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -4247,7 +4247,7 @@ set_politics = {
 			popularity = 3.7 
 		}
 		nationalist = { #nationalist
-			popularity = 7.0 
+			popularity = 0.1 
 		}
 	}
 	ruling_party = 
@@ -4255,16 +4255,16 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.281 }
-set_variable = { liberalism_pop = 0.062 }
-set_variable = { socialism_pop = 0.113 }
+set_variable = { conservatism_pop = 0.427 }
+set_variable = { liberalism_pop = 0.007 }
+set_variable = { socialism_pop = 0.438 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.086 }
+set_variable = { Communist-State = 0.055 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.351 }
+set_variable = { anarchist_communism_pop = 0.034 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0.037 }
@@ -4276,7 +4276,7 @@ set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.07 }
+set_variable = { Nat_Fascism_pop = 0.001 }
 set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
@@ -4663,8 +4663,8 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.52 }
-set_variable = { liberalism_pop = 0.48 }
+set_variable = { conservatism_pop = 0.369 }
+set_variable = { liberalism_pop = 0.631 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -4694,19 +4694,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 59.9 
+			popularity = 72.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 0.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 23.1 
+			popularity = 24.7 
 		}
 		nationalist = { #nationalist
-			popularity = 10.1 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -4714,11 +4714,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.085 }
-set_variable = { liberalism_pop = 0.266 }
-set_variable = { socialism_pop = 0.248 }
+set_variable = { conservatism_pop = 0.183 }
+set_variable = { liberalism_pop = 0.247 }
+set_variable = { socialism_pop = 0.29 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
+set_variable = { Communist-State = 0.001 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -4726,17 +4726,17 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.031 }
+set_variable = { Neutral_conservatism_pop = 0.049 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.08 }
+set_variable = { neutral_Social_pop = 0.09 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.097 }
+set_variable = { Neutral_Communism_pop = 0.035 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.023 }
+set_variable = { Neutral_Green_pop = 0.073 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.101 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -4898,19 +4898,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 25.6 
+			popularity = 45.4 
 		}
 		communism = { #Emerging
-			popularity = 20.2 
+			popularity = 11.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 50.2 
+			popularity = 35.7 
 		}
 		nationalist = { #nationalist
-			popularity = 4.0 
+			popularity = 13.3 
 		}
 	}
 	ruling_party = 
@@ -4919,28 +4919,28 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.256 }
+set_variable = { liberalism_pop = 0.156 }
+set_variable = { socialism_pop = 0.298 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.202 }
+set_variable = { Communist-State = 0.056 }
+set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.449 }
+set_variable = { Neutral_conservatism_pop = 0.357 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.053 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.04 }
+set_variable = { Nat_Populism_pop = 0.133 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -4949,19 +4949,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 48.4 
+			popularity = 71.7 
 		}
 		communism = { #Emerging
-			popularity = 0.6 
+			popularity = 0.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 45.6 
+			popularity = 27.5 
 		}
 		nationalist = { #nationalist
-			popularity = 5.7 
+			popularity = 0.1 
 		}
 	}
 	ruling_party = 
@@ -4969,11 +4969,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.29 }
-set_variable = { liberalism_pop = 0.104 }
-set_variable = { socialism_pop = 0.09 }
+set_variable = { conservatism_pop = 0.407 }
+set_variable = { liberalism_pop = 0.042 }
+set_variable = { socialism_pop = 0.268 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.003 }
+set_variable = { Communist-State = 0.001 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -4982,16 +4982,16 @@ set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
-set_variable = { oligarchism_pop = 0.147 }
-set_variable = { neutral_Social_pop = 0.164 }
-set_variable = { Neutral_Libertarian_pop = 0.145 }
+set_variable = { oligarchism_pop = 0.184 }
+set_variable = { neutral_Social_pop = 0.091 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.002 }
-set_variable = { Nat_Populism_pop = 0.055 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.001 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5000,19 +5000,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 21.9 
+			popularity = 19.8 
 		}
 		communism = { #Emerging
-			popularity = 30.8 
+			popularity = 34.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 38.1 
+			popularity = 10.7 
 		}
 		nationalist = { #nationalist
-			popularity = 6.8 
+			popularity = 1.4 
 		}
 	}
 	ruling_party = 
@@ -5020,29 +5020,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.09 }
-set_variable = { liberalism_pop = 0.076 }
-set_variable = { socialism_pop = 0.0 }
-set_variable = { Western_Autocracy_pop = 0.053 }
+set_variable = { conservatism_pop = 0.126 }
+set_variable = { liberalism_pop = 0.071 }
+set_variable = { socialism_pop = 0.001 }
+set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.118 }
-set_variable = { Autocracy_pop = 0 }
+set_variable = { Conservative_pop = 0.003 }
+set_variable = { Autocracy_pop = 0.0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.19 }
+set_variable = { anarchist_communism_pop = 0.337 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.102 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.147 }
-set_variable = { Neutral_Libertarian_pop = 0.067 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.065 }
+set_variable = { Neutral_Communism_pop = 0.107 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.068 }
+set_variable = { Nat_Populism_pop = 0.014 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5051,16 +5051,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 34.3 
+			popularity = 49.7 
 		}
 		communism = { #Emerging
-			popularity = 20.0 
+			popularity = 22.4 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 39.3 
+			popularity = 35.9 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -5071,26 +5071,26 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.243 }
+set_variable = { conservatism_pop = 0.393 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.1 }
+set_variable = { socialism_pop = 0.104 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.1 }
+set_variable = { Communist-State = 0.08 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.064 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.255 }
+set_variable = { Neutral_conservatism_pop = 0.279 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
+set_variable = { neutral_Social_pop = 0.03 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.138 }
+set_variable = { Neutral_Green_pop = 0.05 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
@@ -5102,16 +5102,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 50.0 
+			popularity = 10.0 
 		}
 		communism = { #Emerging
-			popularity = 25.0 
+			popularity = 75.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 25.0 
+			popularity = 15.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -5124,17 +5124,17 @@ set_politics = {
 }
 set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0.1 }
-set_variable = { socialism_pop = 0.4 }
+set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0.25 }
+set_variable = { Vilayat_e_Faqih_pop = 0.15 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.6 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.15 }
+set_variable = { Neutral_conservatism_pop = 0.05 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
@@ -5204,19 +5204,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 62.0 
+			popularity = 52.0 
 		}
 		communism = { #Emerging
-			popularity = 13.0 
+			popularity = 15.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 22.0 
+			popularity = 19.0 
 		}
 		nationalist = { #nationalist
-			popularity = 6.0 
+			popularity = 18.0 
 		}
 	}
 	ruling_party = 
@@ -5224,29 +5224,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.35 }
-set_variable = { liberalism_pop = 0.05 }
-set_variable = { socialism_pop = 0.15 }
-set_variable = { Western_Autocracy_pop = 0.07 }
-set_variable = { Communist-State = 0.03 }
-set_variable = { Conservative_pop = 0.02 }
-set_variable = { Autocracy_pop = 0.02 }
+set_variable = { conservatism_pop = 0.22 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0.3 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.04 }
+set_variable = { Conservative_pop = 0.04 }
+set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0.03 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.09 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.04 }
+set_variable = { neutral_Social_pop = 0.08 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0.05 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.03 }
-set_variable = { Neutral_Green_pop = 0.01 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.06 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.06 }
+set_variable = { Nat_Populism_pop = 0.18 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5255,19 +5255,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 49.0 
+			popularity = 64.1 
 		}
 		communism = { #Emerging
-			popularity = 36.9 
+			popularity = 9.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 14.5 
+			popularity = 22.8 
 		}
 		nationalist = { #nationalist
-			popularity = 1.6 
+			popularity = 6.1 
 		}
 	}
 	ruling_party = 
@@ -5275,19 +5275,19 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.236 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.254 }
+set_variable = { conservatism_pop = 0.252 }
+set_variable = { liberalism_pop = 0.174 }
+set_variable = { socialism_pop = 0.215 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0.02 }
-set_variable = { Conservative_pop = 0.256 }
+set_variable = { Conservative_pop = 0.05 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.073 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.083 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0.084 }
@@ -5297,7 +5297,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0.018 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0.016 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.045 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5357,10 +5357,10 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 90.9 
+			popularity = 72.6 
 		}
 		communism = { #Emerging
-			popularity = 18.0 
+			popularity = 24.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -5377,11 +5377,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.698 }
-set_variable = { liberalism_pop = 0.2 }
-set_variable = { socialism_pop = 0.011 }
+set_variable = { conservatism_pop = 0.41 }
+set_variable = { liberalism_pop = 0.278 }
+set_variable = { socialism_pop = 0.038 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.09 }
+set_variable = { Communist-State = 0.121 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -5408,19 +5408,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.7 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 7.7 
+			popularity = 5.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 17.7 
+			popularity = 1.3 
 		}
 		nationalist = { #nationalist
-			popularity = 76.2 
+			popularity = 93.7 
 		}
 	}
 	ruling_party = 
@@ -5429,15 +5429,15 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.007 }
+set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.023 }
+set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.031 }
+set_variable = { anarchist_communism_pop = 0.05 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
@@ -5445,12 +5445,12 @@ set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.012 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.154 }
-set_variable = { Neutral_Green_pop = 0.011 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.013 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.762 }
+set_variable = { Nat_Populism_pop = 0.937 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5510,16 +5510,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 9.5 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 96.4 
+			popularity = 84.9 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 1.2 
+			popularity = 39.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -5530,13 +5530,13 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.003 }
-set_variable = { liberalism_pop = 0.072 }
-set_variable = { socialism_pop = 0.02 }
+set_variable = { conservatism_pop = 0 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.071 }
+set_variable = { Communist-State = 0.239 }
 set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0.822 }
+set_variable = { Autocracy_pop = 0.371 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
@@ -5544,7 +5544,58 @@ set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.012 }
+set_variable = { neutral_Social_pop = 0.202 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.188 }
+set_variable = { Nat_Autocracy_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Monarchist_pop = 0 }
+recalculate_party = yes
+
+
+###KEN###
+set_politics = {
+	parties = {
+		democratic = { #western
+			popularity = 28.9 
+		}
+		communism = { #Emerging
+			popularity = 18.3 
+		}
+		fascism = { #Salafist
+			popularity = 0.0 
+		}
+		neutrality = { #neutrality
+			popularity = 61.1 
+		}
+		nationalist = { #nationalist
+			popularity = 0.0 
+		}
+	}
+	ruling_party = 
+	last_election = ""
+	election_frequency = ""
+	elections_allowed = ""
+}
+set_variable = { conservatism_pop = 0.197 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0.092 }
+set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.083 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0 }
+set_variable = { Vilayat_e_Faqih_pop = 0 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.017 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.611 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -5557,62 +5608,11 @@ set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
 
-###KEN###
-set_politics = {
-	parties = {
-		democratic = { #western
-			popularity = 2.4 
-		}
-		communism = { #Emerging
-			popularity = 3.6 
-		}
-		fascism = { #Salafist
-			popularity = 0.0 
-		}
-		neutrality = { #neutrality
-			popularity = 42.9 
-		}
-		nationalist = { #nationalist
-			popularity = 51.1 
-		}
-	}
-	ruling_party = 
-	last_election = ""
-	election_frequency = ""
-	elections_allowed = ""
-}
-set_variable = { conservatism_pop = 0.024 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
-set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.036 }
-set_variable = { Caliphate_pop = 0 }
-set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.048 }
-set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.381 }
-set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
-set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.511 }
-set_variable = { Monarchist_pop = 0 }
-recalculate_party = yes
-
-
 ###KOR###
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 79.8 
+			popularity = 86.5 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -5621,10 +5621,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 17.6 
+			popularity = 13.5 
 		}
 		nationalist = { #nationalist
-			popularity = 2.6 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -5632,9 +5632,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.257 }
-set_variable = { liberalism_pop = 0.436 }
-set_variable = { socialism_pop = 0.105 }
+set_variable = { conservatism_pop = 0.469 }
+set_variable = { liberalism_pop = 0.396 }
+set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -5644,9 +5644,9 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.135 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.176 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -5654,7 +5654,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.026 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5816,19 +5816,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 59.5 
+			popularity = 19.8 
 		}
 		communism = { #Emerging
-			popularity = 11.1 
+			popularity = 102.6 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 22.4 
+			popularity = 6.9 
 		}
 		nationalist = { #nationalist
-			popularity = 7.0 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -5836,21 +5836,21 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.21 }
-set_variable = { liberalism_pop = 0.102 }
-set_variable = { socialism_pop = 0.283 }
+set_variable = { conservatism_pop = 0 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0.198 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0.017 }
-set_variable = { Autocracy_pop = 0 }
+set_variable = { Communist-State = 0.293 }
+set_variable = { Conservative_pop = 0 }
+set_variable = { Autocracy_pop = 0.44 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.094 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.138 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.086 }
+set_variable = { neutral_Social_pop = 0.069 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -5858,7 +5858,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.07 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -5918,19 +5918,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 28.6 
+			popularity = 31.0 
 		}
 		communism = { #Emerging
-			popularity = 1.6 
+			popularity = 14.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 50.9 
+			popularity = 31.1 
 		}
 		nationalist = { #nationalist
-			popularity = 16.6 
+			popularity = 14.7 
 		}
 	}
 	ruling_party = 
@@ -5938,29 +5938,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.219 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
-set_variable = { Western_Autocracy_pop = 0.067 }
+set_variable = { conservatism_pop = 0 }
+set_variable = { liberalism_pop = 0.181 }
+set_variable = { socialism_pop = 0.129 }
+set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.016 }
+set_variable = { anarchist_communism_pop = 0.142 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.007 }
-set_variable = { oligarchism_pop = 0.068 }
-set_variable = { neutral_Social_pop = 0.23 }
-set_variable = { Neutral_Libertarian_pop = 0.009 }
-set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.073 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0.213 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.195 }
+set_variable = { Neutral_Green_pop = 0.025 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.166 }
+set_variable = { Nat_Populism_pop = 0.147 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -6020,19 +6020,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 38.0 
+			popularity = 48.0 
 		}
 		communism = { #Emerging
-			popularity = 26.0 
+			popularity = 20.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 32.0 
+			popularity = 27.0 
 		}
 		nationalist = { #nationalist
-			popularity = 4.0 
+			popularity = 5.0 
 		}
 	}
 	ruling_party = 
@@ -6040,28 +6040,28 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.14 }
-set_variable = { liberalism_pop = 0.16 }
+set_variable = { conservatism_pop = 0.15 }
+set_variable = { liberalism_pop = 0.23 }
 set_variable = { socialism_pop = 0.08 }
-set_variable = { Western_Autocracy_pop = 0 }
+set_variable = { Western_Autocracy_pop = 0.02 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
-set_variable = { Vilayat_e_Faqih_pop = 0.12 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0.14 }
+set_variable = { Vilayat_e_Faqih_pop = 0.1 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0.1 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.25 }
+set_variable = { Neutral_conservatism_pop = 0.22 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.03 }
-set_variable = { Neutral_Libertarian_pop = 0.04 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0.05 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.02 }
+set_variable = { Nat_Fascism_pop = 0.03 }
 set_variable = { Nat_Populism_pop = 0.02 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
@@ -6173,7 +6173,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 44.7 
+			popularity = 76.6 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -6182,10 +6182,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 51.5 
+			popularity = 15.3 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 0.9 
 		}
 	}
 	ruling_party = 
@@ -6193,10 +6193,10 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.226 }
-set_variable = { liberalism_pop = 0.022 }
-set_variable = { socialism_pop = 0.15 }
-set_variable = { Western_Autocracy_pop = 0.049 }
+set_variable = { conservatism_pop = 0.086 }
+set_variable = { liberalism_pop = 0.173 }
+set_variable = { socialism_pop = 0.311 }
+set_variable = { Western_Autocracy_pop = 0.196 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
@@ -6205,17 +6205,17 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.056 }
+set_variable = { Neutral_conservatism_pop = 0.093 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.057 }
-set_variable = { Neutral_Libertarian_pop = 0.095 }
-set_variable = { Neutral_Autocracy_pop = 0.063 }
+set_variable = { neutral_Social_pop = 0.019 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.244 }
+set_variable = { Neutral_Green_pop = 0.041 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.009 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -6326,16 +6326,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 45.1 
+			popularity = 56.0 
 		}
 		communism = { #Emerging
-			popularity = 13.3 
+			popularity = 6.6 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 38.6 
+			popularity = 39.2 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -6346,26 +6346,26 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.066 }
-set_variable = { liberalism_pop = 0.182 }
-set_variable = { socialism_pop = 0.203 }
+set_variable = { conservatism_pop = 0.113 }
+set_variable = { liberalism_pop = 0.224 }
+set_variable = { socialism_pop = 0.223 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.016 }
+set_variable = { Communist-State = 0.033 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.101 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.337 }
+set_variable = { Neutral_conservatism_pop = 0.301 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.049 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.091 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
@@ -6530,7 +6530,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 52.2 
+			popularity = 14.9 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -6539,10 +6539,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 12.2 
+			popularity = 28.5 
 		}
 		nationalist = { #nationalist
-			popularity = 35.6 
+			popularity = 56.5 
 		}
 	}
 	ruling_party = 
@@ -6552,7 +6552,7 @@ set_politics = {
 }
 set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.522 }
+set_variable = { socialism_pop = 0.149 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -6562,17 +6562,17 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.0 }
+set_variable = { Neutral_conservatism_pop = 0.01 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.041 }
+set_variable = { neutral_Social_pop = 0.125 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.081 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.15 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.356 }
+set_variable = { Nat_Populism_pop = 0.565 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -6581,16 +6581,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 47.0 
+			popularity = 92.0 
 		}
 		communism = { #Emerging
-			popularity = 38.0 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 15.0 
+			popularity = 8.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -6601,26 +6601,26 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.22 }
-set_variable = { liberalism_pop = 0.18 }
-set_variable = { socialism_pop = 0.07 }
+set_variable = { conservatism_pop = 0.37 }
+set_variable = { liberalism_pop = 0.39 }
+set_variable = { socialism_pop = 0.16 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.38 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.05 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.04 }
+set_variable = { Neutral_Communism_pop = 0.05 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.06 }
+set_variable = { Neutral_Green_pop = 0.03 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
@@ -6734,19 +6734,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 68.5 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
 		}
 		fascism = { #Salafist
-			popularity = 2.7 
+			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 4.3 
+			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 13.6 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -6754,8 +6754,8 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.277 }
-set_variable = { liberalism_pop = 0.408 }
+set_variable = { conservatism_pop = 0 }
+set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -6764,19 +6764,19 @@ set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0.027 }
+set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.003 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.04 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.136 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -6992,13 +6992,13 @@ set_politics = {
 			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 98.2 
+			popularity = 81.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 33.6 
+			popularity = 47.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -7013,22 +7013,22 @@ set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.451 }
+set_variable = { Communist-State = 0.405 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.08 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.331 }
+set_variable = { neutral_Social_pop = 0.47 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.005 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
@@ -7295,16 +7295,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 37.3 
+			popularity = 54.1 
 		}
 		communism = { #Emerging
-			popularity = 65.7 
+			popularity = 75.7 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 29.5 
+			popularity = 7.8 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -7317,22 +7317,22 @@ set_politics = {
 }
 set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.373 }
+set_variable = { socialism_pop = 0.541 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.325 }
+set_variable = { Communist-State = 0.376 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.007 }
+set_variable = { anarchist_communism_pop = 0.005 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.068 }
+set_variable = { Neutral_conservatism_pop = 0.055 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.047 }
-set_variable = { Neutral_Libertarian_pop = 0.04 }
+set_variable = { neutral_Social_pop = 0.023 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0.14 }
+set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
@@ -7397,16 +7397,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 99.7 
+			popularity = 97.8 
 		}
 		communism = { #Emerging
-			popularity = 0.4 
+			popularity = 3.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.0 
+			popularity = 0.6 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -7417,12 +7417,12 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.187 }
-set_variable = { liberalism_pop = 0.086 }
-set_variable = { socialism_pop = 0.724 }
+set_variable = { conservatism_pop = 0.019 }
+set_variable = { liberalism_pop = 0.547 }
+set_variable = { socialism_pop = 0.412 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.002 }
-set_variable = { Conservative_pop = 0 }
+set_variable = { Communist-State = 0.014 }
+set_variable = { Conservative_pop = 0.002 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
@@ -7434,7 +7434,7 @@ set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0.006 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
@@ -7448,7 +7448,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 55.0 
+			popularity = 45.4 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -7457,7 +7457,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 45.0 
+			popularity = 54.6 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -7470,7 +7470,7 @@ set_politics = {
 }
 set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.55 }
+set_variable = { socialism_pop = 0.454 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -7480,7 +7480,7 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.45 }
+set_variable = { Neutral_conservatism_pop = 0.546 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
@@ -7502,7 +7502,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 20.0 
+			popularity = 200.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -7523,7 +7523,7 @@ set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.1 }
+set_variable = { Communist-State = 1.0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -7550,19 +7550,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 57.7 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 2.4 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 24.5 
+			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 15.4 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -7570,29 +7570,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.258 }
-set_variable = { liberalism_pop = 0.045 }
-set_variable = { socialism_pop = 0.274 }
+set_variable = { conservatism_pop = 0 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.024 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.046 }
-set_variable = { oligarchism_pop = 0.104 }
-set_variable = { neutral_Social_pop = 0.06 }
-set_variable = { Neutral_Libertarian_pop = 0.003 }
+set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.032 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.002 }
-set_variable = { Nat_Populism_pop = 0.152 }
+set_variable = { Nat_Fascism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -7703,19 +7703,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 72.3 
+			popularity = 74.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 8.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 18.9 
+			popularity = 14.0 
 		}
 		nationalist = { #nationalist
-			popularity = 8.7 
+			popularity = 4.0 
 		}
 	}
 	ruling_party = 
@@ -7723,29 +7723,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.47 }
-set_variable = { liberalism_pop = 0.002 }
-set_variable = { socialism_pop = 0.251 }
+set_variable = { conservatism_pop = 0.31 }
+set_variable = { liberalism_pop = 0.04 }
+set_variable = { socialism_pop = 0.39 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.08 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.02 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.013 }
-set_variable = { Neutral_Libertarian_pop = 0.007 }
+set_variable = { neutral_Social_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0.07 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.062 }
-set_variable = { Neutral_Green_pop = 0.107 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.05 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.087 }
+set_variable = { Nat_Populism_pop = 0.04 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -7805,7 +7805,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 77.7 
+			popularity = 91.7 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -7817,7 +7817,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 22.3 
+			popularity = 8.3 
 		}
 	}
 	ruling_party = 
@@ -7825,9 +7825,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.392 }
-set_variable = { liberalism_pop = 0.159 }
-set_variable = { socialism_pop = 0.226 }
+set_variable = { conservatism_pop = 0.526 }
+set_variable = { liberalism_pop = 0.107 }
+set_variable = { socialism_pop = 0.284 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -7847,7 +7847,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.223 }
+set_variable = { Nat_Populism_pop = 0.083 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8132,8 +8132,8 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.02 }
-set_variable = { socialism_pop = 0 }
+set_variable = { liberalism_pop = 0 }
+set_variable = { socialism_pop = 0.02 }
 set_variable = { Western_Autocracy_pop = 0.07 }
 set_variable = { Communist-State = 0.02 }
 set_variable = { Conservative_pop = 0 }
@@ -8162,19 +8162,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 28.8 
+			popularity = 40.9 
 		}
 		communism = { #Emerging
-			popularity = 53.2 
+			popularity = 11.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 18.1 
+			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 48.1 
 		}
 	}
 	ruling_party = 
@@ -8182,19 +8182,19 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.0 }
-set_variable = { liberalism_pop = 0.288 }
+set_variable = { conservatism_pop = 0.24 }
+set_variable = { liberalism_pop = 0.169 }
 set_variable = { socialism_pop = 0.0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0.088 }
-set_variable = { anarchist_communism_pop = 0.444 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0.11 }
+set_variable = { anarchist_communism_pop = 0.0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.181 }
+set_variable = { Neutral_conservatism_pop = 0.0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
@@ -8204,7 +8204,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.0 }
+set_variable = { Nat_Populism_pop = 0.481 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8366,19 +8366,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 84.0 
+			popularity = 56.0 
 		}
 		communism = { #Emerging
-			popularity = 1.0 
+			popularity = 35.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 15.0 
+			popularity = 8.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 1.0 
 		}
 	}
 	ruling_party = 
@@ -8386,29 +8386,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.49 }
-set_variable = { liberalism_pop = 0.07 }
-set_variable = { socialism_pop = 0.04 }
-set_variable = { Western_Autocracy_pop = 0.24 }
+set_variable = { conservatism_pop = 0.43 }
+set_variable = { liberalism_pop = 0.13 }
+set_variable = { socialism_pop = 0 }
+set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.01 }
+set_variable = { anarchist_communism_pop = 0.35 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.08 }
-set_variable = { oligarchism_pop = 0.05 }
-set_variable = { neutral_Social_pop = 0.01 }
+set_variable = { Neutral_conservatism_pop = 0.02 }
+set_variable = { oligarchism_pop = 0 }
+set_variable = { neutral_Social_pop = 0.05 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0.01 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.01 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.01 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8468,7 +8468,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 50.1 
+			popularity = 25.7 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -8480,7 +8480,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 49.9 
+			popularity = 74.3 
 		}
 	}
 	ruling_party = 
@@ -8489,7 +8489,7 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.501 }
+set_variable = { liberalism_pop = 0.257 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -8510,7 +8510,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.499 }
+set_variable = { Nat_Populism_pop = 0.743 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8570,7 +8570,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.5 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -8579,7 +8579,7 @@ set_politics = {
 			popularity = 97.0 
 		}
 		neutrality = { #neutrality
-			popularity = 2.0 
+			popularity = 2.5 
 		}
 		nationalist = { #nationalist
 			popularity = 0.5 
@@ -8590,7 +8590,7 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.005 }
+set_variable = { conservatism_pop = 0 }
 set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
@@ -8600,15 +8600,15 @@ set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0.02 }
-set_variable = { Kingdom_pop = 0.95 }
+set_variable = { Caliphate_pop = 0 }
+set_variable = { Kingdom_pop = 0.97 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.02 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.025 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
@@ -8621,19 +8621,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 67.0 
+			popularity = 64.0 
 		}
 		communism = { #Emerging
-			popularity = 4.0 
+			popularity = 16.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 23.0 
+			popularity = 15.0 
 		}
 		nationalist = { #nationalist
-			popularity = 7.0 
+			popularity = 9.0 
 		}
 	}
 	ruling_party = 
@@ -8641,29 +8641,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.53 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.09 }
-set_variable = { Western_Autocracy_pop = 0.05 }
-set_variable = { Communist-State = 0.01 }
-set_variable = { Conservative_pop = 0.01 }
+set_variable = { conservatism_pop = 0.26 }
+set_variable = { liberalism_pop = 0.04 }
+set_variable = { socialism_pop = 0.3 }
+set_variable = { Western_Autocracy_pop = 0.04 }
+set_variable = { Communist-State = 0.04 }
+set_variable = { Conservative_pop = 0.05 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.01 }
+set_variable = { anarchist_communism_pop = 0.03 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.04 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.08 }
+set_variable = { neutral_Social_pop = 0.03 }
 set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0.06 }
-set_variable = { Neutral_Communism_pop = 0.03 }
+set_variable = { Neutral_Autocracy_pop = 0.04 }
+set_variable = { Neutral_Communism_pop = 0.06 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0.02 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.04 }
-set_variable = { Nat_Populism_pop = 0.03 }
+set_variable = { Nat_Fascism_pop = 0.03 }
+set_variable = { Nat_Populism_pop = 0.06 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8774,7 +8774,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 45.5 
+			popularity = 54.4 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -8786,7 +8786,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 28.3 
 		}
 	}
 	ruling_party = 
@@ -8794,9 +8794,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.455 }
+set_variable = { conservatism_pop = 0.062 }
+set_variable = { liberalism_pop = 0.118 }
+set_variable = { socialism_pop = 0.364 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -8816,7 +8816,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.283 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8876,19 +8876,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 88.0 
+			popularity = 84.0 
 		}
 		communism = { #Emerging
-			popularity = 12.8 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 3.4 
+			popularity = 16.0 
 		}
 		nationalist = { #nationalist
-			popularity = 2.4 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -8896,11 +8896,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.03 }
-set_variable = { liberalism_pop = 0.228 }
-set_variable = { socialism_pop = 0.622 }
+set_variable = { conservatism_pop = 0.069 }
+set_variable = { liberalism_pop = 0.108 }
+set_variable = { socialism_pop = 0.663 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.064 }
+set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -8908,9 +8908,9 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.024 }
+set_variable = { Neutral_conservatism_pop = 0.1 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.01 }
+set_variable = { neutral_Social_pop = 0.06 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -8918,7 +8918,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.024 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -8978,16 +8978,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 4.0 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 4.0 
+			popularity = 2.0 
 		}
 		fascism = { #Salafist
-			popularity = 81.0 
+			popularity = 92.0 
 		}
 		neutrality = { #neutrality
-			popularity = 11.0 
+			popularity = 6.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -8999,17 +8999,17 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.04 }
+set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0.02 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0.02 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
-set_variable = { Caliphate_pop = 0.06 }
-set_variable = { Kingdom_pop = 0.75 }
+set_variable = { Caliphate_pop = 0.07 }
+set_variable = { Kingdom_pop = 0.85 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
@@ -9017,7 +9017,7 @@ set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0.06 }
-set_variable = { Neutral_Green_pop = 0.05 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
@@ -9182,10 +9182,10 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 100.0 
+			popularity = 99.4 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 1.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -9202,11 +9202,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.086 }
-set_variable = { liberalism_pop = 0.65 }
-set_variable = { socialism_pop = 0.264 }
+set_variable = { conservatism_pop = 0.094 }
+set_variable = { liberalism_pop = 0.31 }
+set_variable = { socialism_pop = 0.59 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.0 }
+set_variable = { Communist-State = 0.006 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -9437,7 +9437,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 19.0 
+			popularity = 44.2 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -9446,10 +9446,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 60.0 
+			popularity = 9.9 
 		}
 		nationalist = { #nationalist
-			popularity = 1.0 
+			popularity = 29.1 
 		}
 	}
 	ruling_party = 
@@ -9457,8 +9457,8 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.19 }
-set_variable = { liberalism_pop = 0 }
+set_variable = { conservatism_pop = 0.318 }
+set_variable = { liberalism_pop = 0.124 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -9469,9 +9469,9 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.1 }
+set_variable = { Neutral_conservatism_pop = 0.099 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.5 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -9479,8 +9479,8 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
-set_variable = { Monarchist_pop = 0.01 }
+set_variable = { Nat_Populism_pop = 0.291 }
+set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
 
@@ -9559,9 +9559,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.787 }
+set_variable = { conservatism_pop = 0.758 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0.213 }
+set_variable = { socialism_pop = 0.242 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -9590,19 +9590,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.0 
+			popularity = 49.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 37.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.0 
+			popularity = 6.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 13.0 
 		}
 	}
 	ruling_party = 
@@ -9610,12 +9610,12 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
+set_variable = { conservatism_pop = 0.34 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
+set_variable = { socialism_pop = 0.15 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
+set_variable = { Communist-State = 0.05 }
+set_variable = { Conservative_pop = 0.27 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
@@ -9625,14 +9625,14 @@ set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0.06 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Fascism_pop = 0.03 }
+set_variable = { Nat_Populism_pop = 0.1 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -9641,7 +9641,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 61.2 
+			popularity = 64.2 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -9650,10 +9650,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.5 
+			popularity = 0.9 
 		}
 		nationalist = { #nationalist
-			popularity = 2.2 
+			popularity = 4.4 
 		}
 	}
 	ruling_party = 
@@ -9661,9 +9661,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.207 }
-set_variable = { liberalism_pop = 0.345 }
-set_variable = { socialism_pop = 0.06 }
+set_variable = { conservatism_pop = 0.158 }
+set_variable = { liberalism_pop = 0.363 }
+set_variable = { socialism_pop = 0.121 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
@@ -9680,10 +9680,10 @@ set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.005 }
+set_variable = { Neutral_Green_pop = 0.009 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.022 }
+set_variable = { Nat_Populism_pop = 0.044 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -9947,19 +9947,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.0 
+			popularity = 15.6 
 		}
 		communism = { #Emerging
-			popularity = 29.8 
+			popularity = 48.6 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 56.1 
+			popularity = 25.5 
 		}
 		nationalist = { #nationalist
-			popularity = 15.3 
+			popularity = 6.0 
 		}
 	}
 	ruling_party = 
@@ -9967,11 +9967,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
+set_variable = { conservatism_pop = 0.085 }
+set_variable = { liberalism_pop = 0.012 }
+set_variable = { socialism_pop = 0.059 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.149 }
+set_variable = { Communist-State = 0.243 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -9979,17 +9979,17 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.445 }
+set_variable = { Neutral_conservatism_pop = 0.233 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.081 }
+set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
-set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Communism_pop = 0.022 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.035 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.153 }
+set_variable = { Nat_Populism_pop = 0.06 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -9998,19 +9998,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.0 
+			popularity = 60.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 20.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.0 
+			popularity = 27.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 1.0 
 		}
 	}
 	ruling_party = 
@@ -10018,11 +10018,11 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
+set_variable = { conservatism_pop = 0.3 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
+set_variable = { socialism_pop = 0.3 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
+set_variable = { Communist-State = 0.1 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
@@ -10032,15 +10032,15 @@ set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { neutral_Social_pop = 0.1 }
+set_variable = { Neutral_Libertarian_pop = 0.06 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.01 }
+set_variable = { Neutral_Green_pop = 0.1 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.01 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -10100,19 +10100,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.0 
+			popularity = 0.3 
 		}
 		communism = { #Emerging
-			popularity = 0.1 
+			popularity = 8.2 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 47.6 
+			popularity = 93.8 
 		}
 		nationalist = { #nationalist
-			popularity = 51.3 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -10121,20 +10121,20 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0 }
+set_variable = { liberalism_pop = 0.003 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0 }
+set_variable = { Communist-State = 0.041 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.001 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.427 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.476 }
+set_variable = { neutral_Social_pop = 0.511 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -10142,7 +10142,7 @@ set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.513 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -10559,7 +10559,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 53.0 
+			popularity = 65.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -10568,10 +10568,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 26.0 
+			popularity = 35.0 
 		}
 		nationalist = { #nationalist
-			popularity = 19.0 
+			popularity = 0.0 
 		}
 	}
 	ruling_party = 
@@ -10579,9 +10579,9 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.22 }
+set_variable = { conservatism_pop = 0.26 }
 set_variable = { liberalism_pop = 0.05 }
-set_variable = { socialism_pop = 0.26 }
+set_variable = { socialism_pop = 0.34 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0.0 }
 set_variable = { Conservative_pop = 0 }
@@ -10591,17 +10591,17 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.03 }
-set_variable = { oligarchism_pop = 0.1 }
-set_variable = { neutral_Social_pop = 0.08 }
+set_variable = { Neutral_conservatism_pop = 0.12 }
+set_variable = { oligarchism_pop = 0.04 }
+set_variable = { neutral_Social_pop = 0.13 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.05 }
+set_variable = { Neutral_Green_pop = 0.06 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0.19 }
+set_variable = { Nat_Populism_pop = 0.0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -10610,19 +10610,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 0.0 
+			popularity = 45.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 26.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 0.0 
+			popularity = 27.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 2.0 
 		}
 	}
 	ruling_party = 
@@ -10630,12 +10630,12 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0 }
+set_variable = { conservatism_pop = 0.02 }
 set_variable = { liberalism_pop = 0 }
-set_variable = { socialism_pop = 0 }
+set_variable = { socialism_pop = 0.43 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
-set_variable = { Conservative_pop = 0 }
+set_variable = { Conservative_pop = 0.26 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
@@ -10644,15 +10644,15 @@ set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { neutral_Social_pop = 0.01 }
+set_variable = { Neutral_Libertarian_pop = 0.2 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Neutral_Green_pop = 0.06 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.02 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -10712,19 +10712,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 1.0 
+			popularity = 0.5 
 		}
 		communism = { #Emerging
-			popularity = 85.0 
+			popularity = 84.0 
 		}
 		fascism = { #Salafist
-			popularity = 4.0 
+			popularity = 3.0 
 		}
 		neutrality = { #neutrality
-			popularity = 7.0 
+			popularity = 8.5 
 		}
 		nationalist = { #nationalist
-			popularity = 5.0 
+			popularity = 7.0 
 		}
 	}
 	ruling_party = 
@@ -10733,28 +10733,28 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.005 }
+set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0.005 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.02 }
+set_variable = { Communist-State = 0.03 }
 set_variable = { Conservative_pop = 0 }
-set_variable = { Autocracy_pop = 0.8 }
+set_variable = { Autocracy_pop = 0.75 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.01 }
-set_variable = { Caliphate_pop = 0.04 }
+set_variable = { anarchist_communism_pop = 0.03 }
+set_variable = { Caliphate_pop = 0.03 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.01 }
+set_variable = { neutral_Social_pop = 0.02 }
 set_variable = { Neutral_Libertarian_pop = 0 }
-set_variable = { Neutral_Autocracy_pop = 0.01 }
-set_variable = { Neutral_Communism_pop = 0.02 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.03 }
+set_variable = { Neutral_Autocracy_pop = 0.025 }
+set_variable = { Neutral_Communism_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.04 }
 set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.04 }
-set_variable = { Nat_Populism_pop = 0.01 }
+set_variable = { Nat_Fascism_pop = 0.07 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -10763,7 +10763,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 87.1 
+			popularity = 63.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -10772,7 +10772,7 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 12.8 
+			popularity = 37.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -10783,8 +10783,8 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.31 }
-set_variable = { liberalism_pop = 0.561 }
+set_variable = { conservatism_pop = 0.231 }
+set_variable = { liberalism_pop = 0.399 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -10795,9 +10795,9 @@ set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
 set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.128 }
+set_variable = { Neutral_conservatism_pop = 0.368 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0 }
+set_variable = { neutral_Social_pop = 0.002 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
@@ -10967,10 +10967,10 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 32.5 
+			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 63.3 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
@@ -10988,15 +10988,15 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0 }
-set_variable = { liberalism_pop = 0.325 }
+set_variable = { liberalism_pop = 0 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
-set_variable = { Communist-State = 0.018 }
+set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
-set_variable = { Mod_Vilayat_e_Faqih_pop = 0.571 }
-set_variable = { anarchist_communism_pop = 0.026 }
+set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
@@ -11018,16 +11018,16 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 41.9 
+			popularity = 25.3 
 		}
 		communism = { #Emerging
-			popularity = 2.2 
+			popularity = 9.4 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 55.1 
+			popularity = 65.3 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -11038,26 +11038,26 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.318 }
-set_variable = { liberalism_pop = 0.086 }
-set_variable = { socialism_pop = 0.015 }
+set_variable = { conservatism_pop = 0.044 }
+set_variable = { liberalism_pop = 0.171 }
+set_variable = { socialism_pop = 0.038 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.022 }
+set_variable = { anarchist_communism_pop = 0.094 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
-set_variable = { neutral_Social_pop = 0.55 }
+set_variable = { neutral_Social_pop = 0.653 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.001 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
 set_variable = { Nat_Populism_pop = 0 }
@@ -11375,19 +11375,19 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 36.0 
+			popularity = 45.0 
 		}
 		communism = { #Emerging
-			popularity = 0.0 
+			popularity = 3.0 
 		}
 		fascism = { #Salafist
 			popularity = 1.0 
 		}
 		neutrality = { #neutrality
-			popularity = 2.0 
+			popularity = 33.0 
 		}
 		nationalist = { #nationalist
-			popularity = 61.0 
+			popularity = 18.0 
 		}
 	}
 	ruling_party = 
@@ -11395,29 +11395,29 @@ set_politics = {
 	election_frequency = ""
 	elections_allowed = ""
 }
-set_variable = { conservatism_pop = 0.06 }
-set_variable = { liberalism_pop = 0.2 }
-set_variable = { socialism_pop = 0.1 }
+set_variable = { conservatism_pop = 0.13 }
+set_variable = { liberalism_pop = 0.09 }
+set_variable = { socialism_pop = 0.23 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
 set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0 }
+set_variable = { anarchist_communism_pop = 0.03 }
 set_variable = { Caliphate_pop = 0.01 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0 }
+set_variable = { Neutral_conservatism_pop = 0.12 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
 set_variable = { Neutral_Autocracy_pop = 0 }
 set_variable = { Neutral_Communism_pop = 0 }
-set_variable = { Neutral_Muslim_Brotherhood_pop = 0.02 }
-set_variable = { Neutral_Green_pop = 0 }
+set_variable = { Neutral_Muslim_Brotherhood_pop = 0.16 }
+set_variable = { Neutral_Green_pop = 0.05 }
 set_variable = { Nat_Autocracy_pop = 0 }
-set_variable = { Nat_Fascism_pop = 0.16 }
-set_variable = { Nat_Populism_pop = 0.45 }
+set_variable = { Nat_Fascism_pop = 0.18 }
+set_variable = { Nat_Populism_pop = 0 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -11681,7 +11681,7 @@ recalculate_party = yes
 set_politics = {
 	parties = {
 		democratic = { #western
-			popularity = 97.0 
+			popularity = 98.0 
 		}
 		communism = { #Emerging
 			popularity = 0.0 
@@ -11690,10 +11690,10 @@ set_politics = {
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 3.0 
+			popularity = 1.0 
 		}
 		nationalist = { #nationalist
-			popularity = 0.0 
+			popularity = 1.0 
 		}
 	}
 	ruling_party = 
@@ -11702,7 +11702,7 @@ set_politics = {
 	elections_allowed = ""
 }
 set_variable = { conservatism_pop = 0.5 }
-set_variable = { liberalism_pop = 0.47 }
+set_variable = { liberalism_pop = 0.48 }
 set_variable = { socialism_pop = 0 }
 set_variable = { Western_Autocracy_pop = 0 }
 set_variable = { Communist-State = 0 }
@@ -11716,14 +11716,14 @@ set_variable = { Kingdom_pop = 0 }
 set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
-set_variable = { Neutral_Libertarian_pop = 0.02 }
-set_variable = { Neutral_Autocracy_pop = 0 }
+set_variable = { Neutral_Libertarian_pop = 0 }
+set_variable = { Neutral_Autocracy_pop = 0.01 }
 set_variable = { Neutral_Communism_pop = 0 }
 set_variable = { Neutral_Muslim_Brotherhood_pop = 0 }
-set_variable = { Neutral_Green_pop = 0.01 }
+set_variable = { Neutral_Green_pop = 0 }
 set_variable = { Nat_Autocracy_pop = 0 }
 set_variable = { Nat_Fascism_pop = 0 }
-set_variable = { Nat_Populism_pop = 0 }
+set_variable = { Nat_Populism_pop = 0.01 }
 set_variable = { Monarchist_pop = 0 }
 recalculate_party = yes
 
@@ -11786,13 +11786,13 @@ set_politics = {
 			popularity = 0.0 
 		}
 		communism = { #Emerging
-			popularity = 50.6 
+			popularity = 0.0 
 		}
 		fascism = { #Salafist
 			popularity = 0.0 
 		}
 		neutrality = { #neutrality
-			popularity = 49.1 
+			popularity = 0.0 
 		}
 		nationalist = { #nationalist
 			popularity = 0.0 
@@ -11812,10 +11812,10 @@ set_variable = { Conservative_pop = 0 }
 set_variable = { Autocracy_pop = 0 }
 set_variable = { Vilayat_e_Faqih_pop = 0 }
 set_variable = { Mod_Vilayat_e_Faqih_pop = 0 }
-set_variable = { anarchist_communism_pop = 0.506 }
+set_variable = { anarchist_communism_pop = 0 }
 set_variable = { Caliphate_pop = 0 }
 set_variable = { Kingdom_pop = 0 }
-set_variable = { Neutral_conservatism_pop = 0.491 }
+set_variable = { Neutral_conservatism_pop = 0 }
 set_variable = { oligarchism_pop = 0 }
 set_variable = { neutral_Social_pop = 0 }
 set_variable = { Neutral_Libertarian_pop = 0 }
