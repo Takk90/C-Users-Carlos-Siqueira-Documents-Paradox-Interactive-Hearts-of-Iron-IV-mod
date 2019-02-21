@@ -142,24 +142,19 @@ instant_effect = {
 	}
 	
 	add_equipment_to_stockpile = {
+		type = MBT_2 #T-72
+		amount = 690
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
 		type = ENGI_MBT_2 #BAT-2
 		amount = 120
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = MBT_4 #T-90S
-		amount = 4
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
-		type = MBT_2 #T-72
-		amount = 650
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
 		type = Rec_tank_0 #BRDM-2
-		amount = 200
-		producer = SOV
+		amount = 170
+		producer = UKR
 	}
 	add_equipment_to_stockpile = {
 		type = IFV_1 #BMP-1
@@ -169,21 +164,6 @@ instant_effect = {
 	add_equipment_to_stockpile = {
 		type = IFV_3 #BMP-2
 		amount = 430
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
-		type = IFV_4 #BMP-3
-		amount = 4
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
-		type = Air_IFV_1 #BMD-1
-		amount = 8
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
-		type = APC_4 #BTR-80
-		amount = 4
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
@@ -232,18 +212,7 @@ instant_effect = {
 	}
 	add_equipment_to_stockpile = {
 		type = SP_R_arty_0 #BM-21 Grad
-		amount = 70
-		producer = SOV
-	}
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1 #BM-30 Smerch
-		amount = 6
-		producer = SOV
-		#version_name = "BM-30 Smerch"
-	}
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1 #BM-27 Uragan
-		amount = 60
+		amount = 56
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
@@ -257,6 +226,8 @@ instant_effect = {
 		producer = SOV
 		#version_name = "SA-13 Strela-10"
 	}
+	
+	
 	add_equipment_to_stockpile = {
 		type = MR_Fighter2 #MiG-29 Fulcrum
 		amount = 24
@@ -268,8 +239,8 @@ instant_effect = {
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter1 #Mil Mi-24 Hind
-		amount = 10
+		type = Strike_fighter1	 #Su-17
+		amount = 65
 		producer = SOV
 	}
 	add_equipment_to_stockpile = {
@@ -282,7 +253,7 @@ instant_effect = {
 		amount = 8
 		producer = SOV
 	}
-		add_equipment_to_stockpile = {
+	add_equipment_to_stockpile = {
 		type = L_Strike_fighter2	 #Aero L-39
 		amount = 2
 		producer = CZE
