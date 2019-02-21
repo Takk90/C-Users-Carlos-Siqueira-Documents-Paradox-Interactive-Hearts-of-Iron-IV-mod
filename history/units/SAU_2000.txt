@@ -5,7 +5,6 @@
 		armor_Bat = { x = 0 y = 0 }
 		armor_Bat = { x = 0 y = 1 }
 		armor_Bat = { x = 0 y = 2 }
-		armor_Recce_Bat = { x = 0 y = 3 }
 		
 		Arm_Inf_Bat = { x = 1 y = 0 }
 		Arm_Inf_Bat = { x = 1 y = 1 }
@@ -14,6 +13,8 @@
 		SP_Arty_Bat = { x = 2 y = 1 }
 		SP_AA_Bat = { x = 2 y = 2 }
 		H_Engi_Bat = { x = 2 y = 3 }
+		
+		armor_Recce_Bat = { x = 3 y = 0 }
 		
 	}
 	support = { }
@@ -158,13 +159,6 @@ units = {
 		start_equipment_factor = 0.01
 	}
 	division = {	
-		name = "7th (Prince Sultan) Armoured Brigade"
-		location = 10850
-		division_template = "Armoured Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division = {	
 		name = "6th (King Fah'd) Mechanized Brigade"
 		location = 4974
 		division_template = "Mechanized Brigade"
@@ -200,27 +194,6 @@ units = {
 		start_equipment_factor = 0.01
 	}
 	division = {	
-		name = "16th (King Saud) Motorized Brigade"
-		location = 3350
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division = {	
-		name = "17th (Abu Bakr Assiddeeq) Motorized Brigade"
-		location = 8030
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division = {	
-		name = "18th (King Abdullah) Motorized Brigade"
-		location = 8073
-		division_template = "Infantry Brigade"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.01
-	}
-	division = {	
 		name = "1st Airborne Brigade"
 		location = 8060
 		division_template = "Airborne Brigade"
@@ -238,6 +211,13 @@ units = {
 		start_equipment_factor = 0.01
 	}
 	division = {	
+		name = "1st Rapid Deployment Special Brigade"
+		location = 10923
+		division_template = "Air Assault Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.01
+	}
+	division = {	
 		name = "Prince Saad Abdulrahman Mechanized Brigade"
 		location = 3378
 		division_template = "Mechanized Brigade 2"
@@ -245,16 +225,9 @@ units = {
 		start_equipment_factor = 0.01
 	}
 	division = {	
-		name = "Prince Turki bin Abdulaziz Mechanized Brigade"
-		location = 10786
-		division_template = "Mechanized Brigade 2"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.01
-	}
-	division = {	
 		name = "King Khalid Light Brigade"
 		location = 5037
-		division_template = "Royal Guard"
+		division_template = "Infantry Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.01
 	}
@@ -328,25 +301,21 @@ units = {
 		name = "Royal Saudi Navy"				
 		base = 12702
 		location = 12702
-		ship = { name = "812 Al Riyadh" definition = frigate experience = 10 equipment = { missile_frigate_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Riyadh-Class" } } }
-		ship = { name = "704 Hofouf" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
-		ship = { name = "706 Abha" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
-		ship = { name = "708 Taif" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
+		ship = { name = "Hofouf" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
+		ship = { name = "Abha" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
+		ship = { name = "Taif" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
 		
-		ship = { name = "612 Badr" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
-		ship = { name = "614 Al-Yarmook" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
+		ship = { name = "Badr" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
+		ship = { name = "Al-Yarmook" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
 		
 	}
 	navy = {
 		name = "Royal Saudi Navy"				
 		base = 12883
 		location = 12883
-		
-		ship = { name = "814 Makkah" definition = frigate experience = 10 equipment = { missile_frigate_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Riyadh-Class" } } }
-		ship = { name = "816 Dammam" definition = frigate experience = 10 equipment = { missile_frigate_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Riyadh-Class" } } }
-		ship = { name = "702 Al Madinah" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
-		ship = { name = "616 Hitteen" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
-		ship = { name = "618 Tabuk" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
+		ship = { name = "Al Madinah" definition = corvette experience = 10 equipment = { missile_corvette_2 = { amount = 1 owner = SAU creator = FRA version_name = "Al Madinah-Class" } } }
+		ship = { name = "Hitteen" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
+		ship = { name = "Tabuk" definition = corvette experience = 10 equipment = { corvette_2 = { amount = 1 owner = SAU creator = USA version_name = "Badr-Class" } } }
 		
 	}
 	
@@ -356,23 +325,13 @@ instant_effect = {
 	
 	add_equipment_to_stockpile = {
 		type = infantry_weapons3 #G36C
-		amount = 10000
+		amount = 8000
 		producer = GER
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_weapons #G3
-		amount = 8000
+		amount = 7000
 		producer = GER
-	}
-	add_equipment_to_stockpile = {
-		type = infantry_weapons3 #F2000
-		amount = 5000
-		producer = BEL
-	}
-	add_equipment_to_stockpile = {
-		type = infantry_weapons2 #Steyr AUG
-		amount = 8000
-		producer = AUS
 	}
 	add_equipment_to_stockpile = {
 		type = infantry_weapons1 #M16
@@ -380,61 +339,67 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = infantry_weapons3 #M4
-		amount = 1600
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
 		type = command_control_equipment3
-		amount = 2050
+		amount = 1850
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = Anti_tank_1
-		amount = 1500
+		amount = 600
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = Heavy_Anti_tank_1
-		amount = 660
+		amount = 300
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = Anti_Air_1
-		amount = 820
+		type = Heavy_Anti_tank_1
+		amount = 150
+		producer = FRA
+	}
+	add_equipment_to_stockpile = {
+		type = Anti_Air_0	#FIM-43 Redeye
+		amount = 620
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = Anti_Air_1	#FIM-92 Stinger
+		amount = 200
 		producer = USA
 	}
 	
+	#Vehicles
 	add_equipment_to_stockpile = {
 		type = MBT_2 #AMX-30
-		amount = 140
+		amount = 290
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_4 #M1A2 Abrams
-		amount = 370
+		amount = 315
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = MBT_1 #M60A3
-		amount = 390
+		amount = 450
 		producer = USA
 		#version_name = "M60A3"
 	}
 	add_equipment_to_stockpile = {
 		type = ENGI_MBT_2 #M88A1
-		amount = 125
+		amount = 120
 		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = ENGI_MBT_3 #Piranha II ARV
-		amount = 101
-		producer = SWI
 	}
 	add_equipment_to_stockpile = {
 		type = ENGI_MBT_1 #AMX-30D
 		amount = 55
 		producer = FRA
+	}
+	add_equipment_to_stockpile = {
+		type = ENGI_MBT_3 #Piranha II ARV
+		amount = 101
+		producer = SWI
 	}
 	add_equipment_to_stockpile = {
 		type = Rec_tank_0 #Panhard AML
@@ -443,23 +408,18 @@ instant_effect = {
 		#version_name = "Panhard AML"
 	}
 	add_equipment_to_stockpile = {
-		type = APC_3 #Tpz-1 Fuchs
-		amount = 10
-		producer = GER
-	}
-	add_equipment_to_stockpile = {
 		type = IFV_2 #AMX-10P
-		amount = 380
+		amount = 570
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
 		type = IFV_3 #M2 Bradley
-		amount = 385
+		amount = 400
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = APC_2 #M113 APC
-		amount = 1190
+		amount = 1750
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
@@ -468,23 +428,30 @@ instant_effect = {
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
-		type = util_vehicle_4 #Nexter Aravis
-		amount = 73
-		producer = FRA
+		type = Rec_tank_0 #Cadillac Cage Commando V150
+		amount = 290
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = APC_3 #LAV-25
+		amount = 1117
+		producer = CAN
+	}
+	add_equipment_to_stockpile = {
+		type = APC_3 #Piranha II
+		amount = 440
+		producer = SWI
 	}
 	add_equipment_to_stockpile = {
 		type = util_vehicle_2 #Humvee
 		amount = 1200
 		producer = USA
 	}
-	add_equipment_to_stockpile = {
-		type = util_vehicle_4 #M-ATV
-		amount = 160
-		producer = USA
-	}
+	
+	### Artillery
 	add_equipment_to_stockpile = {
 		type = SP_arty_1 #GCT 155mm
-		amount = 60
+		amount = 90
 		producer = FRA
 	}
 	add_equipment_to_stockpile = {
@@ -498,14 +465,25 @@ instant_effect = {
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = SP_arty_1 #PLZ-45
-		amount = 54
-		producer = CHI
+		type = SP_R_arty_1 #Astros II
+		amount = 60
+		producer = BRA
 	}
 	add_equipment_to_stockpile = {
 		type = artillery_0 #M102
-		amount = 100
+		amount = 140
 		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_1 #FH-70
+		amount = 50
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = artillery_0 #M198 howitzer
+		amount = 120
+		producer = USA
+		#version_name = "M198 howitzer"
 	}
 	add_equipment_to_stockpile = {
 		type = artillery_0 #M114
@@ -513,101 +491,11 @@ instant_effect = {
 		producer = USA
 		#version_name = "M114"
 	}
-	add_equipment_to_stockpile = {
-		type = artillery_0 #M198 howitzer
-		amount = 60
-		producer = USA
-		#version_name = "M198 howitzer"
-	}
-	add_equipment_to_stockpile = {
-		type = SP_R_arty_1 #Astros II
-		amount = 60
-		producer = BRA
-	}
-	add_equipment_to_stockpile = {
-		type = attack_helicopter3 #AH-64D Apache Longbow
-		amount = 11
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = attack_helicopter4 #AH-64E Apache Guardian
-		amount = 24
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Sikorsky UH-60 Black Hawk
-		amount = 58
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Eurocopter AS332 Super Puma
-		amount = 12
-		producer = FRA
-		#version_name = "Eurocopter AS332 Super Puma"
-	}
-	add_equipment_to_stockpile = {
-		type = AS_Fighter3 #F-15C Eagle
-		amount = 81
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = Strike_fighter3 #F-15S Strike Eagle
-		amount = 70
-		producer = USA
-		#version_name = "F-15S"
-	}
-	add_equipment_to_stockpile = {
-		type = Strike_fighter2 #Panavia Tornado IDS
-		amount = 81
-		producer = ENG
-	}
-	add_equipment_to_stockpile = {
-		type = AS_Fighter3 #EF-2020C Hurricane-G
-		amount = 53
-		producer = GER
-	}
-	add_equipment_to_stockpile = {
-		type = transport_plane4 #A330 MRTT
-		amount = 6
-		producer = FRA
-		#version_name = "A330 MRTT"
-	}
-	add_equipment_to_stockpile = {
-		type = transport_plane4 #C-130J Super Hercules
-		amount = 48
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = transport_helicopter1 #Sea King HU5
-		amount = 2
-		producer = USA
-		#version_name = "Sea King HU5"
-	}
-	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Sikorsky UH-60 Black Hawk
-		amount = 1
-		producer = USA
-	}
-	add_equipment_to_stockpile = {
-		type = transport_helicopter2 #Eurocopter AS532 Couga
-		amount = 10
-		producer = FRA
-	}
-	add_equipment_to_stockpile = {
-		type = SP_Anti_Air_0 #M163 Vulcan
-		amount = 92
-		producer = USA
-		#version_name = "M163 Vulcan"
-	}
+	
 	add_equipment_to_stockpile = {
 		type = SP_Anti_Air_0 #XA-181/Crotale
 		amount = 181
 		producer = FRA
-	}
-	add_equipment_to_stockpile = {
-		type = SP_Anti_Air_1 #AN/TWQ-1 Avenger
-		amount = 400
-		producer = USA
 	}
 	add_equipment_to_stockpile = {
 		type = SP_Anti_Air_0 #MIM-23 Hawk
@@ -615,102 +503,82 @@ instant_effect = {
 		producer = USA
 	}
 	
-	#108 MIM-140D/F Patriot PAC-2 GEM/PAC-3
 	
+	### Airforce
 	add_equipment_to_stockpile = {
-		type = IFV_4 #LAV-III Kodiak
-		amount = 921
-		producer = CAN
-	}
-	add_equipment_to_stockpile = {
-		type = APC_3 #LAV-25
-		amount = 518
-		producer = CAN
-	}
-	add_equipment_to_stockpile = {
-		type = Rec_tank_0 #Cadillac Cage Commando V150
-		amount = 290
+		type = attack_helicopter2 #AH-64 Apache Longbow
+		amount = 12
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = SP_arty_2 #CAESAR
-		amount = 132
-		producer = FRA
-	}
-	add_equipment_to_stockpile = {
-		type = artillery_0 #M102
+		type = transport_helicopter2 #Sikorsky UH-60 Black Hawk
 		amount = 50
 		producer = USA
 	}
 	add_equipment_to_stockpile = {
-		type = artillery_0 #M198 howitzer
-		amount = 58
+		type = transport_helicopter2
+		amount = 19
+		producer = FRA
+	}
+	add_equipment_to_stockpile = {
+		type = transport_helicopter1 #various bell helis
+		amount = 138
 		producer = USA
-		#version_name = "M198 howitzer"
 	}
 	add_equipment_to_stockpile = {
-		type = IFV_4 #LAV-III Kodiak
-		amount = 183
-		producer = CAN
-	}
-	add_equipment_to_stockpile = {
-		type = SP_Anti_Air_0 #M163 Vulcan
+		type = transport_helicopter1 #Eurocopter AS332 Super Puma
 		amount = 30
+		producer = FRA
+		#version_name = "Eurocopter AS332 Super Puma"
+	}
+	
+	add_equipment_to_stockpile = {
+		type = MR_Fighter1 #F-5 Freedom Fighter
+		amount = 78
 		producer = USA
-		#version_name = "M163 Vulcan"
 	}
 	add_equipment_to_stockpile = {
-		type = attack_helicopter4 #AH-64E Apache Guardian
-		amount = 4
+		type = AS_Fighter3 #F-15C Eagle
+		amount = 94
 		producer = USA
 	}
+	add_equipment_to_stockpile = {
+		type = Strike_fighter2 #Panavia Tornado IDS
+		amount = 86
+		producer = GER
+	}
+	add_equipment_to_stockpile = {
+		type = Strike_fighter3 #F-15S Strike Eagle
+		amount = 70
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = Int_Fighter1 #Panavia Tornado AVD
+		amount = 24
+		producer = ITA
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane1 #C-130J Super Hercules
+		amount = 52
+		producer = USA
+	}
+	
 	if = {
 		limit = { has_dlc = "Death or Dishonor" }
 		CAN = {
 			create_production_license = {
 				target = SAU 
 				equipment = {
-					type = APC_4 #LAV-III Bison
+					type = APC_3 #LAV
 				}
 				cost_factor = 0
 			}
 		}
-		ENG = {
+		GER = {
 			create_production_license = {
 				target = SAU 
 				equipment = {
-					type = AS_Fighter3 #EF-2000 Typhoon
-				}
-				cost_factor = 0
-			}
-		}
-		USA = {
-			create_production_license = { 
-				target = SAU 
-				equipment = {
-					type = Strike_fighter3 #F-15E Strike Eagle
-				}
-				cost_factor = 0
-			}
-			create_production_license = { 
-				target = SAU 
-				equipment = {
-					type = attack_helicopter4 #AH-64E Apache Guardian
-				}
-				cost_factor = 0
-			}
-			create_production_license = {
-				target = SAU 
-				equipment = {
-					type = Strike_fighter3
-					version_name = "F-15S"
-				}
-				cost_factor = 0
-			}
-			create_production_license = {
-				target = SAU 
-				equipment = {
-					type = transport_plane4 #C-130J Super Hercules
+					type = Strike_fighter2 #Panavia Tornado IDS
 				}
 				cost_factor = 0
 			}
@@ -724,11 +592,11 @@ instant_effect = {
 				cost_factor = 0
 			}
 		}
-		SPR = {
+		ITA = {
 			create_production_license = {
 				target = SAU 
 				equipment = {
-					type = transport_plane3 #C-295
+					type = Int_Fighter1 #Panavia Tornado ADV
 				}
 				cost_factor = 0
 			}
@@ -746,7 +614,7 @@ instant_effect = {
 			create_production_license = {
 				target = SAU 
 				equipment = {
-					type = command_control_equipment4 
+					type = command_control_equipment3 
 				}
 				cost_factor = 0
 			}
@@ -755,7 +623,7 @@ instant_effect = {
 			create_production_license = {
 				target = SAU 
 				equipment = {
-					type = Heavy_Anti_tank_2 
+					type = Heavy_Anti_tank_1 
 				}
 				cost_factor = 0
 			}
@@ -768,101 +636,6 @@ instant_effect = {
 				}
 				cost_factor = 0
 			}
-		}
-		
-		else = {
-			add_equipment_production = { 
-				equipment = {
-					type = APC_4 #LAV-III Bison
-					creator = "CAN"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = AS_Fighter3 #EF-2000 Typhoon
-					creator = "ENG"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = Strike_fighter3 #F-15E Strike Eagle
-					creator = "USA"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = attack_helicopter4 #AH-64E Apache Guardian
-					creator = "USA"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = Strike_fighter3
-					creator = "USA"
-					version_name = "F-15S"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = transport_plane4 #C-130J Super Hercules
-					creator = "USA"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = L_Strike_fighter1 #BAE Systems Hawk
-					creator = "ENG"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = transport_plane3 #C-295
-					creator = "SPR"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			add_equipment_production = { 
-				equipment = {
-					type = infantry_weapons3 #Heckler & Koch G36
-					creator = "GER"
-				}
-				requested_factories = 1
-				progress = 0.5
-				efficiency = 50
-				amount = 4
-			}
-			
 		}
 	}
 }
