@@ -1,39 +1,36 @@
 
 state = {
-	id = 58
-	name = "STATE_58"
+	id = 75
+	name = "STATE_75"
 
 	history = {
-		owner = FRA
+		owner = AUS
 		victory_points = {
-			3652 5 
+			9648 5 
 		}
 		victory_points = {
-			9642 1 
-		}
-		victory_points = {
-			9490 1 
+			3673 1 
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
-			synthetic_refinery = 2
+			arms_factory = 1
+			synthetic_refinery = 1
 			air_base = 2
 
 		}
-		add_core_of = FRA
+		add_core_of = AUS
 		2017.1.1 = {
-			add_manpower = 213938
+			add_manpower = 59933
 			buildings = {
 				industrial_complex = 2
 			}
 		}
 	}
-
 	provinces = {
-		648 667 698 3506 3533 3646 3650 3652 3666 3669 3681 6531 6698 9490 9505 9642 9644 9658 11794 286 
+		653 668 3673 6673 6687 6691 9646 9648 9679 11612 11630 334
 	}
-	manpower = 2310444
+	manpower = 1841090
 	buildings_max_level_factor = 1.000
 	state_category = state_03
 }
