@@ -56,7 +56,7 @@ bookmarks = {
 			ideas = {
 				russian_legacy
 				p5_member
-				recession
+				sco_member
 			}		
 			focuses = {
 			}			
@@ -92,7 +92,7 @@ bookmarks = {
 			ideology = neutrality
 			ideas = {
 				cartels_3
-				brazilian_knack
+				BRA_idea_brazilian_knack
 				rio_pact_member
 			}
 			focuses = {
@@ -174,7 +174,7 @@ bookmarks = {
 		}
 		"SWI" = {
 			minor = yes
-			history = "SWI_MODERN_DAY_DESC"
+			history = "SWI_MILLENNIUM_DAWN_DESC"
 			ideology = neutrality
 			ideas = {
 			}
