@@ -1,4 +1,4 @@
-set_leader_CRE = {
+set_leader_ZIM = {
 
 	if = { limit = { has_country_flag = set_socialism }
 
@@ -7,8 +7,8 @@ set_leader_CRE = {
 			hidden_effect = { kill_country_leader = yes }
 
 			create_country_leader = {
-				name = "Vassilis Labrinos"
-				picture = "Vassilis Labrinos.dds"
+				name = "Morgan Tsvangirai"
+				picture = "generic.dds"
 				ideology = socialism
 				traits = {
 					western_socialism

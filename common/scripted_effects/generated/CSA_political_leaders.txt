@@ -1,4 +1,4 @@
-set_leader_NGR = {
+set_leader_CSA = {
 
 	if = { limit = { has_country_flag = set_Nat_Populism }
 
@@ -7,8 +7,8 @@ set_leader_NGR = {
 			hidden_effect = { kill_country_leader = yes }
 
 			create_country_leader = {
-				name = "Salou Djibo"
-				picture = "Portrait_Salou_Djibo_president.dds"
+				name = "Terry McAuliffe"
+				picture = "terry_mcauliffe.dds"
 				ideology = Nat_Populism
 				traits = {
 					nationalist_Nat_Populism
