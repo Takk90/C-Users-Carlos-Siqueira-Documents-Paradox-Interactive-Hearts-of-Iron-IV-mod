@@ -143,11 +143,17 @@ country_event = {
 					tag = DEN
 					tag = SWE
 					tag = ENG
+					tag = FIN
 				}
 			}
 			modifier = {
 				add = 75
 				has_government = communism
+			}
+			modifier = {
+				add = 100
+				has_government = nationalist
+				has_government = neutrality
 			}
 		}
 	}
