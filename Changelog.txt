@@ -1,20 +1,21 @@
 1.0.3 Hotfix
-Features
+Game rules
 - Added the Vatican as a releasable country through custom rules
-- You can now change Internal Factions with PP
+- Added rule to allow cheat decisions/events
+- Added rules to disable NATO and EU
 
-Stability
-- Fixed CTD from editing Japanese templates
+Features
+- You can now change Internal Factions with PP
+- Added a supply route to Afghanistan so volunteers sent there don't immediately go out of supply
 
 Bugfixes
 - Defence companies now decrease research speed like they should
 - Interest rates should correctly update now when taking debt
 
-Decisions
-- Added some cheat decisions to change your politics (launch via country_event cheat.1 in console)
-
 Focuses
 - Focuses related to NATO now check for the national idea, not faction
+- Fixed Swedish focus to restore the Monarchy properly
+- The US tree now works even if Trump is not the leader
 
 Graphics
 - You now get the correct flag and name when forming the EU
@@ -32,6 +33,8 @@ Technology
 
 Localisation
 - Foreign investment in your country now correctly shows what building someone wants to construct
+- Fixed some missing localisation in the doctrine tree
+- Fixed missing localisation for tactics
 
 Music
 - Equalised some of the music volumes
@@ -41,10 +44,15 @@ Politics
 - Reduced Outlook drifts caused by Internal Factions
 - Adjusted Turkish starting politics
 - Increased Egypt's starting tax level
+- Angola is no longer lead by UNITA while at the same time fighting against them
+- EST, LAT and LIT are now lead by their respective Presidents and not Prime Ministers
+- Portugal is now correctly lead by Jorge Sampaio
+- Made sure Saddam Hussein is dead in 2017 bookmark
+- Adjusted tension limits for foreign intervention laws, highest level now allows you to do everything
 
 Map
 - Removed Hatay as core of FSA
-
+- Map fixes
 
 1.0.2 Hotfix
 Bugfixes
