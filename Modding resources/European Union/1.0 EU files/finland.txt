@@ -538,7 +538,7 @@ focus_tree = {
 	#Foreign Ministry
 	focus = {
 		id = FIN_expand_the_foreign_ministry
-		icon = global_community
+		icon = adopt_the_peoples_constitution
 		
 		x = 3
 		y = 1
@@ -632,7 +632,6 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_secure_european_trade_deals"
-			EU_eurosceptic_decline_5_percent = yes
 			every_country = {
 				limit = { 
 					has_idea = EU_member
@@ -653,7 +652,7 @@ focus_tree = {
 	
 	focus = {
 		id = FIN_trade_with_the_nordics
-		icon = trade
+		icon = nordic_council2
 		
 		x = 1
 		y = 1
@@ -715,8 +714,7 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		prerequisite = {
-			#focus = FIN_secure_european_trade_deals
-			focus = FIN_expand_the_foreign_ministry
+			focus = FIN_secure_european_trade_deals
 		}
 		
 		mutually_exclusive = { }
@@ -759,8 +757,7 @@ focus_tree = {
 		available_if_capitulated = no
 		
 		prerequisite = {
-			#focus = FIN_secure_european_trade_deals
-			focus = FIN_expand_the_foreign_ministry
+			focus = FIN_secure_european_trade_deals
 		}
 		
 		mutually_exclusive = { }
@@ -804,7 +801,6 @@ focus_tree = {
 		
 		prerequisite = {
 			focus = FIN_secure_european_trade_deals
-			focus = FIN_trade_with_russia
 		}
 		
 		mutually_exclusive = { }
@@ -1911,7 +1907,7 @@ focus_tree = {
 	
 	focus = {
 		id = FIN_finlands_main_ally
-		icon = military_sphere
+		icon = improve_relations_red
 		
 		x = -4
 		y = 2
@@ -2114,7 +2110,6 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_european_involvement"
-			EU_eurosceptic_decline_5_percent = yes
 			every_country = {
 				limit = { 
 					has_idea = EU_member
@@ -2130,10 +2125,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 	
@@ -2206,9 +2197,6 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {
-				has_idea = EU_member
-			}
 			NOT = { has_war_with = GER }
 			is_puppet = no
 			GER = { is_puppet = no }
@@ -3056,8 +3044,6 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_russia"
-			EU_potential_eurosceptic_rise_3_percent = yes
-			ROOT_eurosceptic_rise_15_percent = yes			
 			SOV = {
 				add_opinion_modifier = {
 					target = FIN
@@ -3072,10 +3058,6 @@ focus_tree = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-			modifier = {
-				add = 10
-				gov_is_eurosceptical = yes
-			}			
 		}
 	}
 	
@@ -3111,8 +3093,6 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_political_alliance_with_vladimir_putin"
-			EU_potential_eurosceptic_rise_3_percent = yes
-			ROOT_eurosceptic_rise_20_percent = yes			
 			add_political_power = 20
 			SOV = {
 				add_opinion_modifier = {
@@ -3124,10 +3104,6 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				add = 10
-				gov_is_eurosceptical = yes
-			}			
 		}
 	}
 	
@@ -3248,9 +3224,6 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {
-				has_idea = EU_member
-			}		
 			is_puppet = no
 			SOV = { is_puppet = no }
 			SOV = { is_faction_leader = yes }
@@ -3341,9 +3314,6 @@ focus_tree = {
 		}
 		
 		available = {
-			NOT = {
-				has_idea = EU_member
-			}		
 			is_puppet = no
 			SOV = { is_puppet = no }
 			SOV = { is_faction_leader = yes }
