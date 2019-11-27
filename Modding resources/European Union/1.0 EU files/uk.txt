@@ -133,12 +133,12 @@ focus_tree = {
 			focus = ENG_the_future_of_britain
 		}
 
-		mutually_exclusive = { }
+		mutually_exclusive = {
+			focus = ENG_a_new_path
+		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_democratic_tradition"
-			EU_eurosceptic_decline_3_percent = yes
-			ROOT_eurosceptic_decline_5_percent = yes
 			add_5_popularity = yes
 		}
 
@@ -158,12 +158,8 @@ focus_tree = {
 			focus = ENG_the_future_of_britain
 		}
 
-		mutually_exclusive = { }
-
-		available = {
-			NOT = {
-				has_idea = EU_member
-			}
+		mutually_exclusive = {
+			focus = ENG_democratic_tradition
 		}
 
 		completion_reward = {
@@ -492,8 +488,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_europe_is_the_future"
-			EU_eurosceptic_decline_5_percent = yes
-			ROOT_eurosceptic_decline_10_percent = yes
 			add_political_power = 25
 			add_popularity = {
 				popularity = 0.05
@@ -508,10 +502,6 @@ focus_tree = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-			modifier = {
-				add = -10
-				gov_is_eurosceptical = yes
-			}			
 		}
 	}
 
@@ -535,8 +525,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_careful_cooperation"
-			EU_eurosceptic_decline_3_percent = yes
-			ROOT_eurosceptic_decline_5_percent = yes
+
 			add_political_power = 25
 			add_popularity = {
 				popularity = 0.05
@@ -570,8 +559,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_distance_from_europe"
-			EU_eurosceptic_rise_5_percent = yes
-			ROOT_eurosceptic_rise_10_percent = yes
 			add_political_power = 50
 			add_popularity = {
 				popularity = 0.05
@@ -1054,15 +1041,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ENG_britain_first
 		}
-		available = {
-			has_idea = EU_member
-		}
-
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_go_with_europe"
-			EU_eurosceptic_decline_3_percent = yes
-			ROOT_eurosceptic_decline_5_percent = yes
 			every_country = {
 				limit = {
 					OR = {
@@ -1143,8 +1124,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_britain_first"
-			EU_eurosceptic_rise_3_percent = yes
-			ROOT_eurosceptic_rise_5_percent = yes
 			add_political_power = 20
 			every_country = {
 				limit = {
@@ -1194,7 +1173,7 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 			random_country = {
@@ -1206,7 +1185,7 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 			random_country = {
@@ -1218,7 +1197,7 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 			random_country = {
@@ -1230,26 +1209,33 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
+				set_country_flag = ENG_european_cooperation_received
+			}
+			random_country = {
+				limit = {
+					NOT = { tag = GER }
+					NOT = { tag = ENG }
+					NOT = { tag = FRA }
+					NOT = { tag = ITA }
+					NOT = { has_country_flag = ENG_european_cooperation_received }
+					has_idea = EU_member
+				}
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 		}
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
 	focus = {
 		id = ENG_special_treatment
 		icon = intelligence_exchange
-		x = -1
-		y = 1
-		relative_position_id = ENG_careful_cooperation
+		x = 21
+		y = 3
 		cost = 10
 
 		prerequisite = {
@@ -1259,8 +1245,6 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_special_treatment"
 			add_political_power = 150
-			EU_eurosceptic_rise_5_percent = yes
-			ROOT_eurosceptic_decline_10_percent = yes			
 			every_country = {
 				limit = {
 					NOT = { tag = ENG }
@@ -1281,10 +1265,9 @@ focus_tree = {
 
 	focus = {
 		id = ENG_brexit_referendum
-		icon = trigger_article_50 #Election
-		x = -2
-		y = 4
-		relative_position_id = ENG_distance_from_europe
+		icon = Election
+		x = 24
+		y = 3
 		cost = 10
 
 		prerequisite = {
@@ -1293,62 +1276,32 @@ focus_tree = {
 		}
 
 		bypass = {
-			OR = {
-				has_country_flag = brexit_referendum
-				NOT = {
-					has_idea = EU_member
-				}
-			}
+			has_country_flag = brexit_referendum
 		}
-		
+
 		available = {
-				has_idea = EU_member
+			NOT = { has_completed_focus = ENG_union_of_nations }
+			OR = {
+				has_completed_focus = ENG_distance_from_europe
+			}
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_brexit_referendum"
 			set_country_flag = brexit_referendum
-			if = {
-				limit = {
-					check_variable = {
-						var = eurosceptic
-						value = 0.5
-						compare = greater_than_or_equals
-					}
-				}
-				EU_eurosceptic_rise_5_percent = yes
-				ROOT_eurosceptic_rise_20_percent = yes
-			}		
-			
-			else = {
-				random_list = {
-					60 = {
-						EU_eurosceptic_rise_5_percent = yes
-						ROOT_eurosceptic_rise_20_percent = yes					
-					}
-					40 = {
-						EU_eurosceptic_decline_5_percent = yes
-						ROOT_eurosceptic_decline_20_percent = yes					
-					}					
-				}
-			}
+			country_event = britain_md.4
 		}
 
 		ai_will_do = {
 			factor = 10
-			modifier = {
-				factor = 5
-				is_historical_focus_on = yes
-			}				
 		}
 	}
 
 	focus = {
 		id = ENG_new_diplomatic_initiatives
 		icon = national_unity
-		x = -1
-		y = 1
-		relative_position_id = ENG_distance_from_europe
+		x = 26
+		y = 3
 		cost = 10
 
 		prerequisite = {
@@ -1357,7 +1310,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_new_diplomatic_initiatives"
-			ROOT_eurosceptic_rise_5_percent = yes
 			add_war_support = 0.05
 			add_political_power = 25
 		}
@@ -1799,30 +1751,26 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_european_logistics"
-			ROOT_eurosceptic_decline_3_percent = yes
 			add_ideas = ENG_european_logistics_idea
 		}
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
-	### Kill Backstop - Empower Boris 
 	focus = {
-		id = ENG_defy_remain ### old name, not changed
-		icon = attack_europe
-		x = 1
-		y = 1
-		relative_position_id = ENG_brexit_referendum
+		id = ENG_defy_remain
+		icon = renounce_treaty
+		x = 25
+		y = 4
 		cost = 10
 
 		prerequisite = {
 			focus = ENG_brexit_referendum
+		}
+		prerequisite = {
+			focus = ENG_distance_from_europe
 		}
 
 		bypass = {
@@ -1832,229 +1780,15 @@ focus_tree = {
 		available = {
 			has_idea = EU_member
 			has_country_flag = brexit_referendum
-			has_country_flag = Article_50
-			is_in_array = { ruling_party = 1 } ### conservatism
+			has_country_flag = brexit_referendum_remain
 		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_defy_remain"
-			EU_eurosceptic_rise_5_percent = yes
-			ROOT_eurosceptic_rise_25_percent = yes
-			add_ideas = {
-				ENG_irish_nationalism_idea
-			}
-			add_ideas = {
-				ENG_scottish_nationalism_idea
-			}			
-			create_country_leader = {
-				name = "Boris Johnson" 
-				picture = "Boris_Johnson.dds"
-				expire = "2030.1.1"
-				ideology = conservatism
-				traits = {
-					writer
-					western_conservatism
-					stubborn
-					ruthless
-					emotional
-				}
-			}
-			set_country_flag = no_leader_change
-            hidden_effect = {
-                clear_array = ruling_party
-                clear_array = gov_coalition_array
-                add_to_array = { ruling_party = 1 }
-                update_government_coalition_strength = yes
-                update_party_name = yes
-                set_coalition_drift = yes
-                meta_effect = {
-                    text = {
-                        set_country_flag = [META_SET_RULING_PARTY]
-                    }
-                    META_SET_RULING_PARTY = "[meta_set_ruling_leader]"
-                }
-                set_leader = yes
-            }
-            set_politics = {
-                ruling_party = democratic
-                elections_allowed = yes
-            }
-			clr_country_flag = no_leader_change			
-			
-			
-			
-		}
-
-		ai_will_do = {
-			factor = 10
-				modifier = {
-					add = 25
-					gov_is_eurosceptical = yes
-				}
-				modifier = {
-					add = -10
-					NOT = { gov_is_eurosceptical = yes }
-				}				
-		}
-	}
-
-	focus = {
-		id = ENG_irish_referendum
-		icon = align_to_ireland
-		x = -1
-		y = 1
-		relative_position_id = ENG_defy_remain
-		cost = 10
-
-		prerequisite = {
-			focus = ENG_defy_remain
-		}
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ENG_irish_referendum"
-			if = {
-				limit = {
-					check_variable = {
-						var = global.var_europeanism
-						value = 0.6
-						compare = less_than
-					}
-				}
-				remove_ideas = {
-					ENG_irish_nationalism_idea
-				}
-			}
-			else_if = {
-				limit = {
-					check_variable = {
-						var = global.var_europeanism
-						value = 0.90
-						compare = greater_than_or_equals
-					}
-				}
-				random_list = {
-					30 = {
-						remove_ideas = {
-							ENG_irish_nationalism_idea
-						}					
-					}
-					70 = {
-						IRE = {
-							transfer_state = 17
-						}
-					}
-				}	
-			}			
-			else = {
-				random_list = {
-					60 = {
-						remove_ideas = {
-							ENG_irish_nationalism_idea
-						}					
-					}
-					40 = {
-						IRE = {
-							transfer_state = 17
-						}
-					}					
-				}
-			}			
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = ENG_scottish_referendum
-		icon = british_decolonization
-		x = 1
-		y = 1
-		relative_position_id = ENG_defy_remain
-		cost = 10
-
-		prerequisite = {
-			focus = ENG_defy_remain
-		}
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ENG_scottish_referendum"
-			if = {
-				limit = {
-					check_variable = {
-						var = global.var_europeanism
-						value = 0.6
-						compare = less_than
-					}
-				}
-				remove_ideas = {
-					ENG_scottish_nationalism_idea
-				}
-			}
-			else_if = {
-				limit = {
-					check_variable = {
-						var = global.var_europeanism
-						value = 0.90
-						compare = greater_than_or_equals
-					}
-				}
-				random_list = {
-					30 = {
-						remove_ideas = {
-							ENG_scottish_nationalism_idea
-						}					
-					}
-					70 = {
-						release = SCO
-					}
-				}	
-			}				
-			else = {
-				random_list = {
-					60 = {
-						remove_ideas = {
-							ENG_scottish_nationalism_idea
-						}					
-					}
-					40 = {
-						release = SCO
-					}					
-				}
-			}			
-		}
-
-		ai_will_do = {
-			factor = 10
-		}
-	}
-
-	focus = {
-		id = ENG_global_britain
-		icon = british_nationalism
-		x = -1
-		y = 1
-		relative_position_id = ENG_scottish_referendum
-		cost = 15
-
-		prerequisite = {
-			focus = ENG_irish_referendum
-		}
-		prerequisite = {
-			focus = ENG_scottish_referendum
-		}
-		available = {
-			NOT = {
-				has_idea = EU_member
-			}
-			NOT = {
-				has_idea = no_deal_exit
-			}				
-		}		
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ENG_global_britain"
-			add_ideas = ENG_global_britain_idea
+			add_popularity = { ideology = democratic popularity = -0.03 }
+			recalculate_party = yes
+			add_war_support = -0.3
+			news_event = britain_news.61
 		}
 
 		ai_will_do = {
@@ -2065,9 +1799,8 @@ focus_tree = {
 	focus = {
 		id = ENG_investments_abroad_1
 		icon = trade_with_europe
-		x = 0
-		y = 2
-		relative_position_id = ENG_careful_cooperation
+		x = 22
+		y = 4
 		cost = 10
 
 		prerequisite = {
@@ -2080,20 +1813,10 @@ focus_tree = {
 			every_country = {
 				limit = {
 					NOT = { tag = ENG }
-					has_idea = EU_member
 					capital_scope = { is_on_continent = europe }
 				}
-				THIS_eurosceptic_decline_3_percent = yes
-				country_event = britain_md.8								
+				country_event = britain_md.8
 			}
-			every_country = {
-				limit = {
-					NOT = { tag = ENG }
-					NOT = { has_idea = EU_member }
-					capital_scope = { is_on_continent = europe }
-				}
-				country_event = britain_md.8								
-			}			
 		}
 
 		ai_will_do = {
@@ -2104,9 +1827,8 @@ focus_tree = {
 	focus = {
 		id = ENG_national_development_1
 		icon = construction3
-		x = 1
-		y = 1
-		relative_position_id = ENG_distance_from_europe
+		x = 27
+		y = 4
 		cost = 10
 
 		prerequisite = {
@@ -2114,7 +1836,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ENG_national_development_1"			
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_national_development_1"
 			country_event = britain_md.9
 		}
 
@@ -2545,8 +2267,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_EU_border_compromise"
-			EU_eurosceptic_decline_3_percent = yes
-			ROOT_eurosceptic_decline_5_percent = yes
 			country_event = britain_md.11
 		}
 
@@ -2606,8 +2326,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_the_british_alliance"
-			EU_eurosceptic_rise_3_percent = yes
-			ROOT_eurosceptic_rise_5_percent = yes
 			create_faction = british_alliance
 		}
 
@@ -2642,7 +2360,7 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 			random_country = {
@@ -2654,7 +2372,7 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 			random_country = {
@@ -2666,7 +2384,7 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 			random_country = {
@@ -2678,28 +2396,102 @@ focus_tree = {
 					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = { id = european_union.6 }
+				set_country_flag = ENG_european_cooperation_received
+			}
+			random_country = {
+				limit = {
+					NOT = { tag = GER }
+					NOT = { tag = ENG }
+					NOT = { tag = FRA }
+					NOT = { tag = ITA }
+					NOT = { has_country_flag = ENG_european_cooperation_received }
+					has_idea = EU_member
+				}
+				country_event = { id = european_union.6 }
 				set_country_flag = ENG_european_cooperation_received
 			}
 		}
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
+	focus = {
+		id = ENG_EU_expansion_of_2004
+		icon = align_to_europe
+		x = 19
+		y = 5
+		cost = 25
 
+		prerequisite = {
+			focus = ENG_european_logistics
+		}
+
+		available = {
+			has_idea = EU_member
+			has_offensive_war = no
+			has_government = democratic
+		}
+
+		bypass = {
+			OR = {
+				has_global_flag = eu_expansion_of_2004_focus
+				AND = {
+					EST = { has_idea = EU_member }
+					LAT = { has_idea = EU_member }
+					LIT = { has_idea = EU_member }
+					POL = { has_idea = EU_member }
+					CZE = { has_idea = EU_member }
+					SLO = { has_idea = EU_member }
+					SLV = { has_idea = EU_member }
+					HUN = { has_idea = EU_member }
+					MLT = { has_idea = EU_member }
+					CYP = { has_idea = EU_member }
+				}
+			}
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_EU_expansion_of_2004"
+			set_global_flag = eu_expansion_of_2004_focus
+			every_country = {
+				limit = {
+					OR = {
+						tag = EST
+						tag = LAT
+						tag = LIT
+						tag = POL
+						tag = CZE
+						tag = SLO
+						tag = SLV
+						tag = HUN
+						tag = MLT
+						tag = CYP
+					}
+					has_government = democratic
+					NOT = { has_idea = EU_member }
+					has_offensive_war = no
+				}
+				country_event = { id = european_union.5 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				date < 2004.1.1
+				factor = 0
+			}
+		}
+	}
 
 	focus = {
 		id = ENG_investments_at_home
 		icon = construction2
-		x = -1
-		y = 1
-		relative_position_id = ENG_investments_abroad_1
+		x = 21
+		y = 5
 		cost = 10
 
 		prerequisite = {
@@ -2710,7 +2502,7 @@ focus_tree = {
 			focus = ENG_workforce_deal_with_ireland
 		}
 		
-		available = {			
+		available = {
 			custom_trigger_tooltip = {
 				OR = {
 					is_ai = yes 
@@ -2722,7 +2514,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_investments_at_home"
-			EU_eurosceptic_rise_3_percent = yes
 			random_owned_state = {
 				limit = {
 					free_building_slots = {
@@ -2773,20 +2564,15 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 10
-				modifier = {
-					add = 15
-					gov_is_eurosceptical = yes
-				}
+			factor = 25
 		}
 	}
 
 	focus = {
 		id = ENG_workforce_deal_with_ireland
 		icon = construction
-		x = 1
-		y = 1
-		relative_position_id = ENG_investments_abroad_1
+		x = 23
+		y = 5
 		cost = 10
 
 		prerequisite = {
@@ -2805,8 +2591,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_workforce_deal_with_ireland"
-			ROOT_eurosceptic_decline_10_percent = yes
-			IRE = { THIS_eurosceptic_decline_10_percent = yes }
 			IRE = { country_event = britain_md.13 }
 		}
 
@@ -2816,19 +2600,14 @@ focus_tree = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-			modifier = {
-				add = 15
-				NOT = { gov_is_eurosceptical = yes }
-			}			
 		}
 	}
 
 	focus = {
 		id = ENG_national_development_2
 		icon = construction3
-		x = 0
-		y = 1
-		relative_position_id =  ENG_national_development_1
+		x = 26
+		y = 5
 		cost = 10
 
 		prerequisite = {
@@ -3173,8 +2952,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_air_travel_agreements_with_europe"
-			EU_eurosceptic_decline_3_percent = yes
-			ROOT_eurosceptic_decline_5_percent = yes
 			country_event = britain_md.14
 		}
 
@@ -3214,16 +2991,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ENG_the_british_alliance
 		}
-		available = {
-			NOT = {
-				has_idea = EU_member
-			}
-		}
-		
+
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_diplomatic_sovereignity"
-			EU_eurosceptic_rise_3_percent = yes
-			ROOT_eurosceptic_rise_5_percent = yes
 			add_ideas = ENG_diplomatic_sovereignity_idea
 		}
 
@@ -3232,14 +3002,39 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = ENG_european_military_cooperation
+		icon = entente
+		x = 18
+		y = 6
+		cost = 15
 
+		prerequisite = {
+			focus = ENG_european_cooperation_2
+			focus = ENG_EU_expansion_of_2004
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_european_military_cooperation"
+			every_country = {
+				limit = {
+					NOT = { tag = ENG }
+					has_idea = EU_member
+				}
+				country_event = britain_md.16
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
 
 	focus = {
 		id = ENG_investments_abroad_2
 		icon = trade
-		x = 1
-		y = 1
-		relative_position_id = ENG_investments_at_home
+		x = 22
+		y = 6
 		cost = 10
 
 		prerequisite = {
@@ -3249,7 +3044,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_investments_abroad_2"
-			EU_eurosceptic_rise_10_percent = yes
 			add_political_power = 15
 			every_country = {
 				limit = {
@@ -3263,19 +3057,14 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = 15
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
 	focus = {
 		id = ENG_defensive_constructions
 		icon = military_fort
-		x = -2
-		y = 0
-		relative_position_id = ENG_national_development_2
+		x = 25
+		y = 6
 		cost = 10
 
 		prerequisite = {
@@ -3545,90 +3334,99 @@ focus_tree = {
 	focus = {
 		id = ENG_european_cooperation_3
 		icon = major_alliance
-		x = 2
-		y = 0
-		relative_position_id = ENG_european_cooperation_2
+		x = 17
+		y = 7
 		cost = 10
 
 		prerequisite = {
 			focus = ENG_european_cooperation_2
 		}
 		prerequisite = {
-			focus = ENG_european_logistics
+			focus = ENG_european_military_cooperation
 		}
-		available = {			
-			has_idea = EU_member
-		}	
-		
+
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_european_cooperation_3"
-			random_country = {
+			every_country = {
 				limit = {
 					NOT = { tag = GER }
 					NOT = { tag = ENG }
 					NOT = { tag = FRA }
 					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
 					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
 				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
+				country_event = european_union.6
 				set_country_flag = ENG_european_cooperation_received
 			}
 		}
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
+	focus = {
+		id = ENG_EU_expansion_of_2007
+		icon = align_to_europe
+		x = 19
+		y = 7
+		cost = 25
 
+		prerequisite = {
+			focus = ENG_european_military_cooperation
+		}
+		prerequisite = {
+			focus = ENG_EU_expansion_of_2004
+		}
+
+		available = {
+			has_idea = EU_member
+			has_offensive_war = no
+		  has_government = democratic
+		}
+
+		bypass = {
+			OR = {
+				has_global_flag = eu_expansion_of_2007_focus
+				AND = {
+					ROM = { has_idea = EU_member }
+					BUL = { has_idea = EU_member }
+				}
+			}
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_EU_expansion_of_2007"
+			set_global_flag = eu_expansion_of_2007_focus
+			every_country = {
+				limit = {
+					OR = {
+						tag = ROM
+						tag = BUL
+					}
+					has_government = democratic
+					NOT = { has_idea = EU_member }
+					has_offensive_war = no
+				}
+				country_event = { id = european_union.5 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				date < 2007.1.1
+				factor = 0
+			}
+		}
+	}
 
 	focus = {
 		id = ENG_develop_infrastructure
 		icon = infrastructure
-		x = -1
-		y = 1
-		relative_position_id = ENG_investments_abroad_2
+		x = 21
+		y = 7
 		cost = 10
 
 		prerequisite = {
@@ -3666,9 +3464,8 @@ focus_tree = {
 	focus = {
 		id = ENG_national_development_3
 		icon = construction3
-		x = 0
-		y = 1
-		relative_position_id = ENG_defensive_constructions
+		x = 26
+		y = 7
 		cost = 15
 
 		prerequisite = {
@@ -3975,14 +3772,59 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = ENG_EU_expansion_of_2013
+		icon = align_to_europe
+		x = 18
+		y = 8
+		cost = 25
 
+		prerequisite = {
+			focus = ENG_EU_expansion_of_2007
+		}
+
+		available = {
+			has_idea = EU_member
+			has_offensive_war = no
+		}
+
+		bypass = {
+			OR = {
+				has_global_flag = eu_expansion_of_2013_focus
+				CRO = { has_idea = EU_member }
+			}
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_EU_expansion_of_2013"
+			set_global_flag = eu_expansion_of_2013_focus
+			every_country = {
+				limit = {
+					OR = {
+						tag = CRO
+					}
+					has_government = democratic
+					NOT = { has_idea = EU_member }
+					has_offensive_war = no
+				}
+				country_event = { id = european_union.5 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				date < 2013.1.1
+				factor = 0
+			}
+		}
+	}
 
 	focus = {
 		id = ENG_investments_abroad_3
 		icon = trade
-		x = 0
-		y = 2
-		relative_position_id = ENG_investments_abroad_2
+		x = 22
+		y = 8
 		cost = 10
 
 		prerequisite = {
@@ -3991,7 +3833,6 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_investments_abroad_3"
-			EU_eurosceptic_rise_15_percent = yes
 			add_political_power = 15
 			every_country = {
 				limit = {
@@ -4195,30 +4036,30 @@ focus_tree = {
 			factor = 10
 		}
 	}
-	
-	### Revive Churchill's Europe
+
 	focus = {
-		id = ENG_one_union ### old name, not changed
-		icon = winston_churchill
-		x = -2
-		y = 1
-		relative_position_id = ENG_european_cooperation_3
+		id = ENG_one_union
+		icon = align_to_europe
+		x = 17
+		y = 9
 		cost = 20
 
 		prerequisite = {
-			focus = ENG_european_cooperation_3
+			focus = ENG_EU_expansion_of_2013
 		}
 
-		available = {			
+		available = {
+			NOT = { has_global_flag = the_path_towards_europe }
 			has_idea = EU_member
 		}
 
-		mutually_exclusive = {	}
+		mutually_exclusive = {
+			focus = ENG_union_of_nations
+		}
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_one_union"
-			EU_eurosceptic_decline_5_percent = yes
-			ROOT_eurosceptic_decline_15_percent = yes
+			set_global_flag = the_path_towards_europe
 			add_political_power = 25
 		}
 
@@ -4228,15 +4069,34 @@ focus_tree = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-			modifier = {
-				add = -10
-				gov_is_eurosceptical = yes
-			}			
 		}
-		
 	}
 
+	focus = {
+		id = ENG_union_of_nations
+		icon = national_unity
+		x = 19
+		y = 9
+		cost = 20
 
+		prerequisite = {
+			focus = ENG_investments_abroad_3
+			focus = ENG_EU_expansion_of_2013
+		}
+
+		mutually_exclusive = {
+			focus = ENG_one_union
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_union_of_nations"
+			add_political_power = 75
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
 
 	focus = {
 		id = ENG_royal_army
@@ -4283,15 +4143,14 @@ focus_tree = {
 	focus = {
 		id = ENG_defensive_assistance
 		icon = military_academy
-		x = -1
-		y = 1
-		relative_position_id = ENG_one_union
+		x = 18
+		y = 10
 		cost = 10
 
 		prerequisite = {
 			focus = ENG_one_union
+			focus = ENG_union_of_nations
 		}
-
 
 		available = {
 			has_idea = EU_member
@@ -4303,93 +4162,71 @@ focus_tree = {
 				limit = {
 					has_idea = EU_member
 					NOT = { tag = ENG }
-					NOT = {
-						check_variable = { THIS.var_EUpopRatio > 0.05 }
-					}
-				}				
+				}
 				country_event = britain_md.21
-				THIS_eurosceptic_decline_5_percent = yes
 			}
 		}
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
-
-
 	focus = {
-		id = ENG_european_cooperation_4
-		icon = major_alliance
-		x = -1
-		y = 2
-		relative_position_id = ENG_european_cooperation_3
-		cost = 15
+		id = ENG_prepare_unification_treaties
+		icon = national_unity
+		x = 17
+		y = 11
+		cost = 10
 
 		prerequisite = {
 			focus = ENG_one_union
 		}
 		prerequisite = {
-			focus = ENG_european_cooperation_3
+			focus = ENG_defensive_assistance
 		}
-		available = {			
+
+		available = {
 			has_idea = EU_member
 		}
-		
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_prepare_unification_treaties"
+			add_political_power = 25
+			add_war_support = -0.05
+			news_event = britain_news.64
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = ENG_european_cooperation_4
+		icon = major_alliance
+		x = 19
+		y = 11
+		cost = 15
+
+		prerequisite = {
+			focus = ENG_union_of_nations
+		}
+		prerequisite = {
+			focus = ENG_defensive_assistance
+		}
+
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_european_cooperation_4"
-			random_country = {
+			every_country = {
 				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
+					not = { tag = ENG }
+					not = { tag = GER }
+					not = { tag = ITA }
+					not = { tag = FRA }
 				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
+				country_event = european_union.6
 			}
 		}
 
@@ -4401,9 +4238,8 @@ focus_tree = {
 	focus = {
 		id = ENG_extra_research_slot_2
 		icon = research
-		x = 1
-		y = 1
-		relative_position_id = ENG_european_cooperation_4
+		x = 20
+		y = 12
 		cost = 15
 
 		prerequisite = {
@@ -4411,7 +4247,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ENG_extra_research_slot_2"			
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_extra_research_slot_2"
 			add_research_slot = 1
 		}
 
@@ -4420,14 +4256,36 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = ENG_call_the_union
+		icon = align_to_europe
+		x = 17
+		y = 13
+		cost = 15
 
+		prerequisite = {
+			focus = ENG_prepare_unification_treaties
+		}
+
+		available = {
+			has_idea = EU_member
+		}
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ENG_call_the_union"
+			country_event = european_union.3
+		}
+
+		ai_will_do = {
+			factor = 10
+		}
+	}
 
 	focus = {
 		id = ENG_european_cooperation_5
 		icon = major_alliance
-		x = -1
-		y = 1
-		relative_position_id = ENG_european_cooperation_4
+		x = 19
+		y = 13
 		cost = 15
 
 		prerequisite = {
@@ -4436,62 +4294,17 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ENG_european_cooperation_5"
-			random_country = {
+			every_country = {
 				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
 					has_idea = EU_member
+					not = { tag = ENG }
 				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
-			}
-			random_country = {
-				limit = {
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = FRA }
-					NOT = { tag = ITA }
-					NOT = { has_country_flag = ENG_european_cooperation_received }
-					has_idea = EU_member
-				}
-				invest_in_EU_single_market_cic = yes 
-				set_country_flag = ENG_european_cooperation_received
+				country_event = european_union.6
 			}
 		}
 
 		ai_will_do = {
 			factor = 10
-				modifier = {
-					add = -10
-					gov_is_eurosceptical = yes
-				}
 		}
 	}
 
