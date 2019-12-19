@@ -1,38 +1,29 @@
 
 state = {
-	id = 237
-	name = "STATE_237"
+	id = 936
+	name = "STATE_936"
 
 	history = {
 		owner = SML
 		victory_points = {
-			10833 7
-		}
-		victory_points = {
-			3199 5
+			10777 2
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-			air_base = 2
-			3199 = {
-				naval_base = 5
-
-			}
-
 		}
 		add_core_of = SML
 		add_core_of = SOM
+		add_core_of = SNA
 		2017.1.1 = {
 			remove_core_of = SNA
-			add_manpower = ‭974092‬
+			add_manpower = 300000
 		}
 	}
 
 	provinces = {
-		3199 5068 10833 12759
+		10777
 	}
-	manpower = ‭1752868‬
+	manpower = 450000
 	buildings_max_level_factor = 1.000
 	state_category = state_03
 }
