@@ -1,9 +1,7 @@
-#Don't replace existing decisions
-TAG_LIST = {"AFG","AGL","ALG","ARG","AST","BAN","BOL","BOT","BRA","BRM","CAM","CAN","CAR","CBD","CDI","CHA","CHI","CHL","CNG","COL",
-            "ECU","EGU","EGY","ETH","GAB","GAH","IND","ISR","JAP","KAZ","KEN","KOR","KYR","LAO","LAT",
-            "LBA","LEB","LIB","MAD","MAL","MAU","MAY","MEX","MLW","MOR","MOZ","NAM","NEP","NGR","NIG","NKO","PAK","PER","PHI","PRU","RAJ","SAF","SAU",
-            "SIA","SOV","SYR","USA","MON","SIE","VIE"}
-
+#Exclude self contained cosmetic change
+TAG_LIST = {"ALB","ARM","AUS","AZE","BEL","BLR","BOS","BUL","CRO","CZE","DEN","ENG","EST","FIN","FRA","FYR","GEO","GER","GRE",
+            "HOL","HUN","IRE","ITA","LAT","LIT","MLV","NOR","POL","POR","ROM","SER","SWE","SWI","UKR","TUR"}
+EXCLUDE = "USoE"
 
 for TAG in TAG_LIST:
     print("	#"+TAG)
@@ -17,6 +15,10 @@ for TAG in TAG_LIST:
     print("			has_elections = yes")
     print("			NOT = {")
     print("				has_cosmetic_tag = "+TAG)
+    print("				has_cosmetic_tag = "+EXCLUDE)
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_S")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_SS")
     print("				AND = {")
     print("					has_civil_war = yes")
     print("					OR = {")
@@ -51,6 +53,10 @@ for TAG in TAG_LIST:
     print("			}")
     print("			NOT = {")
     print("				has_cosmetic_tag = "+TAG+"_AUTH")
+    print("				has_cosmetic_tag = "+EXCLUDE)
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_S")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_SS")
     print("				AND = {")
     print("					has_civil_war = yes")
     print("					OR = {")
@@ -85,7 +91,13 @@ for TAG in TAG_LIST:
     print("		visible = {")
     print("			original_tag = "+TAG)
     print("			has_elections = no")
-    print("			NOT = { has_cosmetic_tag = "+TAG+"_AUTH_S }")
+    print("			NOT = {")
+    print("				has_cosmetic_tag = "+TAG+"_AUTH_S")
+    print("				has_cosmetic_tag = "+EXCLUDE)
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_S")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_SS")
+    print("			}")    
     print("			OR = {")
     print("				has_country_leader_with_trait = salafist_Kingdom")
     print("				has_country_leader_with_trait = nationalist_Monarchist")			
@@ -120,7 +132,13 @@ for TAG in TAG_LIST:
     print("		visible = {")
     print("			original_tag = "+TAG)
     print("			has_elections = no")
-    print("			NOT = { has_cosmetic_tag = "+TAG+"_AUTH_SS }")
+    print("			NOT = {")
+    print("				has_cosmetic_tag = "+TAG+"_AUTH_SS")
+    print("				has_cosmetic_tag = "+EXCLUDE)
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_S")
+    print("				has_cosmetic_tag = "+EXCLUDE+"_AUTH_SS")
+    print("			}")
     print("			OR = {")
     print("				has_country_leader_with_trait = nationalist_Nat_Fascism")
     print("				has_country_leader_with_trait = emerging_Vilayat_e_Faqih")
