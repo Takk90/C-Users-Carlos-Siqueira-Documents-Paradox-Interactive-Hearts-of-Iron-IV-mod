@@ -1,46 +1,46 @@
 
 state = {
-	id = 880
-	name = "STATE_880"
+	id = 953
+	name = "STATE_953"
 
 	history = {
 		owner = BRA
 		victory_points = {
-			8181 10 
+			10405 5 
 		}
 		victory_points = {
-			2109 3 
+			4548 1 
 		}
 		victory_points = {
-			5178 1 
+			1529 1 
 		}
-		victory_points = {
-			4587 3 
-		}
-		victory_points = {
-			5156 1 
-		}
+        victory_points = {
+            12905 1
+        }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			internet_station = 1
-			industrial_complex = 3
+			industrial_complex = 1
 			synthetic_refinery = 3
-			air_base = 4
+			air_base = 3
+			10405 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = BRA
 		2017.1.1 = {
-			add_manpower = 1947282
+			add_manpower = 1896142
 			buildings = {
 				internet_station = 4
-				industrial_complex = 1
+				industrial_complex = 2
 			}
 		}
 	}
 
 	provinces = {
-		2109 4533 4587 5156 5178 8181 8239 12466 
+        12905 1529 10405 4548
 	}
-	manpower = 9569458
+	manpower = 5356360 
 	buildings_max_level_factor = 1.000
 	state_category = state_10
 }
