@@ -1,11 +1,10 @@
 state = {
-	id = 38
-	name = "STATE_38"
-	manpower = 5852374
-	state_category = state_06
+	id = 969
+	name = "STATE_969"
+	manpower = 2731108
+	state_category = state_04
 	
 	resources = {
-		steel = 17
 	}
 
 	history = {
@@ -14,35 +13,32 @@ state = {
 			3326 5 
 		}
 		victory_points = {
-			9375 5 
+			11388 1 
 		}
 		victory_points = {
-			6513 1 
-		}
-		victory_points = {
-			6377 10 
+			309 1 
 		}
 		buildings = {
 			infrastructure = 6
 			internet_station = 2
-			industrial_complex = 1
+			industrial_complex = 4
 			dockyard = 1
 			fuel_silo = 5
-			6325 = {
-				naval_base = 1
+			241 = {
+				naval_base = 8
 			}
 		}
 		add_core_of = GER
 		2017.1.1 = {
-			add_manpower = 56951
+			add_manpower = 26577
 			buildings = {
 				internet_station = 4
-				industrial_complex = 2
+				industrial_complex = 4
 			}
 		}
 	}
 
 	provinces = {
-		526 3271 3326 3395 6263 6325 6349 6377 6513 9238 9264 9375 11402 11468 11493 
+		241 309 3234 9281 11264 11360 11388
 	}
 }
