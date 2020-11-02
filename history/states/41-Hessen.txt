@@ -1,33 +1,34 @@
 state = {
-	id = 40
-	name = "STATE_40"
-	manpower = 3882569
-	state_category = state_05
+	id = 41
+	name = "STATE_41"
+	manpower = 7117088
+	state_category = state_07
 
 	resources = {
-		steel = 48
+		aluminium = 22
+		steel = 26
 	}
-
 	history = {
 		owner = GER
 		victory_points = {
-			11560 5
+			6444 3
 		}
 		victory_points = {
-			3423 1
+			6488 10
 		}
 		victory_points = {
-			563 1
+			564 1
 		}
 		buildings = {
 			infrastructure = 6
 			internet_station = 2
-			industrial_complex = 1
-			synthetic_refinery = 1
+			arms_factory = 2
+			industrial_complex = 5
+			synthetic_refinery = 2
 		}
 		add_core_of = GER
 		2017.1.1 = {
-			add_manpower = 39781
+			add_manpower = 69258
 			buildings = {
 				internet_station = 4
 				industrial_complex = 2
@@ -36,6 +37,6 @@ state = {
 	}
 
 	provinces = {
-		563 3423 3558 11547 11560 11470 11494
+		564 3397 3524 3574 6488 6549 9486 9524 11445 11533 529 6444
 	}
 }
