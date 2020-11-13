@@ -1,44 +1,46 @@
 
 state = {
-	id = 52
-	name = "STATE_52"
-	
+	id = 962
+	name = "STATE_962"
 	resources = {
-		steel = 9
 	}
 
 	history = {
-		owner = BEL
+		owner = FRA
 		victory_points = {
-			6537 5 
+			3770 5 
 		}
 		victory_points = {
-			9418 1 
+			590 3 
 		}
 		victory_points = {
-			13081 3
+			11573 1 
 		}
 		buildings = {
 			infrastructure = 6
 			internet_station = 2
-			arms_factory = 3
+			arms_factory = 1
 			industrial_complex = 2
+			air_base = 4
 
 		}
-		add_core_of = BEL
+		add_core_of = FRA
 		2017.1.1 = {
-			add_manpower = 320966
+			add_manpower = 52000
 			buildings = {
 				internet_station = 4
-				industrial_complex = 3
+				industrial_complex = 2
+
 			}
+
 		}
+
 	}
 
 	provinces = {
-		3576 6537 9418 9444 9536 11407 13081 
+		590 769 3594 3770 6644 6773 9593 9609 9748 11576
 	}
-	manpower = 2581992
+	manpower = 1312151
 	buildings_max_level_factor = 1.000
-	state_category = state_04
+	state_category = state_02
 }
