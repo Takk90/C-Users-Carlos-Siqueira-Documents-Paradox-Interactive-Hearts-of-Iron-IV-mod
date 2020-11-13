@@ -1,48 +1,56 @@
+
 state = {
-	id = 59
-	name = "STATE_59"
+	id = 960
+	name = "STATE_960"
 
 	resources = {
-		aluminium = 9
+		steel = 24
+		aluminium = 6
 	}
 	history = {
-		owner = FRA
+		owner = ITA
 		victory_points = {
-			3671 5
+			6831 1
 		}
 		victory_points = {
-			512 5
+			925 1
 		}
 		victory_points = {
-			6688 1
+			3885 1
 		}
 		victory_points = {
-			651 1
+			9794 1
 		}
 		buildings = {
 			infrastructure = 6
 			internet_station = 2
+			air_base = 8
+			arms_factory = 2
 			industrial_complex = 2
-			arms_factory = 1
-			air_base = 2
-			synthetic_refinery = 1
+			925 = {
+				naval_base = 4
+
+			}
+			6831 = {
+				naval_base = 1
+
+			}
 
 		}
-		add_core_of = FRA
+		add_core_of = ITA
 		2017.1.1 = {
-			add_manpower = 126000
+			add_manpower = 217000
 			buildings = {
 				internet_station = 4
 				industrial_complex = 2
-
 			}
 		}
 	}
 
 	provinces = {
-		512 651 3655 3671 6518 6533 6547 6688 9492 9629 11631
+		925 963 967 3885 3910 6831 6926 9794 9838 11861 11882
 	}
-	manpower = 2450000
+	manpower = 3532000
 	buildings_max_level_factor = 1.000
-	state_category = state_03
+	state_category = state_04
 }

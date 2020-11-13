@@ -1,41 +1,35 @@
 state = {
-	id = 40
-	name = "STATE_40"
-	manpower = 3882569
-	state_category = state_05
+	id = 967
+	name = "STATE_967"
+	manpower = 1109305
+	state_category = state_02
 
 	resources = {
-		steel = 48
 	}
-
 	history = {
 		owner = GER
 		victory_points = {
-			11560 5
+			9575 1
 		}
 		victory_points = {
-			3423 1
-		}
-		victory_points = {
-			563 1
+			11531 1
 		}
 		buildings = {
 			infrastructure = 6
 			internet_station = 2
 			industrial_complex = 1
-			synthetic_refinery = 1
 		}
 		add_core_of = GER
 		2017.1.1 = {
-			add_manpower = 39781
+			add_manpower = 11366
 			buildings = {
 				internet_station = 4
-				industrial_complex = 2
+				industrial_complex = 1
 			}
 		}
 	}
 
 	provinces = {
-		563 3423 3558 11547 11560 11470 11494
+		9575 11531
 	}
 }
