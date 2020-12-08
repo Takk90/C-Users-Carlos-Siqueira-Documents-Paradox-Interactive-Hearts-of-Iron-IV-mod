@@ -1,38 +1,44 @@
 
 state = {
-	id = 405
-	name = "STATE_405"
+	id = 976
+	name = "STATE_976"
 	resources = {
-		steel = 8.000
-		tungsten = 5.000
 	}
 
 	history = {
 		owner = PER
 		victory_points = {
-			10837 20
+			8074 10
 		}
 		victory_points = {
-			7969 1
+			5067 1
 		}
 		victory_points = {
-			11671 1
+			11249 5
+		}
+		victory_points = {
+			10828 5
+		}
+		victory_points = {
+			12809 1
+		}
+		victory_points = {
+			2026 1
 		}
 		buildings = {
 			infrastructure = 5
 			internet_station = 2
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 6
+			arms_factory = 2
+			air_base = 1
 
 		}
 		add_core_of = PER
 		2017.1.1 = {
-			add_manpower = 2076403
+			add_manpower = 1661122
 			buildings = {
 				internet_station = 4
 				industrial_complex = 2
-				arms_factory = 2
+				arms_factory = 1
 			}
 
 		}
@@ -40,9 +46,9 @@ state = {
 	}
 
 	provinces = {
-		4124 4356 7969 8093 8125 10837 11671 12704 12748 12818
+		2026 3936 4928 4983 5067 8074 9065 12756
 	}
-	manpower = 8239697
+	manpower = 6591757
 	buildings_max_level_factor = 1.000
-	state_category = state_07
+	state_category = state_06
 }
