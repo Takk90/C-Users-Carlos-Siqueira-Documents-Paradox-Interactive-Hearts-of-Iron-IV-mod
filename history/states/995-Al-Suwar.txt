@@ -1,25 +1,16 @@
 
 state = {
-	id = 192
-	name = "STATE_192"
+	id = 995
+	name = "STATE_995"
 	
 	resources = {
-		oil = 2
 	}
 
 	history = {
 		owner = SYR
-		victory_points = {
-			1493 1 
-		}
-		victory_points = {
-			2013 1 
-		}
 		buildings = {
 			infrastructure = 2
 			internet_station = 0
-			air_base = 1
-
 		}
 		add_core_of = SYR
 		2017.1.1 = {
@@ -30,17 +21,14 @@ state = {
 			add_core_of = ISI
 			add_core_of = NUS
 			add_core_of = FSA
-			SYR = {
-				set_province_controller = 6312
-			}
-			add_manpower = 73610
+			add_manpower = 43610
 		}
 	}
 
 	provinces = {
-		2013 1493 6312 
+		901 1634
 	}
-	manpower = 621663
+	manpower = 421663
 	buildings_max_level_factor = 1.000
 	state_category = state_01
 }
