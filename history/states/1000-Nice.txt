@@ -1,22 +1,29 @@
 
 state = {
-	id = 857
-	name = "STATE_857"
+	id = 1000
+	name = "STATE_1000"
 
 	history = {
 		owner = FRA
+		victory_points = {
+			9909 5 
+		}
 		buildings = {
+			air_base = 2
 			infrastructure = 5
 			internet_station = 2
-			industrial_complex = 1
+			arms_factory = 1
+			9909 = {
+				naval_base = 2
+
+			}
 
 		}
 		add_core_of = FRA
 		2017.1.1 = {
-			add_manpower = 296010
+			add_manpower = 100
 			buildings = {
 				internet_station = 4
-				industrial_complex = 1
 
 			}
 
@@ -25,9 +32,9 @@ state = {
 	}
 
 	provinces = {
-		764 778 11573 
+		9909
 	}
-	manpower = 1789883
+	manpower = 342738
 	buildings_max_level_factor = 1.000
-	state_category = state_03
+	state_category = state_01
 }
