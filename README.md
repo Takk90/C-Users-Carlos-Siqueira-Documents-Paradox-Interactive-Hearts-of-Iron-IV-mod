@@ -1,14 +1,14 @@
-Welcome to Millennium Dawn's Gitlabs.
+Thank you for your interest in Millennium Dawn's "Beta" build.
 
-If your new visit the [WIKi] (https://gitlab.com/truemikesmith/Modern_Day_4_HOI/wikis/home) for tutorials & resources.
+This is the main branch of our main development git.
 
----
+If you have any questions comments or concerns please join the git which can be found in the server discovery
+or you can join directly via this link.
 
+http://discord.gg/KhPdNGX
 
+If you notice any bugs no matter how big or small. Please report them via this form
 
-People who join the project, but who are totally inactive will be removed.  
+https://forms.gle/2zAWhggnYbTcmG1b6
 
-Inactive profiles of people who have made contributions before will be kept for a long time, because they are always welcome to return.
-
-This is not a full 'rules' for the mod project. Hopefully we never have to actually spell them out. Just use common sense and decency and all will be fine.
-
+Thanks for playing!
