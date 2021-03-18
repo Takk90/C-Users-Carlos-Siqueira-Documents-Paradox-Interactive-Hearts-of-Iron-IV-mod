@@ -76,7 +76,6 @@
 		transport_helicopter1 = 1
 		night_vision_1 = 1
 		Rec_tank_0 = 1
-		Air_APC_1 = 1
 
 		Early_APC = 1
 
@@ -142,7 +141,7 @@
 	set_variable = { var = treasury value = 0 }
 	set_variable = { var = tax_rate value = 17 }
 	set_variable = { var = int_investments value = 0 }
-	#initial_money_setup = yes
+	
 
 	#Child Soldiers
 	set_country_flag = Conscripting_Child_Soldiers
@@ -297,7 +296,6 @@
 		transport_helicopter1 = 1
 		night_vision_1 = 1
 		Rec_tank_0 = 1
-		Air_APC_1 = 1
 
 		Early_APC = 1
 
@@ -338,7 +336,7 @@
 	set_variable = { var = treasury value = 0.2 }
 	set_variable = { var = int_investments value = 0 }
 	set_variable = { var = tax_rate value = 8 }
-	#initial_money_setup = yes
+	
 
 	#Influence system
 	init_influence = yes

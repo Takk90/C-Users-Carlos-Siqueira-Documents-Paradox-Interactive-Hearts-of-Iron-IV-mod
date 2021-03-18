@@ -105,7 +105,7 @@ set_research_slots = 4
 	set_variable = { var = treasury value = 22 }
 	set_variable = { var = tax_rate value = 16 }
 	set_variable = { var = int_investments value = 0 }
-	#initial_money_setup = yes
+	
 
 
 	add_opinion_modifier = { target = ECU modifier = spanish_speaking }
@@ -218,6 +218,9 @@ set_research_slots = 4
 			tech_mine_warfare = 1
 
 			tech_mtg_landing_craft = 1
+
+			aircraft_carrier_engineering = 1
+			helicopter_operator_hull_1 = 1
 		}
 	}
 	#redone by killerrabbit
@@ -582,6 +585,11 @@ set_research_slots = 4
 		picture = "Portrait_Enrique_Martin.dds"
 		traits = { old_guard_navy superior_tactician }
 		id = 12925
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -589,6 +597,11 @@ set_research_slots = 4
 		picture = "Portrait_Edmundo_Gonzalez.dds"
 		traits = { blockade_runner }
 		id = 12926
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 	#############################################
 	#MTG Variants
@@ -647,7 +660,7 @@ set_research_slots = 4
 	set_variable = { var = tax_rate value = 18 }
 
 	#set_variable = { var = size_modifier value = 1.40 } #9 CIC
-	#initial_money_setup = yes
+	
 
 	# Starting tech
 	set_technology = {

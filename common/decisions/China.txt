@@ -146,7 +146,7 @@ sco_category = {
 					has_completed_focus = ITA_attempt_join_aedu
 					CHI = {
 						has_country_flag = accepted_italy_as_sco_candidate
-					}					
+					}
 					NOT = {
 						has_idea = sco_member
 						has_idea = sco_observer
@@ -592,7 +592,8 @@ sco_category = {
 			custom_trigger_tooltip = {
 				tooltip = SCO_peace_tt
 				NOT = {
-					any_country = {
+					any_of_scopes = {
+						array = global.sco_members
 						is_sco = yes
 						has_war = yes
 					}
@@ -601,8 +602,8 @@ sco_category = {
 			custom_trigger_tooltip = {
 				tooltip = SCO_any_drills_tt
 				NOT = {
-					any_country = {
-						is_sco = yes
+					any_of_scopes = {
+						array = global.sco_members
 						OR = {
 							has_country_flag = SCO_joint_exercises_accepted
 							has_country_flag = SCO_joint_exercises_offered
@@ -3157,9 +3158,7 @@ one_china_category = {
 			statehood_show_recognised_ROC = yes
 		}
 
-		ai_will_do = {
-			factor = 0
-		}
+
 	}
 
 	resubmit_roadmap = {

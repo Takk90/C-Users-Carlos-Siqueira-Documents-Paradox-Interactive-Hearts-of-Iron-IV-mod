@@ -145,11 +145,6 @@ set_research_slots = 7
 		IFV_3 = 1
 		IFV_4 = 1
 		IFV_5 = 1
-		Air_IFV_1 = 1
-		Air_IFV_2 = 1
-		Air_IFV_3 = 1
-		Air_IFV_4 = 1
-		Air_IFV_5 = 1
 
 		APC_1 = 1
 		APC_2 = 1
@@ -188,7 +183,7 @@ set_research_slots = 7
 		MR_upgrade_1 = 1
 		MR_Fighter3 = 1 #Dassault Rafale
 
-		Int_Fighter1 = 1 #Dassault Mirage III
+		#Dassault Mirage III - OLD Interceptor
 
 		Strike_fighter1 = 1
 		Strike_fighter2 = 1
@@ -300,6 +295,7 @@ set_research_slots = 7
 			destroyer_hull_1 = 1
 			destroyer_hull_2 = 1
 			destroyer_hull_3 = 1
+			destroyer_hull_4 = 1
 
 			cruiser_hull_1 = 1
 			cruiser_hull_2 = 1
@@ -418,18 +414,12 @@ set_research_slots = 7
 	set_country_flag = neutral_maritime_industry
 	set_country_flag = positive_labour_unions
 	set_country_flag = positive_defense_industry
-	set_global_flag = sell_FRA_anti_tank_2
-	set_global_flag = sell_FRA_H_anti_tank_2
-	set_global_flag = sell_FRA_APC_6
-	set_global_flag = sell_FRA_IFV_5
-	set_global_flag = sell_FRA_arty_3
-	set_global_flag = sell_FRA_mbt_4
 
 	set_variable = { var = debt value = 1174 }
 	set_variable = { var = treasury value = 93 }
 	set_variable = { var = tax_rate value = 39 }
 	set_variable = { var = int_investments value = 0 }
-	#initial_money_setup = yes
+
 
 	#French Space
 	##Peoples Support
@@ -773,6 +763,11 @@ set_research_slots = 7
 		picture = "adm_Christophe_Prazuck.dds"
 		traits = {  }
 		id = 21606
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -780,6 +775,11 @@ set_research_slots = 7
 		picture = "adm_Denis_Beraud.dds"
 		traits = {  }
 		id = 21607
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -787,6 +787,11 @@ set_research_slots = 7
 		picture = "adm_Marc_de_Briancon.dds"
 		traits = {  }
 		id = 21608
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -794,6 +799,11 @@ set_research_slots = 7
 		picture = "adm_Pierre_Francois_Forissier.dds"
 		traits = {  }
 		id = 21609
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_field_marshal = {
@@ -1041,6 +1051,11 @@ set_research_slots = 7
 		picture = "Portrait_Bruno_Thouvenin.dds"
 		traits = { spotter }
 		id = 21630
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -1048,6 +1063,11 @@ set_research_slots = 7
 		picture = "Portrait_Francois_Rebourd.dds"
 		traits = { seawolf }
 		id = 21631
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -1055,6 +1075,11 @@ set_research_slots = 7
 		picture = "Portrait_Louis-Michel_Guillaume.dds"
 		traits = { blockade_runner }
 		id = 21632
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -1062,6 +1087,11 @@ set_research_slots = 7
 		picture = "Portrait_Charles-Henri_du_Che.dds"
 		traits = { air_controller }
 		id = 21633
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -1069,6 +1099,11 @@ set_research_slots = 7
 		picture = "Portrait_Pascal_Ausseurs.dds"
 		traits = { seawolf }
 		id = 21634
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -1076,6 +1111,11 @@ set_research_slots = 7
 		picture = "Portrait_Emmanuel_de_Oliveira.dds"
 		traits = { spotter }
 		id = 21635
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
 	}
 
 	create_navy_leader = {
@@ -1083,6 +1123,20 @@ set_research_slots = 7
 		picture = "Portrait_Jean-Baptiste_Dupuis.dds"
 		traits = { blockade_runner }
 		id = 21636
+		skill = 1
+        attack_skill = 1
+        defense_skill = 1
+        coordination_skill = 1
+        maneuvering_skill = 1
+	}
+
+	create_equipment_variant = {
+		name = "Dassault Mirage III"
+		type = AS_Fighter2
+		upgrades = {
+			plane_engine_upgrade = 1
+			plane_reliability_upgrade = 1
+		}
 	}
 
 	### VARIANTS ###
@@ -1388,6 +1442,26 @@ set_research_slots = 7
 			}
 		}
 
+		#Tahya Misr Class
+		create_equipment_variant = {
+			name = "Tahya Misr Class"
+			type = destroyer_hull_4
+			#name_group = FRA_DD_HISTORICAL
+			parent_version = 2
+			modules = {
+				fixed_ship_engine_slot = module_light_surface_diesel_power
+				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
+				fixed_ship_radar_slot = module_radar_3
+				fixed_ship_auxillary_slot_3 = module_vls_sam_2
+				fixed_ship_auxillary_slot_2 = module_vls_lam_1
+				fixed_ship_auxillary_slot = module_ciws_3
+				fixed_ship_battery_slot = module_light_guns_3
+				front_1_custom_slot = module_asm_2
+				rear_1_custom_slot = module_light_helipad_1
+			}
+			obsolete = yes
+		}
+
 		#Commandant Rivière Class
 		create_equipment_variant = {
 			name = "Commandant Rivière Class"
@@ -1688,7 +1762,7 @@ set_research_slots = 7
 	set_variable = { var = tax_rate value = 48 }
 
 	#set_variable = { var = size_modifier value = 8.00 } #39 CIC
-	#initial_money_setup = yes
+
 
 	add_ideas = {
 		#pop_050
@@ -1723,12 +1797,6 @@ set_research_slots = 7
 	set_country_flag = positive_industrial_conglomerates
 	set_country_flag = positive_labour_unions
 	set_country_flag = positive_defense_industry
-	set_global_flag = sell_FRA_anti_tank_2
-	set_global_flag = sell_FRA_H_anti_tank_2
-	set_global_flag = sell_FRA_APC_6
-	set_global_flag = sell_FRA_IFV_5
-	set_global_flag = sell_FRA_arty_3
-	set_global_flag = sell_FRA_mbt_4
 
 	set_country_flag = military_advisors_IRQ
 	IRQ = { add_to_variable = { foreign_advisors = 1 } }
@@ -1902,7 +1970,6 @@ set_research_slots = 7
 		IFV_3 = 1
 		IFV_4 = 1
 		IFV_5 = 1
-		Air_IFV_5 = 1
 
 		APC_1 = 1
 		APC_2 = 1
@@ -2398,26 +2465,6 @@ set_research_slots = 7
 	##############
 	if = {
 		limit = { has_dlc = "Man the Guns" }
-
-		#Tahya Misr Class
-		create_equipment_variant = {
-			name = "Tahya Misr Class"
-			type = destroyer_hull_4
-			#name_group = FRA_DD_HISTORICAL
-			parent_version = 2
-			modules = {
-				fixed_ship_engine_slot = module_light_surface_diesel_power
-				fixed_ship_fire_control_system_slot = module_digital_integrated_fire_control
-				fixed_ship_radar_slot = module_radar_3
-				fixed_ship_auxillary_slot_3 = module_vls_sam_2
-				fixed_ship_auxillary_slot_2 = module_vls_lam_1
-				fixed_ship_auxillary_slot = module_ciws_3
-				fixed_ship_battery_slot = module_light_guns_3
-				front_1_custom_slot = module_asm_2
-				rear_1_custom_slot = module_light_helipad_1
-			}
-			obsolete = yes
-		}
 
 		#FREMM Class
 		create_equipment_variant = {

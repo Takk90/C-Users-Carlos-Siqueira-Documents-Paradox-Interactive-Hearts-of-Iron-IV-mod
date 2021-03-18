@@ -48,7 +48,7 @@
 	set_variable = { var = treasury value = 1 }
 	set_variable = { var = tax_rate value = 17 }
 	set_variable = { var = int_investments value = 0 }
-	#initial_money_setup = yes
+	
 
 	set_autonomy = {
 		target = MLC
@@ -296,7 +296,7 @@
 	set_variable = { var = tax_rate value = 12 }
 
 	#set_variable = { var = size_modifier value = 0.23 } #3 CIC
-	#initial_money_setup = yes
+	
 
 	#Nat focus
 
@@ -322,7 +322,6 @@
 		MBT_1 = 1
 		IFV_1 = 1
 		APC_1 = 1
-		Air_APC_1 = 1
 		Rec_tank_0 = 1
 		util_vehicle_0 = 1
 		SP_arty_0 = 1
