@@ -1,5 +1,5 @@
 version="1.1"
-name="Millennium_Dawn BETA"
+name="Millennium_Dawn DEV"
 tags={
 	"Alternative History"
 	"Gameplay"
@@ -44,4 +44,4 @@ replace_path = "history/countries/"
 replace_path = "events/"
 replace_path = "gfx/loadingscreens"
 replace_path = "portraits"
-path="C:/Users/Jackson/Documents/Paradox Interactive/Hearts of Iron IV/mod/Millennium_Dawn"
+path="C:/Users/user_name/Documents/Paradox Interactive/Hearts of Iron IV/mod/Millennium_Dawn"
