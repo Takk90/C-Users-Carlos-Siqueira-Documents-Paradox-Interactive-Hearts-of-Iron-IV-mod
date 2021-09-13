@@ -1,22 +1,16 @@
-Thank you for your interest in Millennium Dawn's "Beta" build.
+Welcome to Millennium Dawn's Dev Build!
 
-This is the main branch of our main development git.
+Thank you for your interest, assistance and so much more if you are able to access this build. We appreciate you and thank you!
+----
 
-If you have any questions comments or concerns please join the git which can be found in the server discovery
-or you can join directly via this link.
+Link to MD's Discord: http://discord.gg/KhPdNGX
+Bugreporting Form: https://forms.gle/2zAWhggnYbTcmG1b6
 
-http://discord.gg/KhPdNGX
+----
+People who are no longer active on the project will be removed for some time.
+Those who made contributions to the mod will usually stay with access for around 4-6 months unless otherwise stated they are leaving the project.
 
-If you notice any bugs no matter how big or small. Please report them via this form
+This is not a full 'rules' for the mod project. Hopefully we never have to actually spell them out. Just use common sense and decency and all will be fine.
 
-https://forms.gle/2zAWhggnYbTcmG1b6
+Thanks for reading!
 
-Thanks for playing!
-
-How to install:
-1. Clone or download the mod.
-2. Move the Millennium_Dawn_BETA folder to documents/Paradox Interactive/Hearts of Iron IV/mod/
-3. Copy the .mod file in the BETA folder and paste it in the /mod/ folder
-4. Update the .mod file's document path to your actual install location.
-5. Add the BETA to a playset in the launcher
-6. Have fun and enjoy!

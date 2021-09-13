@@ -1,5 +1,5 @@
 version="1.1"
-name="Millennium_Dawn BETA"
+name="Millennium_Dawn DEV"
 tags={
 	"Alternative History"
 	"Gameplay"
