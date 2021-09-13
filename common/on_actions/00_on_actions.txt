@@ -2589,6 +2589,12 @@ on_actions = {
 					news_event = { id = uae_royal.1 days = 1767 } #death of Sheikh Zayed
 				}
 			}
+			IND = {
+				if = {
+					limit = { has_start_date < 2001.1.1 }
+					country_event = { id = indonesia.1 days = 365 }
+				}
+			}
 
 			#power projection setup
 			every_country = {
